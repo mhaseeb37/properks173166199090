@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "sign_in_reward_ticker_ipY4Kc": {
@@ -319,7 +328,7 @@
         "text_awPPb3": {
           "type": "text",
           "settings": {
-            "text": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com",
+            "text": "<p>New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com</p>",
             "body_size": "body6"
           }
         },
