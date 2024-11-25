@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "collection-hero-banner": {
@@ -33,11 +42,11 @@
       "type": "properks-membership",
       "disabled": true,
       "settings": {
-        "url-login": "https:\/\/skirackbtv.myshopify.com\/account\/login",
-        "url-signup": "https:\/\/skirackbtv.myshopify.com\/account\/register",
-        "properks-icon": "shopify:\/\/shop_images\/Group_275.png",
-        "non-properks": "<p>This category required ProPerks membership<\/p>",
-        "non-properks-icon": "shopify:\/\/shop_images\/icon__lock_locked.png"
+        "url-login": "https://skirackbtv.myshopify.com/account/login",
+        "url-signup": "https://skirackbtv.myshopify.com/account/register",
+        "properks-icon": "shopify://shop_images/Group_275.png",
+        "non-properks": "<p>This category required ProPerks membership</p>",
+        "non-properks-icon": "shopify://shop_images/icon__lock_locked.png"
       }
     },
     "sale_ticker_hyDxhn": {
@@ -46,7 +55,7 @@
         "block_fxaqUG": {
           "type": "block",
           "settings": {
-            "announcement": "<p>Extra 20% Off Select Warm-Weather Gear<\/p>",
+            "announcement": "<p>Extra 20% Off Select Warm-Weather Gear</p>",
             "url-text": "Shop Sale",
             "url": ""
           }
@@ -54,7 +63,7 @@
         "block_cYhXiT": {
           "type": "block",
           "settings": {
-            "announcement": "<p>$20 For Your Crew, $20 For You<\/p>",
+            "announcement": "<p>$20 For Your Crew, $20 For You</p>",
             "url-text": "Refer A Friend Now",
             "url": ""
           }
@@ -86,12 +95,12 @@
         "show_divider": false,
         "enable_uppercase_title": true,
         "custom-card-pos": 5,
-        "custom-card-img": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_12.36.43_PM_1.png",
-        "custom-card-icon": "shopify:\/\/shop_images\/Group_102.png",
-        "image-text": "<p>Join ProPerks<\/p>",
+        "custom-card-img": "shopify://shop_images/Screen_Shot_2024-08-16_at_12.36.43_PM_1.png",
+        "custom-card-icon": "shopify://shop_images/Group_102.png",
+        "image-text": "<p>Join ProPerks</p>",
         "img-link-text": "Learn More",
-        "custom-card-heading": "<p>Free Gear and Rewards<\/p>",
-        "custom-card-subheading": "<p>Discover the best rewards program in the biz<\/p>",
+        "custom-card-heading": "<p>Free Gear and Rewards</p>",
+        "custom-card-subheading": "<p>Discover the best rewards program in the biz</p>",
         "link-text": "Join Free",
         "custom_card_url": "",
         "img_ratio": "fit-portrait",
@@ -109,16 +118,6 @@
     },
     "17261691248be1f6a9": {
       "type": "apps",
-      "blocks": {
-        "boost_ai_search_discovery_filter_product_list_ssr_exFUrG": {
-          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "boost_ai_search_discovery_filter_product_list_ssr_exFUrG"
-      ],
       "disabled": true,
       "settings": {
         "color_scheme": "default",
@@ -181,7 +180,7 @@
         "text_DMcM4e": {
           "type": "text",
           "settings": {
-            "text": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com",
+            "text": "<p>New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com</p>",
             "body_size": "body6"
           }
         },
