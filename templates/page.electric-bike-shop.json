@@ -1,0 +1,477 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/bike-fit-e-bike-933x367-02012024_1.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Electric Bike Shop",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>The Vermont State Electric Bike Incentive Program is Back!<\/strong>",
+            "heading_size": "h4"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>UPDATED JULY 31, 2024 - In an effort to reduce carbon emissions, income-eligible Vermont residents may apply for the electric bike incentive through the <a href=\"https:\/\/www.driveelectricvt.com\/incentives\/vermont-state-incentives#ebikes\" target=\"_blank\">Drive Electric Vermont website<\/a> .<br\/><br\/>An eligible E-Bike can be purchased with the prepaid debit card at participating retailers. The pre-paid debit card can be used in conjunction with sale prices, interest-free financing, AND instant rebates as a customer of <a href=\"https:\/\/greenmountainpower.com\/rebates-programs\/electric-vehicles\/electric-bike-rebate\/\" target=\"_blank\">Green Mountain Power ($200)<\/a> or <a href=\"https:\/\/www.burlingtonelectric.com\/ebike\" target=\"_blank\">Burlington Electric ($300).<\/a><\/p><ul><li>$60,000 available starting 7\/31\/2024<\/li><li>First come, first served<\/li><li>One per adult (16 yrs+)<\/li><li>Pre-paid debit card must be used within 60 days<\/li><\/ul>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_jWPjkV": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_eUVaki": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_KJBGnc": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_EPFjBz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Adjusted Gross Income to qualify for the incentive:<\/strong>",
+            "heading_size": "caption2"
+          }
+        },
+        "text_kUG9an": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>$60,000 or less for an Individual filing as single<\/li><li>$75,000 or less for an Individual filing as head of household<\/li><li>$90,000 or less for a Married couple filing jointly<\/li><\/ul>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_eUVaki",
+        "caption_KJBGnc",
+        "heading_EPFjBz",
+        "text_kUG9an"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_LcFGMc": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_4FTzVR": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_kWRcMF": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_ANLQjt": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Electric bikes available from Skirack that can be used with the incentive:<\/strong>",
+            "heading_size": "caption2"
+          }
+        },
+        "text_TiDQTY": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>New E-Bike: ($400 with MSRP of $4,000 or less)<\/li><li>New E-Cargo Bikes ($800 with MSRP of $5,000 or less)<\/li><li><em>New Adaptive E-Bikes (no MSRP* limit) are allowed to purchase using the incentive, but are not available from Skirack<\/em><\/li><\/ul>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_4FTzVR",
+        "caption_kWRcMF",
+        "heading_ANLQjt",
+        "text_TiDQTY"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_cXrHVQ": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_8LKdtt": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_xPiMDt": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_XWEXRL": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Eligible Models:<\/strong>",
+            "heading_size": "caption2"
+          }
+        },
+        "text_b7nCcE": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>New E-Bike (MSRP Caps are above)<\/li><li>Maximum power of 750 watts or less for standard E-Bike; 1,000 watts for cargo E-Bike<\/li><li>Meets UL 2849\/EN 15194 safety standards – AND\/OR– 1-year manufacturer’s warranty on electrical components<\/li><\/ul>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "buttons_QXUfTn": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Learn more",
+            "btn_url": "https:\/\/www.driveelectricvt.com\/incentives\/vermont-state-incentives#ebikes",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_8LKdtt",
+        "caption_xPiMDt",
+        "heading_XWEXRL",
+        "text_b7nCcE",
+        "buttons_QXUfTn"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "custom_liquid_iNgBVW": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "custom_liquid": "<style>\n@media (min-width: 1200px) {\n  .rich-text__container--with-aside-spacing {\n    padding: 1rem 4rem;\n  }\n}\n@media (min-width: 1400px) {\n  .rich-text__container--with-aside-spacing {\n    padding: 1rem 4rem;\n  }\n}\n<\/style>",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "rich_text_jWPjkV",
+    "rich_text_LcFGMc",
+    "rich_text_cXrHVQ",
+    "custom_liquid_iNgBVW",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

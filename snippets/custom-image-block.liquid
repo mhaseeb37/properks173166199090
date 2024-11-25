@@ -1,0 +1,452 @@
+{% liquid
+  assign is_to_show_default_btn = false
+
+  if hover_effect == 'show_button' or hover_effect == 'show_text'
+    assign is_to_show_default_btn = true  
+  endif
+ 
+%}
+
+<div class='image-block link-parent-for-hover zoom-parent-for-hover {{ class }} {% if hover_effect == 'show_all' %} image-block--show-all-on-hover {% endif %} {% if hover_effect == 'show_button' %} image-block--show-button-on-hover {% endif %} {% if hover_effect == 'show_text' %} image-block--show-text-on-hover {% endif %}'>
+  <div class='shape shape--{{ img_ratio }} {% if img_ratio contains 'fit' %} shape--fit {% endif %}'>
+    <div class='overlay overlay--black'></div>
+     {%- if video != blank and model_video == false -%}
+      {% render 'video-with-alt',
+        video: video,
+        class: 'zoom shape__target-image',
+        autoplay: true,
+        loop: true,
+        muted: true,
+        controls: false,
+        loading: 'eager'
+      %}
+    {%- elsif image != blank -%}
+      {% assign class = 'shape__target-image zoom' %}
+      {% if mb_image != blank %}
+          {% assign class = 'shape__target-image zoom desktop-collage-img' %}
+        {% endif %}
+      <img
+        {% render 'image-attributes', image: image, size: 'medium', class: class %}
+      >
+      {% if mb_image != blank %}
+      {% assign class_1 = 'shape__target-image zoom mobile-collage-img' %}
+      <img
+        {% render 'image-attributes', image: mb_image, size: 'medium', class: class_1 %}
+      >
+        {% endif %}
+    {%- else -%}
+      {% assign class = 'placeholder-image shape__target-image zoom' %}
+      {{ 'image' | placeholder_svg_tag: class }}
+    {%- endif -%}
+
+{% if template == 'index' %} 
+{%- if caption != blank or title != blank or text != blank or link_text != blank -%}
+      <div class="custom-top-left" id="{{ block.id }}">
+        {% if top_icon %}
+        <img src="{{ top_icon | image_url: width: '300x' }}"/>
+    
+        {% else %}
+          {% if top_tag != blank %}
+          <div class="top-tag"><p>{{top_tag }}</p></div>
+        {% endif %}
+        {% endif %}
+      </div>
+      <div class='image-block__content-wrap custom-align-left custom-display-flex'>
+   {% if  mobile_tag!= blank %}
+          <div class="tag_mobile_m">
+            {{ mobile_tag }}
+          </div>
+        {% endif %}
+        {% if subHmobile != blank %}
+          <div class="sub_heading_mobile_m">
+            {{ subHmobile }}
+          </div>
+        {% endif %}
+        {% if content_mobile != blank %}
+        <div class="text_section">
+          <h3>{{ content_mobile }}</h3>
+        </div>
+        {% endif %}
+        <div class='image-block__content custom-align-start custom-width-align{% if enable_vertical_text %} image-block__content--vertical {% endif %}'>
+{% if video != blank and model_video %}
+          <div class="modal_poup_content">
+            <div class="model_popup_top">
+          {%- if title != blank -%}
+            <h6 class='image-block__title custom-text-left {{ heading_size }}'>{{ title }}</h6>
+          {%- endif -%}
+          {%- if text != blank -%}
+            <div class='image-block__text rte {{ body_size }} body-font-weight-from-global-settings'>{{ text }}</div>
+          {%- endif -%}
+            </div>
+            <div class="modal-video-div">
+            {% if image != blank %}
+             {% render 'video-with-alt',
+        video: video,
+        class: 'shape__target-image',
+        autoplay: false,
+        loop: true,
+        muted: false,
+        controls: false,
+        loading: 'eager'
+      %}
+                  {% assign class_modal = 'shape__target-image' %}
+              <canvas class="play_btn-model"></canvas>
+              <img src="{{ popup_image | image_url:width: 1100 }}" class="shape__target-image">
+            {%- else -%}
+                           {% render 'video-with-alt',
+        video: video,
+        class: 'shape__target-image',
+        autoplay: true,
+        loop: true,
+        muted: true,
+        controls: false,
+        loading: 'eager'
+      %}
+              {% render 'icon', icon_name: 'play-without-round', class: 'play_btn-model' %} 
+            {% endif %}
+            </div>
+          </div>
+          {% else %}
+          {% if secondary-icon %}
+          <div class="secondary-icon">
+            <img src="{{ secondary-icon | image_url }}" class="normal-icon"/>
+            <img src="{{ secondary-hover-icon | image_url }}" class="hover-icon"/>
+            <img src="{{ mobile_icon | image_url }}" class="mobile-icon"/>
+          </div>
+          {% endif %}
+          <div>
+          {%- if caption != blank or caption-icon -%}
+            <div class='caption image-block__caption custom-align-items'>
+              {% if caption-icon %}
+              <img src="{{ caption-icon | image_url}}" class="caption-icon"/>
+              {% endif %}
+                {{ caption }}
+            </div>
+          {%- endif -%}
+
+          {%- if title != blank -%}
+            <h6 class='image-block__title custom-text-left {{ heading_size }}'>{{ title }}</h6>
+          {%- endif -%}
+            </div>
+
+          {% if hover_effect == 'show_text' %}
+            <div class='image-block__text-wrapper'>
+          {% endif %}
+
+          {%- if text != blank -%}
+            <div class='image-block__text rte {{ body_size }} body-font-weight-from-global-settings'>{{ text }}</div>
+          {%- endif -%}
+          {%- endif -%}
+              
+              {% if model_video and video != blank %}
+                  <div class='image-block__btn'>
+                <a
+                  class='btn btn--{{ btn_style }} rich-text__btn video_model'
+                  {% if link != blank %}
+                    href='{{ link }}'
+                  {% endif %}
+                  aria-label='{{- model_btn -}}'
+                >
+                 {% render 'icon', icon_name: 'play-without-round', class: 'play_btn' %} {{- model_btn -}}
+                </a>
+                </div>
+                {% else %}
+
+              {% if link_text-2 != blank %}
+          <div class="collage-button-container">
+
+          {%- if link_text != blank -%}
+            <div class='image-block__btn'>
+              {%- if btn_style == 'link' -%}
+                <a
+              class='link {% if enable_vertical_text %} link--vertical {% endif %}'
+                  {% if link != blank %}
+                    href='{{ link }}'
+                  {% endif %}
+                  aria-label='{{ link_text }}'
+                >
+                  <span class="link-parent-for-hover">
+                    <span class='link__text'>{{ link_text }}</span>
+                  </span>
+                  {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+                </a>
+              {%- else -%}
+                <a
+                  class='btn btn--{{ btn_style }} rich-text__btn custom-blue-btn'
+                  {% if link != blank %}
+                    href='{{ link }}'
+                  {% endif %}
+                  aria-label='{{- link_text -}}'
+                >
+                  {{- link_text -}}
+                </a>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+
+              
+          {%- if link_text == blank and link != blank and is_to_show_default_btn == true -%}
+            <div class='image-block__btn'>
+              <a
+                class='btn btn--solid image-block__btn--default'
+                {% if link != blank %}
+                  href='{{ link }}'
+                {% endif %}
+                aria-label='{{- link_text -}}'
+              >
+                {% render 'icon-pack', icon: 'arrow', class: '' %}
+              </a>
+            </div>
+          {%- endif -%}
+
+              
+              {% if link_text-2 != blank %}
+                <div class='image-block__btn custom-top-padding'>
+                <a
+                  class='btn btn--outline rich-text__btn custom-btn-style'
+                  {% if link-2 != blank %}
+                    href='{{ link-2 }}'
+                  {% endif %}
+                  aria-label='{{- link_text-2 -}}'
+                >
+                  {{- link_text-2 -}}
+                </a>
+            </div>
+              {% endif %}
+              </div>
+
+                
+                {% else %}
+  {%- if link_text != blank -%}
+            <div class='image-block__btn'>
+              {%- if btn_style == 'link' -%}
+                <a
+              class='link {% if enable_vertical_text %} link--vertical {% endif %}'
+                  {% if link != blank %}
+                    href='{{ link }}'
+                  {% endif %}
+                  aria-label='{{ link_text }}'
+                >
+                  <span class="link-parent-for-hover">
+                    <span class='link__text'>{{ link_text }}</span>
+                  </span>
+                  {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+                </a>
+              {%- else -%}
+                <a
+                  class='btn btn--{{ btn_style }} rich-text__btn'
+                  {% if link != blank %}
+                    href='{{ link }}'
+                  {% endif %}
+                  aria-label='{{- link_text -}}'
+                >
+                  {{- link_text -}}
+                </a>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+
+
+              
+          {%- if link_text == blank and link != blank and is_to_show_default_btn == true -%}
+            <div class='image-block__btn'>
+              <a
+                class='btn btn--solid image-block__btn--default'
+                {% if link != blank %}
+                  href='{{ link }}'
+                {% endif %}
+                aria-label='{{- link_text -}}'
+              >
+                {% render 'icon-pack', icon: 'arrow', class: '' %}
+              </a>
+            </div>
+          {%- endif -%}
+
+                
+                {% endif %}
+                {% endif %}
+              
+              
+
+          {% if hover_effect == 'show_text' %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {%- endif -%}
+    {% endif %}
+
+    {% if link != blank %}
+      <a
+        href='{{ link }}'
+        class='unstyled-link image-block__image-link {% if link == blank %}image-block__image-link--without-cursor{% endif %}'
+        aria-label='{% if link_text != blank %}{{ link_text }}{% elsif link.title != blank %}{{ link.title }}{% else %}#{% endif %}'
+        ></a>
+    {% endif %}
+        
+  </div>
+</div>
+
+<style>
+  .custom-top-left{
+    position: absolute;
+    top:20px;
+    left:30px;
+  }
+  .custom-top-left img{
+    height:70px;
+    width:70px;
+  }
+
+  #{{ block.id }} .top-tag{
+    border:1px solid black;
+    background: {{ tag-bg-color}};
+    padding: 5px 20px 3px 20px;
+    border-radius: 16px;
+  }
+  #{{ block.id }} .top-tag p{
+    color:{{tag-text-color}};
+    font-size:12px;
+    font-family: "JetBrains Mono", monospace;
+  }
+  .caption.custom-align-items{
+    font-family: "JetBrains Mono", monospace;
+  }
+  .collage-button-container{
+    display:flex;
+    align-items:center;
+    gap: 20px;
+  }
+  .collage-button-container .rich-text__btn{
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .custom-top-padding{
+    padding-top:0;
+  }
+  .custom-btn-style{
+    border: 1px solid white !important;
+    color:white !important; 
+  }
+  .secondary-icon{
+    width: 115px;
+    height: 95px;
+    position:relative;
+    margin: auto;
+  }
+  .secondary-icon .normal-icon, .secondary-icon .hover-icon{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transition: opacity: 0.5 ease;
+  }
+  .normal-icon{
+    z-index:9;
+    opacity:1;
+  }
+  .hover-icon{
+    z-index: 10;
+    opacity:0;
+  }
+  .caption-icon{
+    max-width:80px;
+    max-height:30px;
+  } 
+  .custom-align-items{
+    display:flex;
+    gap:6px;
+    align-items:center;
+  }
+    .link-parent-for-hover:hover .hover-icon{
+    animation: reverse-icons 1s infinite;
+  }
+  .link-parent-for-hover:hover .normal-icon{
+        animation: swap-icons 1s infinite;
+  }
+  @media (min-width:769px){
+    .caption-icon{
+      display:none;
+    }
+  }
+  @keyframes swap-icons {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+  @keyframes reverse-icons{
+      0%, 50% {
+    opacity: 0;
+  }
+  51%, 100% {
+    opacity: 1;
+  }
+    
+  }
+
+@media(max-width:768px){
+  #{{ block.id }} img, #{{ block.id }} .top-tag{
+    display:{% if show-tag == false %} none {% endif %};    
+  }
+  .custom-align-left{
+    align-items:flex-start !important;
+  }
+  .custom-align-items{
+    font-size:16px;
+  }
+  .custom-text-left{
+    text-align:left;
+  }
+  .custom-display-flex{
+    display: flex;
+    justify-content:flex-start;
+  }
+  .custom-align-start{
+    align-items:flex-start;
+  }
+  #{{block-class}} .custom-align-left{
+    border:2px solid red;
+  }
+  .second-collage-section .image-block__content {
+    height:80%;
+    justify-content:space-between;
+  }
+  .second-collage-section .btn--solid{
+    background:blue;
+  }
+   .second-collage-section #{{ block.id }} .top-tag{
+    border:none;
+    background: transparent;
+      padding:0;
+  }
+  .second-collage-section #{{ block.id }} .top-tag p{
+    color:blue;
+  }
+  .block-image_zrdtjf .custom-width-align{
+    width:100%;
+    align-items:center;
+  }
+  .block-image_gT9KmN .custom-width-align{
+    width:100%;
+    align-items:center;
+    
+  }
+  .block-image_w3pKxg .btn--solid{
+    background:blue;
+    color:white;
+  }
+  .custom-top-left{
+    top:19px;
+    left:19px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+</style>

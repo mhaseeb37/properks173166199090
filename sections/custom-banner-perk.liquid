@@ -1,0 +1,2020 @@
+{%- liquid
+  assign options = section.settings
+
+  assign desktop_img = options.desktop_img
+  assign mobile_img = options.mobile_img
+
+  assign video = options.video
+
+  assign heading_size = options.heading_size
+  assign body_size = options.body_size
+
+  assign enable_background_around_container = options.enable_background_around_container
+
+  assign title = options.title
+  assign caption = options.caption
+  assign text = options.text
+
+  assign btn_text = options.btn_text
+  assign btn_url = options.btn_url
+  assign btn_style = options.btn_style
+
+  assign extra_btn_text = options.extra_btn_text
+  assign extra_btn_url = options.extra_btn_url
+  assign extra_btn_style = options.extra_btn_style
+
+  assign color_scheme = options.color_scheme
+  assign mobile_ratio = options.mobile_ratio
+  assign desktop_ratio = options.desktop_ratio
+  assign add_side_paddings = options.add_side_paddings
+  assign section_spacing_top = options.section_spacing_top
+  assign section_spacing_bottom = options.section_spacing_bottom
+  assign container_size = options.container_size
+
+  assign mobile_content_position = options.mobile_content_position
+  assign desktop_content_position = options.desktop_content_position
+
+  assign desktop_content_align = options.desktop_content_align
+  assign mobile_content_align = options.mobile_content_align
+
+  assign mobile_content_background = options.mobile_content_background
+  assign desktop_content_background = options.desktop_content_background
+
+  assign mobile_overlay_opacity = options.mobile_overlay_opacity | times: 0.01
+  assign desktop_overlay_opacity = options.desktop_overlay_opacity | times: 0.01
+
+  assign content_max_width = options.content_max_width | divided_by: 10.0
+  assign content_spacing = options.content_spacing | divided_by: 10.0
+
+  assign has_content = false
+
+  if caption != blank or title != blank or text != blank or btn_text != blank or extra_btn_text != blank
+    assign has_content = true
+  endif
+-%}<style>
+
+.inner_proper_main {
+    max-width: 350px;
+
+  
+}
+ .main_inner_blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border-bottom: 1px solid #00000030;
+}
+
+  .third_block_inner_m .btn_secsubn:last-child .main_inner_blk {
+    border-bottom: 0;
+  }
+  
+  @keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Start 20px lower */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+/* Default state (hidden and off-screen) */
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px); /* Start lower */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+/* When the element is in view and should be animated */
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeUp 1s ease-out forwards; /* Apply the fade-up animation */
+}
+  
+  .onscroll_bar {
+    background: black;
+    color: white;
+    padding: 20px 15px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    display:none;
+    justify-content:space-between;
+    
+}
+  .four_step_popup .main_inner_blk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+    border:none;
+  
+}
+  
+  .four_step_popup .btn_secsubn:first-child .main_inner_blk{
+    
+    border-bottom: 1px solid #ffffff4a;
+  }
+  .four_step_popup {
+    padding: 31px 28px;
+    max-width: 90%;
+    margin: 0px auto;
+    background: #253230;
+    color: white;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 6px 3px #00000059;
+}
+  .main_headingfour strong{
+    text-decoration:line-through;
+    
+  }
+  .btn_beat_price {
+    padding: 14px 19px;
+    background: black;
+    color: white;
+    width: fit-content;
+    border-radius: 16px;
+}
+  .btn_beat_price *{
+    margin:0px!important;
+    text-decoration:none;
+  }
+  .main_headingfour *{
+    font-weight:500;
+  }
+  .main_subHmain {
+       text-align: center;
+    font-size: 16px;
+    color: #B7B7B7;
+    margin-top: 6px;
+}
+  .main_headingfour {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn_secsubn a{
+  text-decoration:none;
+}
+
+  .third_block_inner_m {
+    background: white;
+    padding: 20px;
+    margin-top: 12px;
+    box-shadow: 1px 0px 6px 3px #00000014;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 0px auto;
+    margin-top: 15px;
+    text-align: center;
+}
+  .third_block_h {
+    font-weight: 500;
+    font-size: 16px;
+}
+  .third_block_subj {
+    font-size: 16px;
+    font-weight:500;
+    margin-top: 10px;
+    color: #000000a1;
+}
+
+  .third_block_inner_m {
+    font-size: 
+  }
+  .third_block_inner_m .sec_link_n{
+    font-size:10px;
+  }
+  .sec_link_n {
+    font-size: 12px;
+    font-weight: bold;
+}
+  .btn_secsubn *{
+    text-align:left;
+  }
+  .newsletter__caption.desktop-body-color{
+    color:#000000!important;
+  }
+  .sec_bloxk_main {
+    text-align: center;
+    margin-top: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 28px -4px #d3d3d3;
+    margin: 0px auto;
+    margin-top: 13px;
+    max-width: 90%;
+}
+  
+  .second_blk_h {
+    font-weight: 500;
+    font-size: 16px;
+}
+  .main_inner_bar {
+    max-width: 76px;
+}
+  .second_blk_h {
+    font-weight: 500;
+    font-size: 16px;
+}
+  .img_n {
+  display:flex;
+    align-items:center;
+    gap:10px;
+}
+ 
+.img_n img{
+  width: 20px!important;
+}
+  .second_blk_h {
+    font-weight: 500;
+    font-size: 16px;
+}
+.pimage_popup img{
+  width:100%;
+}
+  .popup_inner_bottom {
+    z-index: 55;
+    position: relative;
+}
+
+  .first_subblk_h {
+    font-size: 16px;
+    font-weight:500;
+    margin-top: 10px;
+    color: #8b9094;
+}
+ 
+  button.first_blk_btn {
+    font-size: 12px;
+    border: none;
+    background: #D4C6BA;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+  .bottom_below_text {
+    font-size: 10px;
+    margin-top: 10px;
+    color: #a0a0a0;
+}
+.four_step_popup .arrow_link svg path{
+  fill: white;
+}
+
+  .first_block_main {
+    background: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 0px 3px 2px #0000001f;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 26px 10px;
+    margin-top: -20px;
+    z-index: 3;
+    position: relative;
+}
+  .sec_link_n {
+    font-size: 10px;
+}
+  button.inner_popupTrigger {
+    background: black;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor:pointer;
+     z-index:20;
+}
+ .first_blk_h {
+    font-weight: 500;
+    font-size: 16px;
+}
+  .popup_block_inner-m.join_freepopup {
+    max-width: fit-content;
+    margin: 0px auto;
+}
+  .proper_popup_main {
+    max-width: 400px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    background: white;
+    /* padding: 10px; */
+    border-radius: 10px;
+    overflow: hidden;
+     z-index:20;
+    height:650px;
+    overflow:auto;
+}
+.proper_popup_main img{
+  width:100%;
+ 
+}
+ .popup_inner {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+   position:relative;
+ }
+  .popup_content_inner {
+    height: 400px;
+    overflow: auto;
+}
+  .popup_overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background: #00000054;
+    z-index: 44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .close_btn_m {
+    position:absolute;
+    top:23px;
+    left:23px;
+  }
+  .sec_link_n {
+    font-size: 18px;
+    font-weight: 500;
+     display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1; 
+    overflow: hidden;
+}
+
+  
+  .main_inner_blk sec
+  .third_block_inner_m .sec_link_n {
+    font-size: 18px;
+}
+.popup_main-con h6{
+  
+  font-size:14px;
+}
+  .popup_main-con h6 strong{
+    text-decoration:line-through;
+  }
+  .popup_main-con em{
+       font-style: normal;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+  }
+.popup_main-con{
+  font-family: "JetBrains Mono", monospace;
+   font-weight:bold;
+}
+  button.main_btn_next {
+    margin: 0px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+
+.popup_content_inner * {
+    text-align: center;
+    font-size: 13px;
+   
+  max-width:310px;
+  margin:0px auto;
+   margin-top: 16px;                        
+}
+.inner_proper_main {
+  display:none;
+}
+  .inner_proper_main.active{
+    display:block;
+    animation: opacity_show 0.3s ease-in-out;
+  }
+  .logo_main_bottom {
+  margin-top:0px;
+}
+.logo_main_bottom img{
+  height:19px;
+  width:19px;
+  
+}
+
+  @media screen and (min-width: 768px){
+
+.second_ssubblk_h {
+  font-size: 16px;
+  font-weight:500;
+  color: #969696;
+  margin-top: 11px;
+}
+  }
+  
+@media screen and (max-width: 500px){
+  .image-banner__btns {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+   .close_btn_m {
+    position:absolute;
+    top:23px;
+    right:23px;
+     left:unset;
+  }
+  .main_subHmain {
+       text-align: center;
+    font-size: 12px;
+    color: #B7B7B7;
+    margin-top: 6px;
+}
+ 
+  .image-banner__btn {
+    width: auto;
+    padding: 0px 12px;
+    border-radius: 14px;
+    min-width: 150px;
+    display: flex;
+    max-width: 18px;
+    margin: 0px auto;
+    margin-bottom: 11px;
+}
+   .proper_popup_main {
+    max-width: 300px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    background: white;
+    /* padding: 10px; */
+    border-radius: 10px;
+    overflow: hidden;
+     z-index:20;
+    height:450px;
+    overflow:auto;
+}
+}
+  @keyframes opacity_show {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+    
+  .sec_bloxk_main .main_inner_blk {
+    border-bottom: 0;
+  }
+
+  .third_block_subj > * {
+    display: inline;
+  }
+
+  .first_blk_btn {
+    cursor: pointer;
+  }
+
+ @media screen and (max-width: 767px){
+    .main_inner_blk .sec_link_n {
+        font-size: 14px;
+     }
+   
+    .third_block_subj {
+      color: #939393;
+      text-align: center;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .second_ssubblk_h p {
+      margin-top: 10px;
+      color: #939393;
+      text-align: center;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .sub_heading_inner {
+      color: var(--Black, #AEAEAE);
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 140%;
+    }
+ }
+
+  
+</style>
+
+{% capture css %}
+  {% style %}
+    .section-{{section.id}}{
+        --gsc-section-ratio: {{ mobile_ratio | times: 100 }}%;
+        --gsc-overlay-opacity: {{mobile_overlay_opacity}};
+        --gsc-content-width: {{ content_max_width }}rem;
+        --gsc-content-spacing: {% if has_content %} {{ content_spacing }}rem {% else %} 0rem {% endif %};
+        --gsc-content-align: {{ mobile_content_align }};
+        --gsc-section-spacing-top: {{ section_spacing_top }}px;
+        --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+    }
+
+    .section-{{ section.id }} .image-banner__content-wrap {
+        {{ mobile_content_position }}
+    }
+       .devProperkLogo{
+    width:150px;
+    height:100%;
+  }
+    .devSignText{
+      color:#939393;
+      font-weight:400;
+    }
+        .image-banner__btn {
+        width: auto;
+        padding: 0px 12px;
+        border-radius: 14px;
+        min-width: 150px;
+    }
+
+
+    @media screen and (max-width:767px){
+         .devProperkLogo{
+          width:85px;
+          height:100%;
+        }
+    }
+    @media {% render 'media-queries', screen: 'md' %} {
+        .section-{{ section.id }} .image-banner__content-wrap {
+            {{ desktop_content_position }}
+        }
+
+        .section-{{ section.id }}{
+            --gsc-section-ratio: {{ desktop_ratio | times: 100 }}%;
+            --gsc-overlay-opacity: {{ desktop_overlay_opacity }};
+            --gsc-content-align: {{ desktop_content_align }};
+        }
+    }
+
+
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+
+<div class='section-{{ section.id }} {% if enable_background_around_container %} section color-{{ color_scheme }} {% endif %} ' style="position:relative;">
+  <div class='section-spacing container container--{{ container_size }} image-banner__outer-container {% if add_side_paddings == true %}container--with-aside-paddings{% endif %}'>
+    <div class='image-banner {% unless enable_background_around_container %} section color-{{ color_scheme }} {% endunless %}'>
+      <div class='image-banner__container {% if mobile_content_background != 'none' %} image-banner__container--mobile-content-with-background {% endif %}'>
+        {%- if btn_text == blank and extra_btn_text == blank -%}
+          {%- if btn_url.url != blank or extra_btn_url.url != blank -%}
+            <a
+              class='image-banner__link'
+              href='{% if btn_url.url != blank %}{{ btn_url.url }}{% else %}{{ extra_btn_url.url }}{% endif %}'
+              aria-label='{% if btn_text != blank %}{{ btn_text | strip_html | escape }}{% elsif extra_btn_text != blank %}{{ extra_btn_text | strip_html | escape }}{% elsif btn_url.title != blank %}{{ btn_url.title | strip_html | escape }}{% elsif extra_btn_url.title != blank %}{{ extra_btn_url.title | strip_html | escape }}{% else %}#{% endif %}'
+            ></a>
+          {%- endif -%}
+        {%- endif -%}
+        {%- render 'media-with-art-direction',
+          with_overlay: true,
+          with_placeholder: false,
+          class: 'image-banner__media',
+          desktop_img: desktop_img,
+          mobile_img: mobile_img,
+          desktop_video: video,
+          mobile_video: video
+        -%}
+        {%- render 'image-banner-content',
+          heading_size: heading_size,
+          body_size: body_size,
+          title: title,
+          logo:section.settings.logo,
+          caption: caption,
+          text: text,
+          small_text:section.settings.small_text, 
+          btn_text: btn_text,
+          btn_url: btn_url,
+          btn_class: "section_popup_properks",
+          popup_first: "popup_fist",
+          popup_sec:"popup_sec",
+          extra_btn_text: extra_btn_text,
+          extra_btn_url: extra_btn_url,
+          btn_style: btn_style,
+          extra_btn_style: extra_btn_style,
+          mobile_content_background: mobile_content_background,
+          desktop_content_background: desktop_content_background
+        -%}
+      </div>
+    </div>
+      <div class="devAnimatedPAth">
+       <svg id="animated-line" width="1495" height="35" viewBox="0 0 1495 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.216797 33.6758H274.254C280.092 33.6758 285.898 32.8092 291.482 31.1044L340.872 16.0253C351.069 12.912 362.125 14.5442 370.988 20.4712V20.4712C382.938 28.463 398.527 28.463 410.477 20.4712L421.668 12.9869C440.392 0.465314 464.817 0.465309 483.54 12.9869L504.432 26.9586C510.511 31.024 518.441 31.024 524.52 26.9586V26.9586C530.599 22.8931 538.53 22.8931 544.609 26.9586L548.381 29.4815C552.47 32.216 557.279 33.6758 562.198 33.6758H586.168C596.006 33.6758 605.623 30.7563 613.801 25.2872V25.2872C630.525 14.1025 652.343 14.1025 669.067 25.2872V25.2872C677.245 30.7563 686.862 33.6758 696.7 33.6758H725.182C733.446 33.6758 741.525 31.2234 748.394 26.6294L755.522 21.8624C765.257 15.3523 777.955 15.3523 787.69 21.8624V21.8624C798.201 28.8918 812.059 28.281 821.911 20.3542L832.397 11.917C847.179 0.0235043 867.64 -1.87666 884.359 7.09154L915.201 23.6351C927.13 30.034 941.195 31.1416 953.978 26.6888V26.6888C965.85 22.5538 978.865 23.2025 990.266 28.4975L991.21 28.9361C997.933 32.0582 1005.26 33.6758 1012.67 33.6758H1494.78" stroke="url(#paint0_linear_235_813)" />
+          <defs>
+            <linearGradient id="paint0_linear_235_813" x1="0.216797" y1="12.9869" x2="1494.78" y2="12.9869" gradientUnits="userSpaceOnUse">
+              <stop class="gradient-stop" offset="0" stop-color="black" />
+              <stop  offset="0.51" stop-color="black" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+  </div>
+
+<div class="popup_inner_bottom">
+  {% for block in section.blocks %}
+    {% if block.type == "properkModelPopp" %}
+  <div class="proper_popup_main" style="display:none">
+    <div class="propu_content">
+            <div class="onscroll_bar">
+    <div class="main_inner_bar">
+      <img src="{{ block.settings.logo_image | image_url }}">
+    </div>
+      <div class="close_btn_inner_model" style="cursor:pointer;">
+        
+<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.6123 1.83301L16.7209 16.9416" stroke="white" stroke-width="2.63084"/>
+<path d="M16.7207 1.83301L1.61206 16.9416" stroke="white" stroke-width="2.63084"/>
+</svg>
+
+      </div>
+      </div>
+      <div class="header_image_main">
+        <img src={{ block.settings.background_image | image_url }}>
+      </div>
+      <div class="first_block_main">
+        <div class="first_blk_h">
+          {{ block.settings.first_blkH }}
+        </div>
+        <div class="first_subblk_h">
+          {{ block.settings.first_subblkH }}
+        </div>
+        <div class="btn_firstblk">
+            <button class="first_blk_btn">
+              {{ block.settings.first_blk_btnt }}
+            </button>
+        </div>
+        <div class="bottom_below_text">
+          {{ block.settings.bottom_textfirstblk }}
+        </div>
+      </div>
+       <div class="sec_bloxk_main">
+          <div class="second_blk_h">
+            {{ block.settings.sec_Blk_h }}
+          </div>
+          <div class="second_ssubblk_h">
+            {{ block.settings.sec_subnBlk_h }}
+          </div>
+         <div class="btn_secsubn">
+           <a href="{{ block.settings.secblk1link }}">
+           <div class="main_inner_blk">
+             <div class="img_n">
+               <img src="{{ block.settings.lgofirst_imgo | image_url }}">
+               <div class="sec_link_n">
+                 {{ block.settings.secblk1linkn }}
+               </div>
+             </div>
+             <div class="arrow_link">
+               
+<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_3082)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7947 8.4573C12.7937 8.41544 12.7937 8.37661 12.7937 8.34169C12.4481 8.18075 12.1169 8.00562 11.8051 7.8111C10.2607 6.84766 9.19087 5.40856 9.19087 2.86188L11.27 2.86188L11.27 2.86189L11.2701 2.86189C11.2701 4.97433 12.0493 5.93704 13.374 6.9786C14.0795 7.53325 14.9727 8.09045 14.9727 8.09045C14.9727 8.09045 15.521 8.39162 16.1539 8.5947L16.1581 8.59604L16.1581 8.59606L16.1581 8.59701L16.1584 8.59701L16.1584 10.1484L16.158 10.1484L16.1581 10.1514C15.5234 10.3545 14.9726 10.657 14.9726 10.657C14.9726 10.657 14.0794 11.2142 13.374 11.7689C12.0493 12.8104 11.27 13.7731 11.27 15.8856L9.19087 15.8856C9.19087 12.8247 10.7363 11.3638 12.7937 10.4058C12.7937 10.3707 12.7937 10.3317 12.7947 10.2896L4.10323 10.2896L2.91884 10.3035L2.91884 10.2896L2.90659 10.2896L2.90659 8.4573L2.91884 8.4573L2.91884 8.44188L4.23541 8.4573L12.7947 8.4573Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_253_3082">
+<rect width="17.5059" height="17.5059" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18.2793 0.62085)"/>
+</clipPath>
+</defs>
+</svg>
+
+             </div>
+           </div>
+           </a>
+          </div>
+           <div class="btn_secsubn">
+           <a href="{{ block.settings.secblk2link }}">
+           <div class="main_inner_blk">
+             <div class="img_n">
+               <img src="{{ block.settings.lgosecond_imgo | image_url }}">
+               <div class="sec_link_n">
+                 {{ block.settings.secblk2linkn }}
+               </div>
+             </div>
+             <div class="arrow_link">
+               
+<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_3082)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7947 8.4573C12.7937 8.41544 12.7937 8.37661 12.7937 8.34169C12.4481 8.18075 12.1169 8.00562 11.8051 7.8111C10.2607 6.84766 9.19087 5.40856 9.19087 2.86188L11.27 2.86188L11.27 2.86189L11.2701 2.86189C11.2701 4.97433 12.0493 5.93704 13.374 6.9786C14.0795 7.53325 14.9727 8.09045 14.9727 8.09045C14.9727 8.09045 15.521 8.39162 16.1539 8.5947L16.1581 8.59604L16.1581 8.59606L16.1581 8.59701L16.1584 8.59701L16.1584 10.1484L16.158 10.1484L16.1581 10.1514C15.5234 10.3545 14.9726 10.657 14.9726 10.657C14.9726 10.657 14.0794 11.2142 13.374 11.7689C12.0493 12.8104 11.27 13.7731 11.27 15.8856L9.19087 15.8856C9.19087 12.8247 10.7363 11.3638 12.7937 10.4058C12.7937 10.3707 12.7937 10.3317 12.7947 10.2896L4.10323 10.2896L2.91884 10.3035L2.91884 10.2896L2.90659 10.2896L2.90659 8.4573L2.91884 8.4573L2.91884 8.44188L4.23541 8.4573L12.7947 8.4573Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_253_3082">
+<rect width="17.5059" height="17.5059" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18.2793 0.62085)"/>
+</clipPath>
+</defs>
+</svg>
+
+             </div>
+           </div>
+           </a>
+          </div>
+       </div>
+
+      <div class="third_block_inner_m">
+         <div class="third_block_h">
+           {{ block.settings.heading_3rd }}
+         </div>
+        <div class='third_block_subj'>
+          {% assign today = "now" | date: "%b %d, %Y" %} 
+          {{ block.settings.subheading_3rd | append: " " | append: today }} 
+        </div>
+        <div class="main_links">
+          {% for block in section.blocks %}
+            {% if block.type == "block_links" %}
+            <div  class="btn_secsubn fade-up">
+           <a href="{{ block.settings.Link }}">
+           <div class="main_inner_blk">
+             <div class="img_n">
+               <img src="{{ block.settings.logo | image_url }}">
+               <div class="main-inner">
+               <div class="sec_link_n">
+                 {{ block.settings.add_t }}
+               </div>
+                 <div class="sub_heading_inner">
+                   {{ block.settings.add_tsub }}
+                 </div>
+               </div>
+               
+             </div>
+             <div class="arrow_link">
+               
+<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_3082)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7947 8.4573C12.7937 8.41544 12.7937 8.37661 12.7937 8.34169C12.4481 8.18075 12.1169 8.00562 11.8051 7.8111C10.2607 6.84766 9.19087 5.40856 9.19087 2.86188L11.27 2.86188L11.27 2.86189L11.2701 2.86189C11.2701 4.97433 12.0493 5.93704 13.374 6.9786C14.0795 7.53325 14.9727 8.09045 14.9727 8.09045C14.9727 8.09045 15.521 8.39162 16.1539 8.5947L16.1581 8.59604L16.1581 8.59606L16.1581 8.59701L16.1584 8.59701L16.1584 10.1484L16.158 10.1484L16.1581 10.1514C15.5234 10.3545 14.9726 10.657 14.9726 10.657C14.9726 10.657 14.0794 11.2142 13.374 11.7689C12.0493 12.8104 11.27 13.7731 11.27 15.8856L9.19087 15.8856C9.19087 12.8247 10.7363 11.3638 12.7937 10.4058C12.7937 10.3707 12.7937 10.3317 12.7947 10.2896L4.10323 10.2896L2.91884 10.3035L2.91884 10.2896L2.90659 10.2896L2.90659 8.4573L2.91884 8.4573L2.91884 8.44188L4.23541 8.4573L12.7947 8.4573Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_253_3082">
+<rect width="17.5059" height="17.5059" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18.2793 0.62085)"/>
+</clipPath>
+</defs>
+</svg>
+
+             </div>
+           </div>
+           </a>
+          </div>
+  {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      
+     <div class="four_step_popup">
+       <div class='inner_main_popup_four'>
+         <div class="main_headingfour">
+           {{ block.settings.main_heading_text }}
+         </div>
+         <div class="main_subHmain">
+             {{ block.settings.main_subheading_text }}
+         </div>
+         <div class="content_inner">
+             <div class="btn_secsubn">
+           <a href="{{ block.settings.first_inner_ur }}">
+           <div class="main_inner_blk">
+             <div class="img_n">
+               <img src="{{ block.settings.main_logofirst | image_url }}">
+               <div class="main-inner">
+               <div class="sec_link_n" id="how_it_work">
+                 {{ block.settings.frist_fourthtext }}
+               </div>
+               
+               </div>
+               
+             </div>
+             <div class="arrow_link">
+               
+<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_3082)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7947 8.4573C12.7937 8.41544 12.7937 8.37661 12.7937 8.34169C12.4481 8.18075 12.1169 8.00562 11.8051 7.8111C10.2607 6.84766 9.19087 5.40856 9.19087 2.86188L11.27 2.86188L11.27 2.86189L11.2701 2.86189C11.2701 4.97433 12.0493 5.93704 13.374 6.9786C14.0795 7.53325 14.9727 8.09045 14.9727 8.09045C14.9727 8.09045 15.521 8.39162 16.1539 8.5947L16.1581 8.59604L16.1581 8.59606L16.1581 8.59701L16.1584 8.59701L16.1584 10.1484L16.158 10.1484L16.1581 10.1514C15.5234 10.3545 14.9726 10.657 14.9726 10.657C14.9726 10.657 14.0794 11.2142 13.374 11.7689C12.0493 12.8104 11.27 13.7731 11.27 15.8856L9.19087 15.8856C9.19087 12.8247 10.7363 11.3638 12.7937 10.4058C12.7937 10.3707 12.7937 10.3317 12.7947 10.2896L4.10323 10.2896L2.91884 10.3035L2.91884 10.2896L2.90659 10.2896L2.90659 8.4573L2.91884 8.4573L2.91884 8.44188L4.23541 8.4573L12.7947 8.4573Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_253_3082">
+<rect width="17.5059" height="17.5059" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18.2793 0.62085)"/>
+</clipPath>
+</defs>
+</svg>
+
+             </div>
+           </div>
+           </a>
+          </div>
+        <div class="btn_secsubn">
+           <a href="{{ block.settings.sedur }}">
+           <div class="main_inner_blk">
+             <div class="img_n">
+               <img src="{{ block.settings.seconlinkimg | image_url }}">
+               <div class="main-inner">
+               <div class="sec_link_n">
+                 {{ block.settings.sec_fourth_text }}
+               </div>
+               </div>
+               
+             </div>
+             <div class="arrow_link">
+               
+<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_253_3082)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7947 8.4573C12.7937 8.41544 12.7937 8.37661 12.7937 8.34169C12.4481 8.18075 12.1169 8.00562 11.8051 7.8111C10.2607 6.84766 9.19087 5.40856 9.19087 2.86188L11.27 2.86188L11.27 2.86189L11.2701 2.86189C11.2701 4.97433 12.0493 5.93704 13.374 6.9786C14.0795 7.53325 14.9727 8.09045 14.9727 8.09045C14.9727 8.09045 15.521 8.39162 16.1539 8.5947L16.1581 8.59604L16.1581 8.59606L16.1581 8.59701L16.1584 8.59701L16.1584 10.1484L16.158 10.1484L16.1581 10.1514C15.5234 10.3545 14.9726 10.657 14.9726 10.657C14.9726 10.657 14.0794 11.2142 13.374 11.7689C12.0493 12.8104 11.27 13.7731 11.27 15.8856L9.19087 15.8856C9.19087 12.8247 10.7363 11.3638 12.7937 10.4058C12.7937 10.3707 12.7937 10.3317 12.7947 10.2896L4.10323 10.2896L2.91884 10.3035L2.91884 10.2896L2.90659 10.2896L2.90659 8.4573L2.91884 8.4573L2.91884 8.44188L4.23541 8.4573L12.7947 8.4573Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_253_3082">
+<rect width="17.5059" height="17.5059" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18.2793 0.62085)"/>
+</clipPath>
+</defs>
+</svg>
+
+             </div>
+           </div>
+           </a>
+          </div>
+
+
+
+      
+         </div>
+       </div>
+     </div>
+
+    </div>
+  </div>
+      {% endif %}
+    {% endfor %}
+ 
+  <div class="innerBtn_popup">
+    <div class="main_btn_trigger">
+<button class="inner_popupTrigger"> <div class="open_svg"> <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.0647 22.5047L19.0647 5.8611C19.0647 0.826202 9.17667 -0.155558 9.17667 5.86107C9.17667 10.1975 12.0195 12.6772 15.1189 18.8111C16.7847 22.1077 2.60463 22.5046 2.60463 5.86105L2.60463 22.5047" stroke="white" stroke-width="3.40175"/>
+</svg></div>
+<div class="closesvg" style="display:none">
+  
+<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.07178 1.755L21.5977 21.2809" stroke="white" stroke-width="3.4"/>
+<path d="M21.5977 1.755L2.07178 21.2809" stroke="white" stroke-width="3.4"/>
+</svg>
+</div>
+  
+ </button>
+      
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class="popup_overlay" style="display:none;" >
+
+<div class="popup_block_inner-m join_freepopup">
+  {% for block in section.blocks %}
+    {% if block.type == "model_popup_join" %}
+    {% render 'proper_joinPopup', block:block, forloop:forloop %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="popup_block_inner-m how-it-workpopup">
+   {% render 'howitworkpopup', main_s: section %}
+</div>
+  </div>
+{% render 'save-section-data-in-global-scope', section: section %}
+
+<style>
+ .devAnimatedPAth  svg line {
+  stroke-dasharray: 1000; /* Large enough value to ensure the line is initially hidden */
+  stroke-dashoffset: 1000;
+  transition: stroke-dashoffset 2s ease-in-out;
+}
+.devAnimatedPAth svg{
+  width:100%;
+}
+.devAnimatedPAth svg.scrolled line {
+  stroke-dashoffset: 0;
+}
+  .devAnimatedPAth{
+    padding-top:35px;
+  }
+ #animated-line path {
+    stroke-dasharray: 3000; /* Adjust based on path length */
+    stroke-dashoffset: 3000; /* Initially hide the stroke */
+    transition: stroke-dashoffset 2s ease-in-out;
+  }
+  .scrolled .gradient-stop {
+    transition: offset 2s ease-in-out;
+  }
+
+  .scrolled .gradient-stop {
+    offset: 1; /* Moves the gradient stops to the end */
+  }
+
+  /* When scrolled into view, this class will trigger the path animation */
+  #animated-line.scrolled path {
+    stroke-dashoffset: 0;
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const svgElement = document.getElementById('animated-line');
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        svgElement.classList.add('scrolled');
+        observer.unobserve(svgElement); 
+      }
+    });
+  }, {
+    root: null,  
+    threshold: 0.6
+  });
+
+  observer.observe(svgElement);
+});
+
+
+</script>
+            
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    var modelPopup = document.querySelector(".proper_popup_main");
+    var backDark = document.querySelector(".popup_overlay");
+    var trigger_btn_main = document.querySelector(".inner_popupTrigger");
+    var firstPopup=document.querySelector(".popup_block_inner-m.join_freepopup");
+      var openSVG=document.querySelector(".open_svg");
+      var closeSvg=document.querySelector(".closesvg");
+      var secCloseBtn=document.querySelector(".close_btn_inner_model")
+      var secpopup=document.querySelector(".popup_block_inner-m.how-it-workpopup");
+      var ribon_strip=document.querySelector(".onscroll_bar")
+      secCloseBtn.addEventListener("click", function(){
+        
+        modelPopup.classList.remove("active");
+        modelPopup.style.display="none";
+        backDark.style.display="none";
+        closeSvg.style.display="none";
+          openSVG.style.display="block";
+        
+      })
+      modelPopup.addEventListener("scroll", function(){
+        const currentScrollTop = modelPopup.scrollTop;
+       if (currentScrollTop > 50){
+        ribon_strip.style.display="flex";
+       }
+        else{
+         
+           ribon_strip.style.display="none";
+        }
+      })
+    trigger_btn_main.addEventListener("click", function() {
+        modelPopup.classList.toggle("active");
+        if (modelPopup.classList.contains("active")) {
+           
+          firstPopup.style.display="none";
+          secpopup.style.display="none";
+           backDark.style.display = "block";
+            modelPopup.style.display = "block";
+          closeSvg.style.display="block";
+          openSVG.style.display="none";
+        } else {
+         
+            modelPopup.style.display = "none";
+           firstPopup.style.display="none";
+             backDark.style.display = "none";
+           closeSvg.style.display="none";
+          openSVG.style.display="block";
+        }
+    });
+
+});
+
+  </script>
+
+
+
+    <script>
+         
+
+
+                
+                document.addEventListener("DOMContentLoaded", function(){
+                        
+                  function firstTrigger(){
+                    secpopup.style.display="none";
+                    firstPopup.style.display="block";
+                    popupMainH.style.display="flex";
+                  }
+                  function SecTrigger(){
+                      var modelPopup = document.querySelector(".proper_popup_main");
+                      var openSVG=document.querySelector(".open_svg");
+                      var closeSvg=document.querySelector(".closesvg");
+                      firstPopup.style.display="none";
+                  secpopup.style.display="block";
+                    popupMainH.style.display="flex";
+                    modelPopup.style.display="none";
+                    closeSvg.style.display="none";
+                    openSVG.style.display="block";
+                     modelPopup.classList.remove("active");
+                  }
+                  function showNextSlide(nextIndex){
+                    console.log("slide",nextIndex)
+                    var allslides=document.querySelectorAll(".inner_proper_main");
+                    allslides.forEach(function(ele){
+                      ele.classList.remove("active");
+                    
+                    })
+
+                   var showSlide = document.querySelector(`.inner_proper_main[data-index="${nextIndex}"]`);
+                    if(showSlide) {
+                  showSlide.classList.add("active");
+                    
+                    } 
+                  }
+                
+
+
+
+                  
+                  var main_popup_triggr = document.querySelectorAll(".image-banner__btn");
+                  var howitwork= document.querySelector(".first_blk_btn");
+                  
+                   var popupMainH= document.querySelector(".popup_overlay");
+                   var firstPopup=document.querySelector(".popup_block_inner-m.join_freepopup")
+                   var nextPerkBtn=document.querySelectorAll(".main_btn_next");
+                    var secpopup=document.querySelector(".popup_block_inner-m.how-it-workpopup");
+                  if (howitwork){
+                    howitwork.addEventListener("click", function(){
+                      SecTrigger()
+                    })
+                  }
+                  nextPerkBtn.forEach(function(ele){
+                    ele.addEventListener("click", function(){
+                      var getIndex=ele.closest(".inner_proper_main");
+                      var ind=getIndex.getAttribute("data-index")
+                           var ind=parseInt(ind);
+                           var nextIndex= ind + 1;
+
+                      showNextSlide( nextIndex )
+
+
+
+
+
+
+
+                      
+                    })
+                  })
+
+                    
+
+
+
+
+
+
+
+                  
+
+                   var closeBtn=document.querySelectorAll(".close_btn_m");
+                  closeBtn.forEach(function(ele){
+                     ele.addEventListener("click", function(){
+                    popupMainH.style.display="none";
+                       firstPopup.style.display="none";
+                        var allslides=document.querySelectorAll(".inner_proper_main");
+                    allslides.forEach(function(ele){
+                      ele.classList.remove("active");
+                    })
+                       allslides[0].classList.add("active")
+                  })
+                  })
+
+                  var closeBtnsec=document.querySelector(".btn_colose_how");
+                  closeBtnsec.addEventListener("click", function(){
+                     popupMainH.style.display="none";
+                       secpopup.style.display="none";
+                  })
+                 
+                  
+                   main_popup_triggr.forEach(function(ele){
+                     ele.addEventListener("click", function(){
+                    
+                      var popup_type=ele.getAttribute("data-popup");
+                       if(popup_type == "popup_first"){
+                         console.log("this")
+                         firstTrigger(); 
+                       }
+                       else if (popup_type == "popup_sec"){
+                         SecTrigger();
+                           console.log("this")
+                       }
+                       
+                     })
+                   })
+
+                  
+                })
+              </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+     var main_popup_triggr = document.querySelectorAll(".image-banner__btn");
+      main_popup_triggr.forEach(function(ele){
+        console.log(ele)
+                     ele.addEventListener("click", function(e){
+                    e.preventDefault();
+                      var popup_type=ele.getAttribute("data-popup");
+                       if(popup_type == "popup_first"){
+                         console.log("this")
+                         firstTrigger(); 
+                       }
+                       else if (popup_type == "popup_sec"){
+                         SecTrigger();
+                           console.log("this")
+                       }
+                       
+                     })
+                   })
+  })
+</script>
+
+  <script>
+    var btns=document.querySelector("#how_it_work")
+    var modelPopup = document.querySelector(".proper_popup_main");
+      btns.addEventListener("click", function(){
+      var howitwbtn=document.querySelector(".image-banner__btn[data-popup='popup_sec']");
+      howitwbtn.click();
+       modelPopup.classList.remove("active");
+        modelPopup.style.display="none";
+                                           
+    })
+  </script>
+  <script>
+  const fadeUpElements = document.querySelectorAll('.fade-up');
+
+// Options for the intersection observer
+const options = {
+  root: null, // Relative to the viewport
+  threshold: 0.2, // Trigger when 20% of the element is in view
+};
+
+// Create the intersection observer
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Add the 'visible' class to start the animation
+      entry.target.classList.add('visible');
+      // Optional: Stop observing once it's in view
+      observer.unobserve(entry.target);
+    }
+  });
+}, options);
+
+// Start observing each fade-up element
+fadeUpElements.forEach(element => {
+  observer.observe(element);
+});
+  </script>
+{% schema %}
+{
+  "name": "Image Banner Pro",
+  "tag": "section",
+  "class": "place-under-transparent-header",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.general_section_settings.color_scheme_option_default_label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.general_section_settings.color_scheme_option_primary_label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.general_section_settings.color_scheme_option_secondary_label"
+        },
+        {
+          "value": "custom-1",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_1_label"
+        },
+        {
+          "value": "custom-2",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_2_label"
+        },
+        {
+          "value": "custom-3",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_3_label"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.general_section_settings.color_scheme_option_white_text_label"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.general_section_settings.color_scheme_option_black_text_label"
+        },
+        {
+          "value": "custom-5",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_5_label"
+        }
+      ],
+      "default": "white",
+      "label": "t:sections.general_section_settings.color_scheme_label",
+      "info": "t:sections.general_section_settings.color_scheme_tip"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_background_around_container",
+      "default": false,
+      "label": "t:sections.general_section_settings.enable_background_around_container_label"
+    },
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "full-screen",
+          "label": "t:sections.general_section_settings.container_size.screen_width_option"
+        },
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.general_section_settings.container_size.small_width_option"
+        }
+      ],
+      "default": "full-screen",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+      "type": "range",
+      "id": "desktop_ratio",
+      "min": 0.1,
+      "max": 1.5,
+      "step": 0.1,
+      "default": 0.4,
+      "unit": "t:sections.image_banner.desktop_ratio.unit",
+      "label": "t:sections.image_banner.desktop_ratio.label"
+    },
+    {
+      "type": "range",
+      "id": "mobile_ratio",
+      "min": 0.2,
+      "max": 2.5,
+      "step": 0.1,
+      "default": 1.6,
+      "unit": "t:sections.image_banner.mobile_ratio.unit",
+      "label": "t:sections.image_banner.mobile_ratio.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image_banner.image_settings_header"
+    },
+    {
+      "type": "image_picker",
+      "id": "desktop_img",
+      "label": "t:sections.general_section_settings.label_for_desktop_image_setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_img",
+      "label": "t:sections.general_section_settings.label_for_mobile_image_setting"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "t:sections.general_section_settings.label_for_desktop_video_setting"
+    },
+    {
+      "type": "range",
+      "id": "desktop_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "t:sections.image_banner.unit_for_desktop_overlay_opacity_setting",
+      "label": "t:sections.image_banner.label_for_desktop_overlay_opacity_setting"
+    },
+    {
+      "type": "range",
+      "id": "mobile_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "t:sections.image_banner.unit_for_mobile_overlay_opacity_setting",
+      "label": "t:sections.image_banner.label_for_mobile_overlay_opacity_setting"
+    },
+
+    {
+      "type": "header",
+      "content": "t:sections.image_banner.content_settings_header"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "default": "IMAGE BANNER",
+      "label": "t:sections.image_banner.label_for_caption_setting"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Image with text",
+      "label": "t:sections.image_banner.label_for_title_setting"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "t:sections.general_section_settings.label_for_heading_size_setting",
+      "options": [
+        {
+          "value": "display1",
+          "label": "t:sections.general_section_settings.display_size_1_option"
+        },
+        {
+          "value": "display2",
+          "label": "t:sections.general_section_settings.display_size_2_option"
+        },
+        {
+          "value": "display3",
+          "label": "t:sections.general_section_settings.display_size_3_option"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.general_section_settings.heading_size_1_option"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.general_section_settings.heading_size_2_option"
+        },
+        {
+          "value": "h3",
+          "label": "t:sections.general_section_settings.heading_size_3_option"
+        },
+        {
+          "value": "h4",
+          "label": "t:sections.general_section_settings.heading_size_4_option"
+        },
+        {
+          "value": "h5",
+          "label": "t:sections.general_section_settings.heading_size_5_option"
+        },
+        {
+          "value": "h6",
+          "label": "t:sections.general_section_settings.heading_size_6_option"
+        },
+        {
+          "value": "caption1",
+          "label": "t:sections.general_section_settings.caption_size_1_option"
+        },
+        {
+          "value": "caption2",
+          "label": "t:sections.general_section_settings.caption_size_2_option"
+        },
+        {
+          "value": "caption3",
+          "label": "t:sections.general_section_settings.caption_size_3_option"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "default": "<p>Fill in the text to tell customers by what your products are inspired.</p>",
+      "label": "t:sections.image_banner.label_for_text_setting"
+    },
+     {
+      "type": "richtext",
+      "id": "small_text",
+      "default": "<p>Already a member? Sign In</p>",
+      "label": "Sign in Text"
+    },
+    {
+      "type": "select",
+      "id": "body_size",
+      "label": "t:sections.general_section_settings.label_for_body_size_setting",
+      "info": "t:sections.general_section_settings.info_for_body_size_setting",
+      "options": [
+        {
+          "value": "body0",
+          "label": "t:sections.general_section_settings.body_size_0_option"
+        },
+        {
+          "value": "body1",
+          "label": "t:sections.general_section_settings.body_size_1_option"
+        },
+        {
+          "value": "body2",
+          "label": "t:sections.general_section_settings.body_size_2_option"
+        },
+        {
+          "value": "body3",
+          "label": "t:sections.general_section_settings.body_size_3_option"
+        },
+        {
+          "value": "body4",
+          "label": "t:sections.general_section_settings.body_size_4_option"
+        },
+        {
+          "value": "body5",
+          "label": "t:sections.general_section_settings.body_size_5_option"
+        },
+        {
+          "value": "body6",
+          "label": "t:sections.general_section_settings.body_size_6_option"
+        }
+      ],
+      "default": "body3"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image_banner.content_position_settings_header"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "label": "t:sections.general_section_settings.desktop_position_label",
+      "options": [
+        {
+          "value": "align-items:flex-start;justify-content:flex-start;",
+          "label": "t:sections.general_section_settings.position_option_top_left_label"
+        },
+        {
+          "value": "align-items:flex-start;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_top_center_label"
+        },
+        {
+          "value": "align-items:flex-start;justify-content:flex-end;",
+          "label": "t:sections.general_section_settings.position_option_top_right_label"
+        },
+        {
+          "value": "align-items:center;justify-content:flex-start;",
+          "label": "t:sections.general_section_settings.position_option_center_left_label"
+        },
+        {
+          "value": "align-items:center;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_center_center_label"
+        },
+        {
+          "value": "align-items:center;justify-content:flex-end;",
+          "label": "t:sections.general_section_settings.position_option_center_right_label"
+        },
+        {
+          "value": "align-items:flex-end;justify-content:flex-start;",
+          "label": "t:sections.general_section_settings.position_option_bottom_left_label"
+        },
+        {
+          "value": "align-items:flex-end;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_bottom_center_label"
+        },
+        {
+          "value": "align-items:flex-end;justify-content:flex-end;",
+          "label": "t:sections.general_section_settings.position_option_bottom_right_label"
+        }
+      ],
+      "default": "align-items:center;justify-content:center;"
+    },
+    {
+      "type": "text_alignment",
+      "id": "desktop_content_align",
+      "label": "t:sections.general_section_settings.dekstop_alignment_label",
+      "default": "center"
+    },
+     {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo",
+    },
+    {
+      "type": "range",
+      "id": "content_max_width",
+      "min": 528,
+      "max": 1304,
+      "step": 8,
+      "default": 528,
+      "unit": "t:sections.image_banner.unit_for_content_max_width_setting",
+      "label": "t:sections.image_banner.label_for_content_max_width_setting"
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "min": 0,
+      "max": 128,
+      "step": 4,
+      "default": 116,
+      "unit": "t:sections.image_banner.unit_for_content_spacing_setting",
+      "label": "t:sections.image_banner.label_for_content_spacing_setting",
+      "info": "t:sections.image_banner.info_for_content_spacing_setting"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_position",
+      "label": "t:sections.general_section_settings.mobile_position_label",
+      "options": [
+        {
+          "value": "align-items:flex-start;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_top_label"
+        },
+        {
+          "value": "align-items:center;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_center_label"
+        },
+        {
+          "value": "align-items:flex-end;justify-content:center;",
+          "label": "t:sections.general_section_settings.position_option_bottom_label"
+        }
+      ],
+      "default": "align-items:center;justify-content:center;"
+    },
+    {
+      "type": "text_alignment",
+      "id": "mobile_content_align",
+      "label": "t:sections.general_section_settings.mobile_alignment_label",
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image_banner.background_settings_header"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_background",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.image_banner.label_for_none_option_in_show_background_setting"
+        },
+        {
+          "value": "solid",
+          "label": "t:sections.image_banner.label_for_solid_option_in_show_background_setting"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.image_banner.label_for_outline_option_in_show_background_setting"
+        },
+        {
+          "value": "shadow",
+          "label": "t:sections.image_banner.label_for_shadow_option_in_show_background_setting"
+        },
+        {
+          "value": "transparent",
+          "label": "t:sections.image_banner.label_for_transparent_option_in_show_background_setting"
+        },
+        {
+          "value": "new-transparent",
+          "label": "t:sections.image_banner.label_for_new_transparent_option_in_show_background_setting"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.image_banner.label_for_show_background_on_desktop_setting"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_background",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.image_banner.label_for_none_option_in_show_background_setting"
+        },
+        {
+          "value": "solid",
+          "label": "t:sections.image_banner.label_for_solid_option_in_show_background_setting"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.image_banner.label_for_outline_option_in_show_background_setting"
+        },
+        {
+          "value": "shadow",
+          "label": "t:sections.image_banner.label_for_shadow_option_in_show_background_setting"
+        },
+        {
+          "value": "transparent",
+          "label": "t:sections.image_banner.label_for_transparent_option_in_show_background_setting"
+        },
+        {
+          "value": "new-transparent",
+          "label": "t:sections.image_banner.label_for_new_transparent_option_in_show_background_setting"
+        }
+      ],
+      "default": "none",
+      "label": "t:sections.image_banner.label_for_show_background_on_mobile_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image_banner.buttons_settings_header"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "default": "Button label",
+      "label": "t:sections.image_banner.label_for_button_text_setting"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "t:sections.image_banner.label_for_button_url_setting",
+      "info": "t:sections.image_banner.info_for_button_url_setting"
+    },
+    {
+      "type": "select",
+      "id": "btn_style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "t:sections.image_banner.label_for_solid_option_in_button_style_setting"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.image_banner.label_for_outline_option_in_button_style_setting"
+        },
+        {
+          "value": "link",
+          "label": "t:sections.image_banner.label_for_link_option_in_button_style_setting"
+        }
+      ],
+      "default": "solid",
+      "label": "t:sections.image_banner.label_for_button_style_setting"
+    },
+    {
+      "type": "text",
+      "id": "extra_btn_text",
+      "default": "Button label",
+      "label": "t:sections.image_banner.label_for_extra_button_text_setting"
+    },
+    {
+      "type": "url",
+      "id": "extra_btn_url",
+      "label": "t:sections.image_banner.label_for_extra_button_url_setting"
+    },
+    {
+      "type": "select",
+      "id": "extra_btn_style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "t:sections.image_banner.label_for_solid_option_in_extra_button_style_setting"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.image_banner.label_for_outline_option_in_extra_button_style_setting"
+        },
+        {
+          "value": "link",
+          "label": "t:sections.image_banner.label_for_link_option_in_extra_button_style_setting"
+        }
+      ],
+      "default": "solid",
+      "label": "t:sections.image_banner.label_for_extra_button_style_setting"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.general_section_settings.paddings.header_title"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_side_paddings",
+      "default": true,
+      "label": "t:sections.general_section_settings.paddings.add_side_paddings.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0,
+      "unit": "t:sections.general_section_settings.paddings.section_spacing_top.unit",
+      "label": "t:sections.general_section_settings.paddings.section_spacing_top.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0,
+      "unit": "t:sections.general_section_settings.paddings.section_spacing_bottom.unit",
+      "label": "t:sections.general_section_settings.paddings.section_spacing_bottom.label"
+    },
+    {
+      "type": "header",
+      "content":"How It works popup"
+      
+    },
+    {
+      "type":"image_picker",
+      "label":"Add Image",
+      "id":"img_mhow"
+    },
+    {
+      "type":"richtext",
+      "label":"Add Heading",
+      "id":"main_hhow"
+    },
+    {
+      "type":"image_picker",
+      "label":"Add Arrow",
+      "id":"main_info_arrow"
+      
+    },
+    {
+      "type":"richtext",
+      "label":"Bottom Text",
+      "id":"btm_tcontet"
+    },
+    {
+      "type":"url",
+      "label":"Add Link",
+      "id":"main_url_inner"
+    },
+    {
+      "type":"text",
+      "label":"Add Button text",
+      "id":"btn_main_id"
+    }
+  ],
+  "blocks":[
+    {
+   "name":"Add popup tile",
+   "type": "model_popup_join",
+    "settings":[
+      {
+      "type":"image_picker",
+       "label":"Add Image",
+      "id":"slide_img"
+      },
+      {
+        "type":"text",
+        "label":"Add popup Text",
+        "id":"popup_t"
+      },
+      {
+      "type":"image_picker",
+       "label":"Add Image Mobile",
+      "id":"slide_imgm"
+      },
+      {
+       "type":"image_picker",
+       "label":"Add Bottom logo",
+       "id":"bottom_icon"
+      },
+      {
+        "type":"richtext",
+        "label":"Add Heading",
+        "id":"hmpopopp"
+      },
+     {
+        "type":"richtext",
+        "label":"Add Content",
+        "id":"popup_content"
+      },
+       {
+        "type":"text",
+        "label":"Add Price Rule button",
+        "id":"pcbtn"
+      },
+      {
+        "type":"url",
+        "label":"Add Price Rule button link",
+        "id":"pcbtnl"
+      },
+      {
+        "type":"text",
+        "label":"Button text",
+        "id":"btnt"
+      }
+    ]
+},
+        {
+   "name":"Add Model Popup",
+   "type": "properkModelPopp",
+    "limit":1,
+    "settings":[
+      {
+         "type":"image_picker",
+       "label":"Ribon Logo Image",
+      "id":"logo_image"
+      },
+      {
+      "type":"image_picker",
+       "label":"Add Image",
+      "id":"background_image"
+      },
+      {
+        "type":"header",
+        "content":"First Block content"
+      },
+      {
+        "type":"richtext",
+        "label":"Add Text Heading",
+        "id":"first_blkH"
+      },
+      {
+        "type":"richtext",
+        "label":"Add Text Subheading",
+        "id":"first_subblkH"
+      },
+      {
+        "type":"text",
+        "label":"Button text",
+        "id":"first_blk_btnt"
+      },
+       {
+        "type":"url",
+        "label":"Button link",
+        "id":"first_blk_linkbntn"
+      },
+      {
+        "type":"richtext",
+        "label":"bottom text ",
+        "id":"bottom_textfirstblk"
+      },
+       {
+        "type":"header",
+        "content":"Second Block content"
+      },
+      {
+        "type":"richtext",
+        "label":"Heading",
+        "id":"sec_Blk_h"
+      },
+      {
+        "type":"richtext",
+        "label":"Heading",
+        "id":"sec_subnBlk_h"
+      },
+      {
+        "type":"text",
+        "label":"Frist link name",
+        "id":"secblk1linkn"
+      },
+      {
+        "type":"image_picker",
+        "label":"Add logo image",
+        "id":"lgofirst_imgo"
+      },
+
+       {
+        "type":"text",
+        "label":"sec link name",
+        "id":"secblk2linkn"
+      },
+      {
+        "type":"image_picker",
+        "label":"Add Second logo image",
+        "id":"lgosecond_imgo"
+      },
+      
+       {
+        "type":"url",
+        "label":"First link",
+        "id":"secblk1link"
+      },
+      {
+        "type":"url",
+        "label":"Second link",
+        "id":"secblk2link"
+      },
+       {
+        "type":"header",
+        "content":"Third Block content"
+      },
+      {
+        "type": "richtext",
+        "label":"Add Heading",
+        "id":"heading_3rd"
+      },
+       {
+        "type": "richtext",
+        "label":"Add Sub Heading",
+        "id":"subheading_3rd"
+      },
+      {
+        "type":"header",
+        "content":"Fourth Block content"
+      },
+      {
+        "type":"richtext",
+        "id":"main_heading_text",
+        "label":"Add heading"
+      },
+      {
+        "type":"richtext",
+        "id":"main_subheading_text",
+        "label":"Add Sub heading"
+      },
+      {
+        "type":"image_picker",
+        "id":"main_logofirst",
+        "label":"first logo icon"
+      },
+      {
+        "type":"text",
+        "id":"frist_fourthtext",
+        "label":"First Text"
+      },
+      {
+        "type": "url",
+        "id":"first_inner_ur",
+        "label":"First Url"
+      },
+      {
+        "type":"text",
+        "id":"sec_fourth_text",
+        "label":"Second Link text"
+      },
+      {
+        "type":"url",
+        "id":"sedur",
+        "label":"second Link"
+        
+      },
+      {
+        "type":"image_picker",
+        "id":"seconlinkimg",
+        "label":"Add Second Image"
+      }      
+    ]
+},
+    {
+      "type":"block_links",
+      "name":"Model_links",
+      "settings":[
+        {
+        "type":"text",
+        "label":"Add Text",
+        "id":"add_t"
+      },
+        {
+        "type":"text",
+        "label":"Add Sub heading",
+        "id":"add_tsub"
+      },
+        {
+          "type":"image_picker",
+          "label":"Add Logo",
+          "id":"logo"
+        },
+        {
+          "type":"url",
+          "label":"Add Link",
+          "id":"Link"
+        }
+      ]
+    }
+  ],
+  
+      "presets": [
+    {
+      "name": "Image Banner Pro "
+    }
+  ]
+}
+{% endschema %}
+
+                

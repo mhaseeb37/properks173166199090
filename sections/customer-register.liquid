@@ -1,0 +1,566 @@
+{%- liquid
+  assign options = section.settings
+  assign add_side_paddings = options.add_side_paddings
+  assign section_spacing_top = options.section_spacing_top
+  assign section_spacing_bottom = options.section_spacing_bottom
+  assign color_scheme = options.color_scheme
+  assign container_size = options.container_size
+-%}
+
+{% capture css %}
+  {% style %}
+    .section-{{section.id}} {
+        --gsc-section-spacing-top: {{ section_spacing_top }}px;
+        --gsc-section-spacing-bottom: {{ section_spacing_bottom }}px;
+    }
+  {% endstyle %}
+{% endcapture %}
+
+{% render 'inline-css-minifier', css: css %}
+<style>
+.main_properks_signin{
+  padding-top:{{section.settings.padding_top}}px;
+  padding-bottom:{{section.settings.padding_bottom}}px;
+}
+.main-properks_inner-container{
+    max-width: 90%;
+    margin: 0px auto;
+}
+.logo_main_signup {
+    max-width: 81px;
+     width:100%;
+}
+.main_inner-properks {
+    display: flex;
+}
+ .register_side {
+    flex: 1;
+    padding-right: 61px;
+    border-right: 1px solid black;
+   max-width:50%;
+   
+}
+  .login_side {
+    flex: 1;
+     max-width:50%;
+}
+.main_form_d {
+  padding-left:100px;
+}
+.sign_up_form_heading h2{
+  font-size:28px;
+  font-weight:600;
+}
+.sign_up_form_subheading * {
+    color: #7E7E7E;
+}
+  .main_form_inner {
+    margin-top: 23px;
+}
+
+  .main_field_form {
+    width: 100%;
+    margin: 6px 0px;
+    padding: 22px;
+    border-radius: 16px;
+    border: none;
+    background: #f9f9f9;
+    font-size:12px;
+}
+  .login_inner {
+    margin-top: 84px;
+    padding-left: 100px;
+}
+.sign_in_heading h2{
+  font-size:32px;
+  font-weight:500;
+  
+}
+.inner_signinForm {
+    margin-top: 45px;
+}
+  .login_inner {
+    margin-top: 84px;
+    padding-left: 65px;
+    padding-right: 83px;
+}
+  .help_links {
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+    color: #b1b1b1;
+    margin-top: 13px;
+    margin-left: 11px;
+}
+button.btn.btn--solid.sign_inbtn {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.sign_inbtn{
+  min-width:150px;
+}
+.sign_inbtn:hover{
+  border:1px solid black;
+  background:white!important;
+  color:black;
+  cursor:pointer;
+}
+  label.form_field_label {
+    color: #0000008c;
+}
+  .input_field_wrap {
+    position: relative;
+}
+  label.form_field_label {
+    color: #0000008c;
+    position: absolute;
+    top:23px;
+    left:25px;
+    transition:all 0.3s ease;
+}
+.main_field_form:focus + .form_field_label{
+ font-size: 10px;
+    top: 13px;
+    transform: unset;
+    left: 10px;
+
+}
+.sign_upbtn {
+  margin-top:20px;
+  min-width:150px;
+}
+.sign_upbtn:hover {
+  border:1px solid black;
+  background:white!important;
+  color:black;
+  cursor:pointer;
+}
+.flatpickr-calendar {
+  background:white!important;
+  overflow:hidden;
+  border-radius:16px;
+}
+  .flatpickr-months .flatpickr-prev-month, .flatpickr-months .flatpickr-next-month{
+    top:18px;
+  }
+  .flatpickr-months {
+    padding: 16px 0px;
+    background: #f9f9f9;
+    margin-bottom: 10px;
+}
+  .flatpickr-day.selected{
+  
+    background: #0061ff;
+    border:#0061ff;
+}
+  .flatpickr-day.today{
+     border:1px solid #0061ff;
+        background: #0061ff3b;
+  }
+  .main_field_form:not(:placeholder-shown) + .form_field_label {
+    font-size: 10px;
+    top: 13px;
+    transform: unset;
+    left: 10px;
+
+  }
+.main_field_form::placeholder{
+  opacity:0;
+}
+.main_field_form:focus-visible{
+  outline:none;
+  box-shadow:none;
+}
+.error_message {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+  display:none;
+}
+.input_field_wrap.error_field .error_message{
+  display:flex;
+}
+
+  .input_field_wrap.error_field  .main_field_form{
+        border: 2px solid red;
+    background: #ff000029;
+  }
+.membert {
+    text-align: center;
+    margin-bottom: 65px;
+  display:none;
+}
+  .sign_subHed {
+    margin-top: 10px;
+    color: #b1b1b1;
+    display:none
+}
+@media screen and (max-width: 1024px){
+  .main_inner-properks {
+    flex-wrap: wrap;
+}
+  .sign_subHed{
+    display:block;
+  }
+  .membert {
+   
+  display:block;
+}
+   .logo_main_signup {
+    max-width: 81px;
+    width: 100%;
+    margin: 0px auto;
+}
+  .login_inner {
+    margin-top: 84px;
+    padding-left: 0px; 
+     padding-right: 0px; 
+    text-align: center;
+}
+
+  .register_side {
+  padding-right:0px;
+    border-right: 0px solid black;
+    border-bottom: 1px solid black;
+   flex:unset;
+    width: 100%;
+    max-width:100%;
+}
+.main_form_d {
+    padding-left: 0px;
+} 
+  .register_inner {
+    text-align: center;
+}
+  .login_side {
+       flex:unset;
+    width: 100%;
+    max-width:100%;
+}
+.help_links {
+    justify-content:center;
+}
+.register_side {
+  
+    padding-bottom: 80px;
+}
+}
+</style>
+<register-component class='login section section-{{ section.id }} color-{{ color_scheme }}'>
+  <div class='container container--{{ container_size }} {% if add_side_paddings == true %}container--with-aside-paddings{% endif %} section-spacing'>
+    <div class='login__content'>
+      <h2 class='login__title h5' tabindex='-1'>
+        {{ 'customer.register.store_front.title' | t }}
+      </h2>
+    </div>
+    {%- form 'create_customer', novalidate: 'novalidate', class: 'login__form', data-register-form: '' -%}
+      {% comment %}
+      <div class='field login__field'>
+        <label class='label' for='RegisterForm-FirstName'>{{ 'customer.register.store_front.first_name' | t }}</label>
+        <input
+          class='input input--{{ settings.input_style }} input--large'
+          type='text'
+          id='RegisterForm-FirstName'
+          name='customer[first_name]'
+          {% if form.first_name %}
+            value='{{ form.first_name }}'
+          {% endif %}
+          autocomplete='given-name'
+          autofocus
+          placeholder='{{ 'customer.register.store_front.first_name' | t }}'
+          required
+        >
+      </div>
+      {% endcomment %}
+       <div class="input_field_wrap">
+          
+            <input type="text" id="first_name" placeholder="First Name"  {% if form.first_name %}
+            value='{{ form.first_name }}'
+          {% endif %} name='customer[first_name]' class="main_field_form">
+                <label class="form_field_label"     autocomplete='given-name'
+          autofocus required for="first_name">First Name<sup>*</sup></label>
+              <div class="error_message">
+                <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#ff1414;" d="M445.215,478.835H66.848c-23.67,0-45.079-12.118-57.25-32.418 c-12.182-20.3-12.802-44.883-1.663-65.781L198.889,65.387c12.182-20.17,33.548-32.222,57.142-32.222s44.959,12.052,57.152,32.245 l190.499,314.433c11.585,21.692,10.966,46.274-1.217,66.575C490.294,466.717,468.885,478.835,445.215,478.835z"></path> <path style="fill:#ff1414;" d="M445.215,478.835c23.67,0,45.079-12.118,57.25-32.418c12.182-20.3,12.802-44.883,1.217-66.575 L313.184,65.409c-12.193-20.193-33.559-32.245-57.152-32.245v445.67H445.215z"></path> <path style="fill:#ffffff;" d="M256.031,345.294c-9.215,0-16.693-7.477-16.693-16.693V161.675c0-9.215,7.477-16.693,16.693-16.693 s16.693,7.477,16.693,16.693v166.926C272.724,337.817,265.247,345.294,256.031,345.294z"></path> <path style="fill:#ffffff;" d="M256.031,412.061c-9.21,0-16.693-7.498-16.693-16.693s7.483-16.693,16.693-16.693 c9.21,0,16.693,7.498,16.693,16.693S265.241,412.061,256.031,412.061z"></path> </g></svg>
+                <div class="main_message" style="color:red">This field is required</div>
+              </div>
+            </div>
+{% comment %}
+      <div class='field login__field'>
+        <label class='label' for='RegisterForm-LastName'>{{ 'customer.register.store_front.last_name' | t }}</label>
+        <input
+          class='input input--{{ settings.input_style }} input--large'
+          type='text'
+          id='RegisterForm-LastName'
+          name='customer[last_name]'
+          {% if form.last_name %}
+            value='{{ form.last_name }}'
+          {% endif %}
+          autocomplete='family-name'
+          placeholder='{{ 'customer.register.store_front.last_name' | t }}'
+          required
+        >
+      </div>
+
+      <div class='field login__field'>
+        <label class='label' for='RegisterForm-email'>{{ 'customer.register.store_front.email' | t }}</label>
+        <input
+          class='input input--{{ settings.input_style }} input--large'
+          type='email'
+          id='RegisterForm-email'
+          name='customer[email]'
+          {% if form.email %}
+            value='{{ form.email }}'
+          {% endif %}
+          spellcheck='false'
+          autocapitalize='off'
+          autocomplete='email'
+          aria-required='true'
+          placeholder='{{ 'customer.register.store_front.email' | t }}'
+          required
+        >
+      </div>
+{% endcomment %}
+
+ <div class="input_field_wrap">
+            
+            <input type="email" id="email"  placeholder="UserName" {% if form.email %}
+            value='{{ form.email }}'
+          {% endif %}
+          spellcheck='false'
+          autocapitalize='off'
+          autocomplete='email'
+          aria-required='true'
+    
+          required name='customer[email]' class="main_field_form">
+                <label class="form_field_label" for="email"> User Name(Email Address)*</label>
+               <div class="error_message">
+                <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#ff1414;" d="M445.215,478.835H66.848c-23.67,0-45.079-12.118-57.25-32.418 c-12.182-20.3-12.802-44.883-1.663-65.781L198.889,65.387c12.182-20.17,33.548-32.222,57.142-32.222s44.959,12.052,57.152,32.245 l190.499,314.433c11.585,21.692,10.966,46.274-1.217,66.575C490.294,466.717,468.885,478.835,445.215,478.835z"></path> <path style="fill:#ff1414;" d="M445.215,478.835c23.67,0,45.079-12.118,57.25-32.418c12.182-20.3,12.802-44.883,1.217-66.575 L313.184,65.409c-12.193-20.193-33.559-32.245-57.152-32.245v445.67H445.215z"></path> <path style="fill:#ffffff;" d="M256.031,345.294c-9.215,0-16.693-7.477-16.693-16.693V161.675c0-9.215,7.477-16.693,16.693-16.693 s16.693,7.477,16.693,16.693v166.926C272.724,337.817,265.247,345.294,256.031,345.294z"></path> <path style="fill:#ffffff;" d="M256.031,412.061c-9.21,0-16.693-7.498-16.693-16.693s7.483-16.693,16.693-16.693 c9.21,0,16.693,7.498,16.693,16.693S265.241,412.061,256.031,412.061z"></path> </g></svg>
+                <div class="main_message" style="color:red">Please provide a valid email address</div>
+              </div>
+              </div>
+
+      
+      {%- if form.errors contains 'email' -%}
+        {% assign error = form.errors.translated_fields.email
+          | capitalize
+          | append: ' '
+          | append: form.errors.messages.email
+        %}
+        <script>
+          window.notification = { text: '{{ error }}', variant: 'warning' }
+          localStorage?.removeItem('isRegistered')
+        </script>
+      {%- endif -%}
+   <div class="input_field_wrap">
+              
+            <input type="tel"  id="phone" placeholder="Phone" name='customer[Number]'   class="main_field_form">
+               <label class="form_field_label" for="phone">Phone Number(000.000.000)</label>
+                <div class="error_message">
+                <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#ff1414;" d="M445.215,478.835H66.848c-23.67,0-45.079-12.118-57.25-32.418 c-12.182-20.3-12.802-44.883-1.663-65.781L198.889,65.387c12.182-20.17,33.548-32.222,57.142-32.222s44.959,12.052,57.152,32.245 l190.499,314.433c11.585,21.692,10.966,46.274-1.217,66.575C490.294,466.717,468.885,478.835,445.215,478.835z"></path> <path style="fill:#ff1414;" d="M445.215,478.835c23.67,0,45.079-12.118,57.25-32.418c12.182-20.3,12.802-44.883,1.217-66.575 L313.184,65.409c-12.193-20.193-33.559-32.245-57.152-32.245v445.67H445.215z"></path> <path style="fill:#ffffff;" d="M256.031,345.294c-9.215,0-16.693-7.477-16.693-16.693V161.675c0-9.215,7.477-16.693,16.693-16.693 s16.693,7.477,16.693,16.693v166.926C272.724,337.817,265.247,345.294,256.031,345.294z"></path> <path style="fill:#ffffff;" d="M256.031,412.061c-9.21,0-16.693-7.498-16.693-16.693s7.483-16.693,16.693-16.693 c9.21,0,16.693,7.498,16.693,16.693S265.241,412.061,256.031,412.061z"></path> </g></svg>
+                <div class="main_message" style="color:red">Please Enter a Valied phone No.</div>
+              </div>
+                </div>
+       <div class="input_field_wrap">
+             
+            <input type="text" id="date_picker" placeholder="BirthDay"  name='customer[Date_of_birth]'  class="main_field_form">
+                <label class="form_field_label" for="date_picker">Birthday (MM/DD/YYYY)<sup>*</sup></label>
+                <div class="error_message">
+                <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#ff1414;" d="M445.215,478.835H66.848c-23.67,0-45.079-12.118-57.25-32.418 c-12.182-20.3-12.802-44.883-1.663-65.781L198.889,65.387c12.182-20.17,33.548-32.222,57.142-32.222s44.959,12.052,57.152,32.245 l190.499,314.433c11.585,21.692,10.966,46.274-1.217,66.575C490.294,466.717,468.885,478.835,445.215,478.835z"></path> <path style="fill:#ff1414;" d="M445.215,478.835c23.67,0,45.079-12.118,57.25-32.418c12.182-20.3,12.802-44.883,1.217-66.575 L313.184,65.409c-12.193-20.193-33.559-32.245-57.152-32.245v445.67H445.215z"></path> <path style="fill:#ffffff;" d="M256.031,345.294c-9.215,0-16.693-7.477-16.693-16.693V161.675c0-9.215,7.477-16.693,16.693-16.693 s16.693,7.477,16.693,16.693v166.926C272.724,337.817,265.247,345.294,256.031,345.294z"></path> <path style="fill:#ffffff;" d="M256.031,412.061c-9.21,0-16.693-7.498-16.693-16.693s7.483-16.693,16.693-16.693 c9.21,0,16.693,7.498,16.693,16.693S265.241,412.061,256.031,412.061z"></path> </g></svg>
+                <div class="main_message" style="color:red">This field is required</div>
+              </div>
+                               </div>
+      {% comment %}
+      <div class='field login__field'>
+        <label class='label' for='RegisterForm-password'>{{ 'customer.register.store_front.password' | t }}</label>
+
+        <password-field class='password-input'>
+          <input
+            class='input input--{{ settings.input_style }} input--large password-input__input'
+            type='password'
+            id='RegisterForm-password'
+            name='customer[password]'
+            aria-required='true'
+            placeholder='{{ 'customer.register.store_front.password' | t }}'
+            data-password-field-input
+            required
+          >
+          <button type='button' class='password-input__btn unstyled-button' data-password-field-button>
+            {% render 'icon',
+              icon_name: 'password-input-opened-eye',
+              class: 'password-input__icon password-input__icon--eye'
+            %}
+            {% render 'icon',
+              icon_name: 'password-input-closed-eye',
+              class: 'password-input__icon password-input__icon--closed-eye'
+            %}
+          </button>
+        </password-field>
+      </div>
+
+      {% endcomment %}
+         <div class="input_field_wrap">
+
+           
+            <input type="password" id="password"  placeholder="Password" name="customer[password]" class="main_field_form">
+                    <label class="form_field_label" for="password">Password<sup>*</sup></label>
+                  <div class="error_message">
+                <svg height="13px" width="13px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#ff1414;" d="M445.215,478.835H66.848c-23.67,0-45.079-12.118-57.25-32.418 c-12.182-20.3-12.802-44.883-1.663-65.781L198.889,65.387c12.182-20.17,33.548-32.222,57.142-32.222s44.959,12.052,57.152,32.245 l190.499,314.433c11.585,21.692,10.966,46.274-1.217,66.575C490.294,466.717,468.885,478.835,445.215,478.835z"></path> <path style="fill:#ff1414;" d="M445.215,478.835c23.67,0,45.079-12.118,57.25-32.418c12.182-20.3,12.802-44.883,1.217-66.575 L313.184,65.409c-12.193-20.193-33.559-32.245-57.152-32.245v445.67H445.215z"></path> <path style="fill:#ffffff;" d="M256.031,345.294c-9.215,0-16.693-7.477-16.693-16.693V161.675c0-9.215,7.477-16.693,16.693-16.693 s16.693,7.477,16.693,16.693v166.926C272.724,337.817,265.247,345.294,256.031,345.294z"></path> <path style="fill:#ffffff;" d="M256.031,412.061c-9.21,0-16.693-7.498-16.693-16.693s7.483-16.693,16.693-16.693 c9.21,0,16.693,7.498,16.693,16.693S265.241,412.061,256.031,412.061z"></path> </g></svg>
+                <div class="main_message" style="color:red">Password can't be blank, Password must more than (6 characters)</div>
+              </div>
+               </div>
+      {%- if form.errors contains 'password' -%}
+        {%- assign error = form.errors.translated_fields.password
+          | capitalize
+          | append: ' '
+          | append: form.errors.messages.password
+        -%}
+        <script>
+          window.notification = { text: '{{ error }}', variant: 'warning' }
+          localStorage?.removeItem('isRegistered')
+        </script>
+      {%- endif -%}
+
+      <div class='login__btns'>
+        <button
+          class='btn btn--solid btn--lg login__btn'
+          aria-label='{{ 'customer.register.screen_reader.create_account_button_label' | t }}'
+        >
+          {{ 'customer.register.store_front.create_account_button_label' | t }}
+        </button>
+      </div>
+
+      <div class='login__footer'>
+        {{ 'customer.register.store_front.sign_in_link_html' | t: account_login_url: routes.account_login_url }}
+      </div>
+
+      {%- if form.errors contains 'form' -%}
+        {% assign error = form.errors.messages.form %}
+
+        <script>
+          window.notification = { text: '{{ error }}', variant: 'warning', duration: 15000 }
+          localStorage?.removeItem('isRegistered')
+        </script>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+</register-component>
+<script>
+ 
+  $("#date_picker").flatpickr({
+           
+        });
+    </script>
+{% render 'save-section-data-in-global-scope', section: section %}
+
+{% schema %}
+{
+  "name": "t:sections.register_form.name",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.general_section_settings.color_scheme_option_default_label"
+        },
+        {
+          "value": "primary",
+          "label": "t:sections.general_section_settings.color_scheme_option_primary_label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.general_section_settings.color_scheme_option_secondary_label"
+        },
+        {
+          "value": "custom-1",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_1_label"
+        },
+        {
+          "value": "custom-2",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_2_label"
+        },
+        {
+          "value": "custom-3",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_3_label"
+        },
+        {
+          "value": "white",
+          "label": "t:sections.general_section_settings.color_scheme_option_white_text_label"
+        },
+        {
+          "value": "black",
+          "label": "t:sections.general_section_settings.color_scheme_option_black_text_label"
+        },
+        {
+          "value": "custom-5",
+          "label": "t:sections.general_section_settings.color_scheme_option_custom_5_label"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.general_section_settings.color_scheme_label",
+      "info": "t:sections.general_section_settings.color_scheme_tip"
+    },
+    {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.general_section_settings.container_size.small_width_option"
+        },
+        {
+          "value": "xsmall",
+          "label": "t:sections.general_section_settings.container_size.extra_small_width_option"
+        }
+      ],
+      "default": "xsmall",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.general_section_settings.paddings.header_title"
+    },
+    {
+      "type": "checkbox",
+      "id": "add_side_paddings",
+      "default": true,
+      "label": "t:sections.general_section_settings.paddings.add_side_paddings.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.paddings.section_spacing_top.unit",
+      "label": "t:sections.general_section_settings.paddings.section_spacing_top.label"
+    },
+    {
+      "type": "range",
+      "id": "section_spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 96,
+      "unit": "t:sections.general_section_settings.paddings.section_spacing_bottom.unit",
+      "label": "t:sections.general_section_settings.paddings.section_spacing_bottom.label"
+    }
+  ]
+}
+{% endschema %}

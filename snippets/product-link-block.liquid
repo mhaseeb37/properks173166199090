@@ -1,0 +1,23 @@
+{%- if product != blank -%}
+  <style>
+  .chevronblue{
+    height:1.2rem;
+    width:1.2rem;
+    
+  }
+    .chevronblue path{
+      fill:#0F52FF;
+    }
+  </style>
+  <a
+    class='link '
+    href='{{ product.url }}'
+    aria-label='{{ 'product.screen_reader.view_full_details' | t }}'
+    {{ block.shopify_attributes }}
+  >
+    <span class="link-parent-for-hover">
+      <span class='link__text'>{{ 'product.store_front.view_full_details' | t }}</span>
+    </span>
+    {%- render 'icon', icon_name: 'chevron', class: 'link__chevron chevronblue' -%}
+  </a>
+{%- endif -%}

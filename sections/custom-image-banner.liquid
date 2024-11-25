@@ -1,0 +1,245 @@
+<section class="custom-image-banner section-{{ section.id }}">
+  <div class="custom-image-slider">
+          <div class="swiper-wrapper">
+  {% for block in section.blocks %}
+            <div class="swiper-slide">
+  <div class="img-container block-{{ block.id }}">
+    <style>
+      .block-{{ block.id }}.img-container:after{
+       opacity:{{ block.settings.overlay | divided_by:10.0}};
+      }
+    </style>
+    {% if block.settings.background-image %}
+    <img {% render 'image-attributes', image: block.settings.background-image, class: 'background-image' %}/>
+      {% endif %}
+    <div class="image-text">
+      {% if block.settings.icon %}
+      <img src="{{ block.settings.icon | image_url }}"/>
+        {% endif %}
+      <h4>{{ block.settings.text }}</h4>
+    </div>
+    <div class="bottom-link">
+      <a href="{{ block.settings.url }}">{{ block.settings.link-text }}       {% if block.settings.link-text != blank %}
+      {% render 'icon', icon_name: 'custom-arrow', class: 'custom-arrow-icon' %}
+      {% endif %}</a>
+    </div>
+  </div>
+            </div>
+    {% endfor %}
+          </div>
+  </div>
+</section>
+<style>
+  .custom-image-banner{
+    width:calc(100% - 40px);
+    padding: 15px 0px;
+    margin:0px 20px;
+  }
+  .img-container{
+    position:relative;
+    width:100%;
+    height: 350px;
+  }
+  .img-container .background-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10px;
+  } 
+  .image-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    align-items: center;
+    gap:4px;
+    justify-content:center;
+    z-index: 2;
+  }
+  .image-text img{
+    width:40px;
+    height:40px;
+    filter:brightness(0) invert(1);
+  }
+  .image-text h4{
+    color: {{section.settings.text-color}};
+  }
+  .bottom-link{
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-weight:500;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    z-index: 2;
+  }
+  .bottom-link a{
+    text-decoration:none;
+    font-size:20px;
+    color: {{section.settings.text-color}};
+    line-height:24px;
+    display:flex;
+    align-items:center;
+    gap:9px;
+  }
+  .img-container:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    opacity: 0;
+    border-radius: 10px;
+}
+  .bottom-link a svg{
+        transition: transform 0.3s ease;
+  }
+  .bottom-link a:hover svg {
+    animation: slide 3s infinite;
+}
+  @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(7px);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+    .bottom-link a svg path{ 
+    fill: {{section.settings.text-color}};
+    }
+  .bottom-link img{
+    width:15px;
+    height:15px;
+    transform:rotate(180deg);
+    filter:brightness(0) invert(1);
+    
+  }
+  @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+    @media(max-width:550px){
+    .image-text img{
+      width:30px;
+      height:30px;
+    }
+    .image-text h4{
+      font-size:18px;
+    }
+      .bottom-link{
+        padding-right: 30px;
+        padding-bottom: 20px;
+      }
+      .bottom-link a{
+       font-size: 15px;
+       line-height:19px;
+      }
+      .bottom-link a svg{
+        width:16px;
+      }
+  }
+</style>
+<script>
+  var swiper_{{ section.id | replace:"-","_"}} = new Swiper('.section-{{ section.id }} .custom-image-slider', {
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 1,
+        effect: 'fade',
+     autoplay: {
+    delay: 3000, 
+    disableOnInteraction: false, 
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+    },
+    1024: {
+      slidesPerView: 1,
+    },
+  },
+});
+  document.querySelector('.section-{{ section.id }} .custom-image-slider').addEventListener('mouseenter', function() {
+  swiper_{{ section.id | replace:"-","_"}}.autoplay.stop(); 
+});
+
+// Start autoplay on mouse leave
+document.querySelector('.section-{{ section.id }} .custom-image-slider').addEventListener('mouseleave', function() {
+  swiper_{{ section.id | replace:"-","_"}}.autoplay.start(); 
+});
+</script>
+{% schema %}
+  {
+    "name": "Custom Image Banner",
+    "settings": [
+            {
+        "type": "color",
+        "id": "text-color",
+        "label": "Text Color",
+        "default": "#000000"
+      }
+    ],
+    "blocks": [
+      {
+        "type":"image_slider",
+        "name":"Image Slider",
+        "settings":[
+      {
+        "type": "image_picker",
+        "id": "background-image",
+        "label": "Background Image",
+      },
+      {
+      "type": "range",
+      "id": "overlay",
+      "label": "Overlay opacity",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "default": 0,
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+      },
+      {
+        "type": "image_picker",
+        "id": "icon",
+        "label": "Icon"
+      },
+      {
+        "type": "text",
+        "id": "link-text",
+        "label": "Link Text",
+      },
+      {
+        "type": "url",
+        "id": "url",
+        "label": "URL"
+      }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Image Banner"
+      }
+    ]
+  }
+{% endschema %}

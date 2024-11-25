@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/skirack-rome-snowboard-lease-2017-18-933x367.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Junior Snowboard Lease",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Snowboard Junior Lease: 2023-24 Winter Season<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skirack has teamed up with Rome Snowboards to provide your young riders with the best possible learning experience. Your kids will be set up on all new gear from Rome, which is designed in conjunction with Terrain Based Learning™ to make the learning process easier and more fun.<\/p><p><strong>As an added bonus, we are offering a 15% off discount on all normally priced winter gear at Skirack for the Junior Lease participant during the season!<\/strong><\/p><p><strong>The Pricing:<\/strong><\/p><ul><li><strong>Junior Snowboard Lease Package<\/strong><\/li><li><strong>Tween Snowboard Lease Package<\/strong><\/li><\/ul><p><em>New boards, boots and bindings are available at an additional cost of $20 per item.<\/em><\/p><p><strong>What's Included:<\/strong><\/p><p>All of the gear plus...<\/p><ul><li>FREE Tuning All Season Long<\/li><li>15% off discount on all normally priced winter gear for the Junior Lease participant during the season<\/li><li>We Grow With You - If you son or daughter outgrows any part of the gear mid-season, you can trade in for the next size up at no additional cost (subject to availability)<\/li><\/ul><p><strong>A La Carte<\/strong><\/p><ul><li>Mini Shred Board & Binding (no boot) - $85<\/li><li>Mini Shred Boot or binding only - $45<\/li><li>Label\/United Board and Binding (no boot) - $145<\/li><li>United binding or Sentry boot only - $65<\/li><\/ul><p><strong>What's Included<\/strong><\/p><p>All of the gear plus...<\/p><ul><li>FREE Tuning All Season Long <em>(when a snowboard is leased)<\/em><\/li><li>15% off discount on all normally priced winter gear for the Junior Lease participant during the season<\/li><li>We Grow With You: If you son or daughter outgrows any part of the gear mid-season, you can trade in for the next size up at no additional cost. (subject to availability)<\/li><\/ul><p><em><strong>Junior <\/strong><\/em><a href=\"\/pages\/junior-alpine-ski-lease\" title=\"Junior Alpine Ski Lease\"><em><strong>Downhill Ski<\/strong><\/em><\/a><em><strong> and <\/strong><\/em><a href=\"\/pages\/junior-cross-country-ski-lease\" title=\"Junior Cross Country Ski Lease\"><em><strong>Nordic<\/strong><\/em><\/a><em><strong> Lease is also available.<\/strong><\/em><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 97
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

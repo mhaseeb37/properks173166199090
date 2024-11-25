@@ -1,0 +1,328 @@
+{% unless customer %}
+<section class="ticker-section">
+  <div class="ticker-container">
+    <div class="ticker-inner">
+      
+    
+      {% for block in section.blocks %}
+        <div class="ticker-slide">
+          <div class="ticker-announcement" style="flex-direction:{{ block.settings.link-text-alignment }};">
+            {% if block.settings.icon %}
+              <img src="{{ block.settings.icon | image_url }}"/>
+            {% endif %}
+            <div class="desktop_m">
+           
+            <a href="{{ block.settings.url }}">{{ block.settings.url-text }}</a>
+            <p>{{ block.settings.announcement }}</p>
+            </div>
+            <div class="mobile_m">
+              {{ block.settings.announcement_mob }}
+            </div>
+          </div>
+        </div>
+        {% if forloop.index > 0 and forloop.index < forloop.length  %}
+          <div class="vertical-border" id="vertical-border"></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    <button class="ticker-prev" aria-label="Previous">&lt;</button>
+    <button class="ticker-next" aria-label="Next">&gt;</button>
+  </div>
+</section>
+{% endunless %}
+<style>
+  .ticker-section {
+    width: 100%;
+    display: flex;
+    padding:0 20px;
+    justify-content: center;
+    align-items: center;
+  }
+.mobile_m {
+  display:none;
+}
+  .desktop_m {
+    display: flex;
+    gap: 2px;
+}
+  .ticker-container {
+    background-color: {{section.settings.background-color}};
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    border:1px solid {{section.settings.border-color}};
+  }
+
+  .ticker-inner {
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+  }
+  .ticker-slide:first-child{
+    justify-content: end;
+  }
+  .ticker-slide:nth-child(3) {
+    justify-content: start;
+  }
+  .ticker-slide {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .ticker-announcement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+    gap:2px;
+    text-align: center;
+
+  }
+  .ticker-announcement img{
+    width:30px;
+    height:30px;
+    margin:0 5px
+  }
+
+  .ticker-announcement p {
+    font-size: 16px;
+    color: {{section.settings.text-color}};
+  }
+
+  .ticker-announcement a {
+    font-size: 16px;
+    color: {{section.settings.text-color}};
+  }
+
+  .ticker-prev,
+  .ticker-next {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    color: {{section.settings.button-color}};
+    background:transparent;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .ticker-prev {
+    left: 10px;
+  }
+
+  .ticker-next {
+    right: 10px;
+  }
+
+  .vertical-border {
+    display: block;
+    height: 15px;
+    margin: auto;
+    border: 0.5px solid {{section.settings.border-color}};
+  }
+
+  @media (max-width: 550px) {
+    .ticker-container {
+      padding:8px 0;
+      margin-top:15px;
+    }
+    .ticker-announcement{
+      gap:5px;
+      padding:2px 0px;
+    }
+    
+    .mobile_m {
+  display:block;
+}
+    .ticker-prev{
+      display:none!important;
+    }
+    .ticker-announcement p *{
+      font-size:13px;
+    }
+     .ticker-announcement p{
+      
+font-size:13px;    }
+    .ticker-next{
+      display:none!important;
+    }
+  .desktop_m {
+    display: none;
+    gap: 2px;
+}
+    .ticker-prev,
+    .ticker-next {
+      display: block;
+    }
+
+    .ticker-inner {
+      width: auto; 
+    }
+
+    .ticker-slide {
+      flex: 0 0 100%;
+      padding:0px 17px;
+    }
+
+    .vertical-border {
+      display: none;
+    }
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const tickerInner = document.querySelector('.ticker-inner');
+    const prevButton = document.querySelector('.ticker-prev');
+    const nextButton = document.querySelector('.ticker-next');
+    const slides = document.querySelectorAll('.ticker-slide');
+    const border = document.getElementById("vertical-border")
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+
+    if(totalSlides < 2){
+      border.style.display = "none";
+    }
+
+  
+
+    function updateCarousel() {
+      tickerInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function showNext() {
+      if (currentIndex < totalSlides - 1) {
+        currentIndex++;
+      } else {
+        currentIndex = 0;
+      }
+      updateCarousel();
+    }
+
+    function showPrev() {
+      if (currentIndex > 0) {
+        currentIndex--;
+      } else {
+        currentIndex = totalSlides - 1;
+      }
+      updateCarousel();
+    }
+
+    
+    function checkCarousel() {
+      if (window.innerWidth <= 550 && totalSlides > 1) {
+        prevButton.style.display = 'block';
+        nextButton.style.display = 'block';
+      } else {
+        prevButton.style.display = 'none';
+        nextButton.style.display = 'none';
+        tickerInner.style.transform = 'translateX(0)';
+      }
+    }
+
+    prevButton.addEventListener('click', showPrev);
+    nextButton.addEventListener('click', showNext);
+
+    window.addEventListener('resize', checkCarousel);
+
+    checkCarousel();
+  });
+</script>
+{% schema %}
+  {
+    "name": "Reward Ticker",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background-color",
+        "label": "Background Color",
+        "default": "#000000",
+      },
+      {
+            "type": "color",
+            "id": "text-color",
+            "label": "Text Color",
+            "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "border-color",
+        "label": "Border Color",
+        "default": "#383838",
+      },
+      {
+        "type": "color",
+        "id": "button-color",
+        "label": "Button Color",
+        "default": "#383838",
+      },
+    ],
+    "blocks": [
+      {
+        "type": "block",
+        "name": "block",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon"
+          },
+          {
+            "type": "richtext",
+            "id": "announcement",
+            "label": "Announcement",
+          },
+          {
+            "type": "richtext",
+            "id": "announcement_mob",
+            "label": "Announcement Mobile",
+          },
+          {
+            "type": "text",
+            "id": "url-text",
+            "label": "URL Text",
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL Link"
+          },
+          {
+            "type": "select",
+            "id": "link-text-alignment",
+            "label": "Link Text Alignment",
+            "options": [
+              {
+                "value": "row",
+                "label": "Left"
+              },
+              {
+                "value": "row-reverse",
+                "label": "Right"
+              },
+            ],
+            "default": "row-reverse"
+          }
+          
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Reward ticker",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

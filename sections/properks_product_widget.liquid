@@ -1,0 +1,244 @@
+<style>
+  .main_properks_widget {
+    padding-top:{{section.settings.padding_top}}px;
+    padding-bottom:{{section.settings.padding_bottom}}px;
+
+  }
+  .main_properks_widget{
+    max-width: 98%;
+
+      margin: 0px auto;
+      border-radius: 12px;
+    color:white;
+  }
+    .main_properks_inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 25px;
+      gap: 22px;
+      flex-wrap:wrap;
+         background: black;
+       border-radius: 12px;
+  }
+  .properks_image {
+    max-width:25px;
+  }
+    .properks_image img{
+    max-width:100%;
+  }
+  .poperks_d_text *{
+      font-size: 14px;
+      font-weight: 500;
+  }
+   button.btn.btn--lg.btn_dark_properks.btn--solid {
+      border: 1px solid white;
+      padding: 0px 41px;
+      min-height: 48px;
+     min-width:160px;
+
+  }
+
+
+  .properks_btns_main{
+    display:flex;
+    gap:13px;
+  }
+
+    button.btn.btn_ligth_properks.btn--lg.btn--solid {
+      background: #FFFFFF;
+      color: black;
+       padding: 0px 41px;
+      min-height: 48px;
+      min-width:160px;
+      border:1px solid white;
+  }
+   .main_properks_widget button.btn.btn_ligth_properks:hover{
+    background:black;
+    color:white;
+    border:1px solid white;
+  }
+   button.btn.btn_dark_properks:hover{
+    background:white;
+    color:black;
+  }
+    .mheading{
+      display:none;
+    }
+  .msubHeading{
+    display:none;
+  }
+  @media screen and (max-width: 800px){
+    .properks_image{
+      display:none;
+    }
+    .properks_btns_main {
+      display: flex;
+      gap: 13px;
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+  }
+     button.btn.btn--lg.btn_dark_properks.btn--solid {
+      border: 1px solid white;
+      padding: 0px 35px;
+      min-height: 48px;
+     min-width:140px;
+
+  }
+     button.btn.btn_ligth_properks.btn--lg.btn--solid {
+      background: #FFFFFF;
+      color: black;
+       padding: 0px 35px;
+      min-height: 48px;
+      min-width:140px;
+      border:1px solid white;
+  }
+  .poperks_d_text {
+      text-align: center;
+  }
+  .dheading{
+    display:none;
+  }
+  .dsubHeading{
+    display:none;
+  }
+  .mheading{
+      display:block;
+    }
+  .msubHeading{
+    display:block;
+  }
+    .main_properks_widget {
+      max-width: 95%;
+
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding-bottom:20px;
+  }
+  }
+</style>
+<div class="main_properks_widget">
+  <div class="main_properks_inner">
+    <div class="properks_image">
+      <img src="{{ section.settings.lcImage | image_url}}">
+    </div>
+    <div class="propkers_text_main">
+      <div class="poperks_d_text">
+        <div class="dheading">
+          {{ section.settings.dtH }}
+        </div>
+        <div class="dsubHeading">
+          {{ section.settings.dtsh }}
+        </div>
+      </div>
+      <div class="properks_m_text">
+        <div class="mheading">
+          {{ section.settings.mtH }}
+        </div>
+        <div class="msubHeading">
+          {{ section.settings.mtsh }}
+        </div>
+      </div>
+    </div>
+    <div class="properks_btns_main">
+      {% if section.settings.first_btn_t != blank %}
+        <a href="{{ section.settings.second_btn_link }}" class="ancLink">
+          <button class="btn btn--lg btn_dark_properks btn--solid">{{ section.settings.first_btn_t }}</button>
+        </a>
+      {% endif %}
+      {% if section.settings.second_btn_t != blank %}
+        <a href="{{ section.settings.second_btn_link }}" class="ancLink">
+          <button class="btn btn_ligth_properks btn--lg btn--solid">{{ section.settings.second_btn_t }}</button>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "properks_Product_widget",
+  "settings": [
+    {
+
+
+    "type": "range",
+    "min":0,
+    "max":100,
+    "step":1,
+    "label":"Padding Bottom",
+    "id":"padding_bottom",
+    "default":0,
+    "unit":"px"
+
+  },
+  {
+
+
+    "type": "range",
+    "min":0,
+    "max":100,
+    "step":1,
+    "label":"Padding Top",
+    "id":"padding_top",
+    "default":0,
+    "unit":"px"
+
+  },
+    {
+      "type":"image_picker",
+      "label":"Add Image",
+      "id":"lcImage"
+    },
+    {
+      "type":"richtext",
+      "label":"Desktop Text Heading",
+      "id":"dtH"
+    },
+    {
+      "type":"richtext",
+      "label":"Desktop Text Sub Heading",
+      "id":"dtsh"
+    },
+    {
+      "type":"richtext",
+      "label":"Mobile Text Heading",
+      "id":"mtH"
+    },
+    {
+      "type":"richtext",
+      "label":"Mobile Text Sub Heading",
+      "id":"mtsh"
+    },
+    {
+      "label":"First Button text",
+      "type":"text",
+      "id":"first_btn_t"
+    },
+    {
+      "label":"Second Button text",
+      "type":"text",
+      "id":"second_btn_t"
+    },
+    {
+      "label":"First Button url",
+      "type":"url",
+      "id":"first_btn_link"
+    },
+    {
+      "label":"Second Button url",
+      "type":"url",
+      "id":"second_btn_link"
+    },
+
+
+  ],
+
+"presets": [
+  {
+    "category":"properks_membership",
+    "name":"Properks product widget"
+  }
+]
+}
+{% endschema %}

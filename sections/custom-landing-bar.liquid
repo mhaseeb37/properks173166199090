@@ -1,0 +1,98 @@
+<style>
+ 
+  .main_properk_barcontainer {
+    padding: 0px 23px;
+    border-radius: 16px;
+    padding-top:{{section.settings.topspacing}}px;
+    padding-bottom:{{section.settings.btnspacing}}px;
+}
+.svg_logo svg{
+  height:17px;
+  width:17px;
+}
+  .svg_logo{
+    left:0px;
+    position:relative;
+    transition: all 0.4s ease-in-out;
+  }
+  .inner-properk_container:hover .svg_logo{
+   
+    position:relative;
+    left:5px;
+  }
+  .content_bar {
+    font-size: 14px;
+}
+  .inner-properk_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #dbff00;
+    padding: 13px 20px;
+    border-radius: 16px;
+   
+    TEXT-ALIGN: CENTER;
+}
+</style>
+<div class="main_properk_barcontainer">
+  <a href="{{ section.settings.properks_link }}">
+  <div class="inner-properk_container">
+    <div class="image_bar">
+    <img src="{{ section.settings.properks_logo | image_url}}">
+    </div>
+    <div class="content_bar">
+      {{ section.settings.properks_text }}
+    </div>
+    <div class="svg_logo">
+      {% render 'icon', icon_name: 'chevron', class: 'devrighticon' %}
+    </div>
+  </div>
+  </a>
+</div>
+{% schema %}
+  {
+    "name": "landing_properk_bar",
+    "settings": [
+    {
+      "type":"range",
+      "label":"Bottom spacing",
+      "id":"btnspacing",
+      "min":0,
+      "max":500,
+      "step": 5,
+      "default":0,
+      "unit":"px"
+    },
+      {
+      "type":"range",
+      "label":"Top spacing",
+      "id":"topspacing",
+      "min":0,
+      "max":500,
+      "step": 5,
+      "default":0,
+      "unit":"px"
+    },
+    {
+      "type":"image_picker",
+      "label":"Add logo",
+      "id":"properks_logo"
+    },
+    {
+      "type":"richtext",
+      "label": "Add text",
+      "id": "properks_text"
+    },
+      {
+      "type":"url",
+      "label": "Add link",
+      "id": "properks_link"
+    }
+    ],
+    "presets": [{
+      "name":"Landing properk bar"
+    }]
+
+  }
+{% endschema %}

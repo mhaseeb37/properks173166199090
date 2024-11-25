@@ -1,0 +1,20 @@
+{
+  "sections": {
+    "customer-login": {
+      "type": "customer-login",
+      "custom_css": [
+        ".input--solid {border-color: #ddd;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "customer-login"
+  ]
+}

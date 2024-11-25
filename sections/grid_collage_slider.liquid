@@ -1,0 +1,199 @@
+<style>
+.inner_blk_main{
+  /* display:flex; */
+  /* overflow:auto; */
+}
+.blk_main img{
+
+  width:100%;
+ 
+}
+.main_collage_slider_inner .swiper-wrapper {
+    transition-timing-function: linear !important;
+  cursor:pointer
+}
+  
+</style>
+
+
+ 
+     
+   
+<div class="main_collage_slider_inner">
+  <div class="inner_main_collage_slider">
+    <div class="inner_blk_main swiper">
+      <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+     
+        <div class="blk_main swiper-slide">
+       
+         <div class="blk_collage_inner_m main_bl-{{ block.id }}">
+           {% if block.settings.first_image != blank %}
+           <div class="blk_first_image firstimg_{{ block.id }}" style=" padding-left:{{block.settings.left_padding}}px; padding-right:{{block.settings.right_padding}}px; padding-top:{{block.settings.top_padding}}px; padding-bottom:{{block.settings.bottom_padding}}px;">
+             <img src="{{ block.settings.first_image | image_url }}">
+           </div>
+             {% endif %}
+           {% if block.settings.second_image != blank %}
+           <div class="blk_second_image_m secimg_{{ block.id }}" style=" padding-left:{{block.settings.left_padding_sec}}px;padding-right:{{block.settings.right_padding_sec}}px; padding-top:{{block.settings.top_padding_sec}}px; padding-bottom:{{block.settings.bottom_padding_sec}}px;">
+            <img src="{{ block.settings.second_image | image_url }}">
+           </div>
+           {% endif %}
+         </div>
+        
+        
+          
+         
+       
+       
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const swiperMain = new Swiper('.inner_blk_main', {
+        speed: 4000,
+        loop: true,
+        slidesPerView: 1,
+         slidesPerGroup: 1,
+        centeredSlides: false,
+        spaceBetween: 10,
+        freeMode: true,
+        autoplay: {
+            delay: 1, 
+           
+        },
+        breakpoints: {
+            520: {
+                slidesPerView: 1.2
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 4
+            }
+        },
+    });
+});
+</script>
+
+{% schema %}
+  {
+    "name": "collage_slider",
+    "settings": [
+      {
+        "type":"range",
+        "label":"Top Spacing",
+        "default":30,
+        "min":0,
+        "max":100,
+        "id":"padding_top",
+        "unit": "Px",
+        "step": 1
+      },
+      {
+        "type":"range",
+        "label":"Bottom Spacing",
+        "default":30,
+        "min":0,
+        "max":100,
+        "id":"padding_Bottom",
+        "unit": "Px",
+        "step": 1
+      }
+    ],
+    "blocks":[{
+      "type":"Image_slide",
+      "name":"Add Slide",
+      "settings":[
+        {
+          "type": "header",
+          "content":"First Image settings"
+        },
+        {
+          "type":"number",
+          "label": "left padding",
+          "id":"left_padding"
+        },
+        {
+          "type":"number",
+          "label": "Right padding",
+          "id":"right_padding"
+        },
+        {
+          "type":"number",
+          "label": "Top padding",
+          "id":"top_padding"
+        },
+        {
+          "type":"number",
+          "label": "Bottom padding",
+          "id":"bottom_padding"
+        },
+        {
+          "type":"image_picker",
+          "label":"First Image",
+          "id":"first_image"
+        },
+        {
+          "type": "number",
+          "label":"Width",
+          "id":"width"
+        },
+        {
+          "type": "number",
+          "label":"Height",
+          "id":"height"
+        },
+        {
+          "type": "header",
+          "content":"Second Image settings"
+        },
+        {
+          "type":"image_picker",
+          "label":"Second Image",
+          "id":"second_image"
+        },
+         {
+          "type": "number",
+          "label":"Width",
+          "id":"width_sec"
+        },
+        {
+          "type": "number",
+          "label":"Height",
+          "id":"height_sec"
+        },
+           {
+          "type":"number",
+          "label": "left padding",
+          "id":"left_padding_sec"
+        },
+        {
+          "type":"number",
+          "label": "Right padding",
+          "id":"right_padding_sec"
+        },
+        {
+          "type":"number",
+          "label": "Top padding",
+          "id":"top_padding_sec"
+        },
+        {
+          "type":"number",
+          "label": "Bottom padding",
+          "id":"bottom_padding_sec"
+        },
+      ]
+    }],
+    "presets": [
+      {
+        "name":"Collage Slider",
+        "category":"Properks"
+      }
+    ]
+  }
+{% endschema %}

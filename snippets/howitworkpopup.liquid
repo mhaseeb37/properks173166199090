@@ -1,0 +1,103 @@
+<div class="inner_main_popup how_itwork">
+  <div class="main_inner_work">
+    <div class="inner_imgm">
+    <img src="{{ main_s.settings.img_mhow | image_url}}">
+    </div>
+  
+     <div class="main_innercontent">
+       <div class="conten_h_how">
+         {{ main_s.settings.main_hhow }}
+       </div>
+       <div class="bottom_lgo-img">
+         <img src="{{ main_s.settings.main_info_arrow | image_url }}">
+       </div>
+       <div class="content_m">
+         {{ main_s.settings.btm_tcontet }}
+       </div>
+       <div class="btn_main_joinef">
+         <a href="{{ main_s.settings.main_url_inner }}">
+           <button class="join_fbtn">
+            {{ main_s.settings.btn_main_id }}
+           </button>
+         </a>
+       </div>
+     </div>
+    </div>
+   <div class="btn_colose_how" style="cursor:pointer">
+        <svg width="30" height="30" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="17.1332" cy="17.114" r="15.5394" stroke="black" stroke-width="3"/>
+<path d="M11.1035 23.144L23.1636 11.0839" stroke="black" stroke-width="3" stroke-linecap="square"/>
+<path d="M11.1035 11.0839L23.1636 23.144" stroke="black" stroke-width="3" stroke-linecap="square"/>
+</svg>
+      </div>
+</div>
+<style>
+  .popup_block_inner-m.how-it-workpopup {
+    max-width: 400px;
+    position:relative;
+}
+.inner_imgm img{
+  width:100%;
+}
+.popup_block_inner-m.how-it-workpopup {
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.main_innercontent *{
+  text-align:center;
+  margin-top:10px;
+}
+  .conten_h_how *{
+    font-family:"JetBrains Mono", monospace;
+    font-size:20px;
+  }
+  .main_innercontent{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 13px;
+    padding: 0px 22px;
+    line-height:1.7;
+}
+  .main_innercontent {
+    height: 461px;
+    overflow: auto;
+}
+.inner_main_popup {
+  
+}
+.bottom_lgo-img img{
+  height:19px;
+  width:19px;
+  padding:0px;
+}
+.btn_colose_how{
+  position:absolute;
+  left:23px;
+  top:23px;
+  cursor:pointers
+}
+button.join_fbtn {
+    padding: 14px 48px;
+    border-radius: 16px;
+    background: black;
+    color: white;
+    border-color: black;
+}
+  button.join_fbtn:hover{
+   
+    color: black;
+    border-color: black;
+    background:white;
+}
+  @media screen and (max-width: 768px){
+    .btn_colose_how{
+  position:absolute;
+  right:23px;
+  top:23px;
+      left:unset;
+  cursor:pointers
+}
+  }
+</style>

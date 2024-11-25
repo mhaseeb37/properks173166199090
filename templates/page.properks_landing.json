@@ -1,0 +1,479 @@
+{
+  "sections": {
+    "top_nav_landing_W8UUcn": {
+      "type": "top_nav-landing",
+      "blocks": {
+        "links_tJK4Qq": {
+          "type": "links",
+          "settings": {
+            "text_main": "Orders",
+            "Url": "https:\/\/skirackbtv.myshopify.com\/account#\/orders"
+          }
+        },
+        "links_wHhzzk": {
+          "type": "links",
+          "settings": {
+            "text_main": "My Profile",
+            "Url": "https:\/\/skirackbtv.myshopify.com\/account#\/profile"
+          }
+        },
+        "links_CWeWdp": {
+          "type": "links",
+          "settings": {
+            "text_main": "Sign Out",
+            "Url": "\/account\/logout"
+          }
+        },
+        "links_8zkMXV": {
+          "type": "links",
+          "settings": {
+            "text_main": "Change Password",
+            "Url": "https:\/\/skirackbtv.myshopify.com\/account#\/change_password"
+          }
+        }
+      },
+      "block_order": [
+        "links_tJK4Qq",
+        "links_wHhzzk",
+        "links_CWeWdp",
+        "links_8zkMXV"
+      ],
+      "settings": {}
+    },
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "IMAGE BANNER",
+        "title": "Image with text",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    },
+    "properk_landing_banner_mT6J9E": {
+      "type": "properk_landing_banner",
+      "blocks": {
+        "model_popup_join_RLJBAz": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Group_215.png",
+            "popup_t": "patagonia_black",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_228.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>Free<\/strong><\/p><p><strong><br\/>Patagonia Black <br\/>Hole 40l Duffle<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>Add $259+ pre tax to your cart, and the Patagonia Black Hole Duffle will automatically show up. And yes, of course we made it so you can choose your favorite color<\/p><p>Fine Print:<\/p><p>This promotion is for a Patagonia Black Hole 40l Duffle Bag. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_BcQx66": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65.png",
+            "popup_t": "skida_neckies",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_229.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>Free<\/strong><\/p><p><strong><br\/>Patagonia Black <br\/>Hole 40l Duffle<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>Add $259+ pre tax to your cart, and the Patagonia Black Hole Duffle will automatically show up. And yes, of course we made it so you can choose your favorite color :)<\/p><p>Fine Print:<\/p><p>This promotion is for a Patagonia Black Hole 40l Duffle Bag. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_HJQrqQ": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_4257090e-4edb-427c-a613-7144252f7434.png",
+            "popup_t": "dran_tough",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>Free<\/strong><\/p><p><strong>Patagonia Black <br\/>Hole 40l Duffle<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>Add $259+ pre tax to your cart, and the Patagonia Black Hole Duffle will automatically show up. And yes, of course we made it so you can choose your favorite color :)<\/p><p>Fine Print:<\/p><p>This promotion is for a Patagonia Black Hole 40l Duffle Bag. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_gQrtPg": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_421f8b3f-4ac8-48e2-b1a6-c45aea06ef1b.png",
+            "popup_t": "beatM",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_a6833032-f20b-4fe3-9da9-de45ca6ca588.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCKED<\/strong><\/p><p><strong>Price Match Beat <\/strong><br\/>Guarantee<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p> It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few terms, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next"
+          }
+        },
+        "model_popup_join_RWnac7": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "expdiate",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_a6833032-f20b-4fe3-9da9-de45ca6ca588.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p>Free Expedited Shipping <br\/>in Contiguous USA<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "<p>Next Perk<\/p>",
+            "btnt": ""
+          }
+        },
+        "model_popup_join_kDpUq4": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "return",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_bd37a469-0ddc-4749-8d41-39d110c5249a.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCKED<\/strong><\/p><p>Free Returns <br\/>for 90 Days<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_KNNBJr": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "birthday",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_a6833032-f20b-4fe3-9da9-de45ca6ca588.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCKED<\/strong><\/p><p>The Legendary <br\/><a href=\"#\" title=\"#\">ProPricing <\/a>Category<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_tUGPWU": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "sal",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_bd37a469-0ddc-4749-8d41-39d110c5249a.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>Unlocked<\/strong><br\/><\/p><p>Take an Extra 5%<br\/>off on sale items<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": ""
+          }
+        }
+      },
+      "block_order": [
+        "model_popup_join_RLJBAz",
+        "model_popup_join_BcQx66",
+        "model_popup_join_HJQrqQ",
+        "model_popup_join_gQrtPg",
+        "model_popup_join_RWnac7",
+        "model_popup_join_kDpUq4",
+        "model_popup_join_KNNBJr",
+        "model_popup_join_tUGPWU"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "achievement_image": true,
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "caption": "",
+        "title": "Hello [Name], your ProPerks status is currently active for [this year]!",
+        "heading_size": "h4",
+        "text": "<p>Progress Towards Maintaining Status for 2025<\/p>",
+        "small_text": "",
+        "bottom_body_t": "<p>The best outdoor rewards program on earth – by runners, skiers, bikers, hikers, and adventurers just like you. No silly points or tiers – one simple (free) membership to rule them all.<\/p>",
+        "mbl_bottom_body_t": "<p>Meet the best outdoor rewards program – by runners, skiers, bikers, hikers, and adventurers just like you. No silly points or tiers – one simple (free) membership to rule them all.<\/p>",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "logo": "shopify:\/\/shop_images\/Frame_54_0c783cf7-1679-4b3f-a3d1-86ba9bc29012.svg",
+        "content_max_width": 528,
+        "content_spacing": 4,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "Shop Activities",
+        "btn_url": "https:\/\/skirackbtv.myshopify.com\/collections\/cycle",
+        "btn_style": "solid",
+        "extra_btn_text": "Shop Men",
+        "extra_btn_url": "https:\/\/skirackbtv.myshopify.com\/pages\/category-men",
+        "extra_btn_style": "solid",
+        "extrafirst_btn_text": "Shop Women",
+        "extrafirst_btn_url": "https:\/\/skirackbtv.myshopify.com\/pages\/category-women",
+        "extrafirst_btn_style": "solid",
+        "extrasec_btn_text": "Shop Kids",
+        "extrasec_btn_url": "https:\/\/skirackbtv.myshopify.com\/pages\/category-kids",
+        "extrasec_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "imgbottom_text": "<p>Complete three orders at Skirack.com in a single calendar year to maintain your ProPerks status. Yep, its actually that simple.<\/p>",
+        "main_hhow": "",
+        "btm_tcontet": "",
+        "main_url_inner": "",
+        "btn_main_id": ""
+      }
+    },
+    "pro_pricing_widget_GRTApd": {
+      "type": "pro-pricing-widget",
+      "settings": {
+        "top_spacing": 10,
+        "bottom_spacing": 10,
+        "icon_main": "shopify:\/\/shop_images\/Screenshot_2024-10-11_at_3.27.55_PM-removebg-preview.png",
+        "text_c": "<p>The Legendary<br\/><a href=\"#\" title=\"#\">ProPricing<\/a> Category<\/p>",
+        "first_link_t": "EXPLORE LIFETIME PERK",
+        "firstlink": "#",
+        "second_link_t": "SHOP PROPRICING",
+        "secondslink": "#"
+      }
+    },
+    "new_perks_landing_4aXWd9": {
+      "type": "newPerks_landing",
+      "blocks": {
+        "block_ynPiGn": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free <\/strong>Patagonia Black Hole Bags <\/h5>",
+            "trigger_t": "patagonia_black",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_G3wCjY": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free<\/strong><br\/>Skida Neckies<\/h5>",
+            "trigger_t": "skida_neckies",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_ebB3Ew": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free<\/strong><br\/>Darn Tough Socks<\/h5>",
+            "trigger_t": "dran_tough",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_UmiRpM": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free<\/strong><br\/>Birthday Gift<\/h5>",
+            "trigger_t": "birthday",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_itk7xx": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Price Match Beat<\/strong><br\/>Guarentee<\/h5>",
+            "trigger_t": "beatM",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_M8H3c6": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock<\/strong> Free Returns for up to 90 Days<\/h5>",
+            "trigger_t": "return",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_ehDqJx": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock <\/strong>Free Expedited Shipping in USA<\/h5>",
+            "trigger_t": "expdiate",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        },
+        "block_we7xbL": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock<\/strong> Extra 5% Off On Sale Items<\/h5>",
+            "trigger_t": "sal",
+            "paragraph": "",
+            "link-text": "EXPLORE PERK",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_ynPiGn",
+        "block_G3wCjY",
+        "block_ebB3Ew",
+        "block_UmiRpM",
+        "block_itk7xx",
+        "block_M8H3c6",
+        "block_ehDqJx",
+        "block_we7xbL"
+      ],
+      "settings": {
+        "container_size": "large",
+        "title": "Your Available Perks",
+        "subtitle": "<p>Your perks are automatically applied at checkout.<\/p>",
+        "badge": ""
+      }
+    },
+    "refer_properk_t7zErN": {
+      "type": "refer-properk",
+      "settings": {
+        "top_spacing": 10,
+        "bottom_spacing": 10,
+        "text_m": "<p>📣  <strong>Get $15, Refer A Friend<\/strong><\/p>",
+        "btn_t": "Refer a Friend",
+        "btn_l": "#"
+      }
+    },
+    "refer_properk_Nrkp73": {
+      "type": "refer-properk",
+      "settings": {
+        "top_spacing": 10,
+        "bottom_spacing": 60,
+        "text_m": "<p>💝  <strong>Do Something Nice for Someone You Love <\/strong><\/p>",
+        "btn_t": "Refer a Friend",
+        "btn_l": "#"
+      }
+    }
+  },
+  "order": [
+    "top_nav_landing_W8UUcn",
+    "image_banner_BDqyY7",
+    "page",
+    "instagram_bjiVgU",
+    "properk_landing_banner_mT6J9E",
+    "pro_pricing_widget_GRTApd",
+    "new_perks_landing_4aXWd9",
+    "refer_properk_t7zErN",
+    "refer_properk_Nrkp73"
+  ]
+}

@@ -1,0 +1,994 @@
+{
+  "sections": {
+    "custom_landing_bar_X3Gi4H": {
+      "type": "custom-landing-bar",
+      "settings": {
+        "btnspacing": 20,
+        "topspacing": 0,
+        "properks_logo": "shopify:\/\/shop_images\/Vector_181.png",
+        "properks_text": "<p>You are signed in to ProPerks. Check Your Status<\/p>",
+        "properks_link": "shopify:\/\/pages\/properk-landing"
+      }
+    },
+    "35abde66-b33a-4178-b3ef-5bba319784ba": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_img": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_4.14.00_PM_1_1.png",
+            "mobile_img": "shopify:\/\/shop_images\/Rectangle_2940_1.png",
+            "desktop_overlay_opacity": 5,
+            "mobile_overlay_opacity": 20,
+            "caption": "PRO TIP",
+            "title": "Some folks spend Sunday washing the car__",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 904,
+            "content_spacing": 84,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Hunt it down",
+            "btn_url": "shopify:\/\/collections\/run",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "image_banner_bmWyfF": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_img": "shopify:\/\/shop_images\/home-gravel-bikes-1250x520-02262024.jpg",
+            "desktop_overlay_opacity": 5,
+            "mobile_overlay_opacity": 20,
+            "caption": "SUMMER",
+            "title": "Bike Essentials",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 560,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Shop Now",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "image_banner_7ECnwM": {
+          "type": "image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_img": "shopify:\/\/shop_images\/sr-placeholder-img.webp",
+            "desktop_overlay_opacity": 65,
+            "mobile_overlay_opacity": 20,
+            "caption": "IMAGE SLIDE",
+            "title": "Image with text",
+            "heading_size": "h2",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 560,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1": {
+          "type": "split-image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "default",
+            "image_proportion": 50,
+            "content_wrapper_width": 30,
+            "desktop_left_img": "shopify:\/\/shop_images\/sr-placeholder-img.webp",
+            "caption": "SPLIT IMAGE SLIDE",
+            "title": "Two images with text in between",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body3",
+            "content_max_width": 368,
+            "desktop_content_align": "center",
+            "mobile_content_align": "center",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2": {
+          "type": "image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_img": "shopify:\/\/shop_images\/sr-placeholder-img.webp",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "IMAGE SLIDE",
+            "title": "Image with text",
+            "heading_size": "h2",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "body_size": "body3",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 560,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "solid",
+            "mobile_content_background": "none",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "Button label",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
+        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b": {
+          "type": "split-image-banner",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "default",
+            "image_proportion": 30,
+            "content_wrapper_width": 30,
+            "caption": "SPLIT IMAGE SLIDE",
+            "title": "Two images with text in between",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body3",
+            "content_max_width": 368,
+            "desktop_content_align": "center",
+            "mobile_content_align": "center",
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "outline",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-0",
+        "image_banner_bmWyfF",
+        "image_banner_7ECnwM",
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-1",
+        "template--16729789989105__35abde66-b33a-4178-b3ef-5bba319784ba-1681818289a64f7335-2",
+        "26ebac8c-4c8a-4e8c-bf1f-615a97d2f78b"
+      ],
+      "custom_css": [
+        ".image-banner__media {border-radius: 0;}",
+        ".image-banner__title.h2 {font-family: \"JetBrainsMono-M\"; font-style: normal; font-weight: 500; font-size: 50px; line-height: 63px; margin-top: 0px;}",
+        ".image-banner__content > *:first-child {margin-bottom: 0px;}",
+        "@media (max-width: 768px) {.image-banner__title.h2 {font-size: 30px; line-height: 38px; margin-bottom: 50px; } .image-banner__content > *:first-child {margin-bottom: 10px; } .slideshow--with-dots .image-banner__content-wrap {padding-bottom: 11rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "primary",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.5,
+        "mobile_ratio": 1.8,
+        "enable_circle_navigation": true,
+        "show_navigation_arrows": "never",
+        "arrows_style": "aside-buttons",
+        "transition_style": "fade",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 2,
+        "show_button_for_autoplay": true,
+        "accessibility_alt_text": "Slideshow about our brand",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "enable_scroll_txt": true
+      }
+    },
+    "logo_list_rdbQMg": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kfKbWj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arcteryx-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_EhUKiL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/born-daehlie-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_T48WjH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/madshus-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_iDmyET": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_beLpxd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skida-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_rJdwti": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/arcteryx-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_WxHtcX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/born-daehlie-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_prbpUj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nordica-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_fzLLxb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hoka-one-one-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_kfKbWj",
+        "logo_EhUKiL",
+        "logo_T48WjH",
+        "logo_iDmyET",
+        "logo_beLpxd",
+        "logo_rJdwti",
+        "logo_WxHtcX",
+        "logo_prbpUj",
+        "logo_fzLLxb"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "never",
+        "autoplay_mode": "seamless",
+        "autoplay_interval": 6,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "bf9cb432-647e-4d8a-95e9-e0e83242d93a": {
+      "type": "collage",
+      "blocks": {
+        "image_LmCCrf": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_4.17.51_PM_2.png",
+            "mb_image": "shopify:\/\/shop_images\/Rectangle_2945_1.png",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "top_icon": "shopify:\/\/shop_images\/Frame_56.png",
+            "tag-text-color": "#000000",
+            "tag-bg-color": "#000000",
+            "top_tag": "sasasasa",
+            "show-tag": false,
+            "caption-icon": "shopify:\/\/shop_images\/Group_102_1.png",
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "properks",
+            "title": "GET REWARDS. FREE Patagonia,<br> Skida, Darn Tough + more.",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "Join Free",
+            "link": "shopify:\/\/pages\/properks-sign-in",
+            "btn_style": "solid",
+            "link_text-2": "Learn More",
+            "link-2": "shopify:\/\/pages\/get-pro-pricing",
+            "content_position": "bottom-left",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_9amEgp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 1,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-09-06_at_7.40.52_PM.png",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "#dbff00",
+            "top_tag": "2025",
+            "show-tag": true,
+            "caption-icon": "shopify:\/\/shop_images\/voelkl_h_k_rgb-small_1.png",
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "",
+            "title": "INTRODUCING PEREGRINE_",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "Shop Now",
+            "link": "",
+            "btn_style": "outline",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "bottom-left",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        }
+      },
+      "block_order": [
+        "image_LmCCrf",
+        "image_9amEgp"
+      ],
+      "custom_css": [
+        "@media (min-width: 769px) {.container--with-aside-paddings .container__header {display: none; } .collage-grid-one-fourth .caption-icon {display: block; }}",
+        "@media (max-width: 768px) {.collage {background: #f6f6f6; } .collage__card-grid {grid-auto-rows: 280px 190px; } .collage__image-block .overlay.overlay--black {display: block !important; } .collage__item:last-child .image-block__btn {display: none; } .collage__item:last-child .top-tag {border: 1px solid black; padding: 7px 21px; border-radius: 16px; z-index: 2; position: relative; }}"
+      ],
+      "settings": {
+        "block-class": "first-collage-section",
+        "color_scheme": "default",
+        "container_size": "medium",
+        "title": "Recommended_",
+        "link-text-title": "View All",
+        "link-text-url": "",
+        "heading_size": "h5",
+        "alignment": "left",
+        "custom-card-pos": 0,
+        "image-text": "",
+        "img-link-text": "",
+        "custom-card-heading": "",
+        "custom-card-subheading": "",
+        "link-text": "",
+        "custom_card_url": "",
+        "columns": 3,
+        "desktop_space_between_cards": 15,
+        "mobile_layout": "one-column",
+        "mobile_row_height": 370,
+        "mobile_space_between_cards": 10,
+        "add_side_paddings": true,
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 67
+      }
+    },
+    "custom_slider_qWDkRx": {
+      "type": "custom-slider",
+      "blocks": {
+        "block_yCKmNT": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_2948.png",
+            "title": "Supah cool goggs",
+            "paragraph": "Product description goes here but you must prepare to unleash your inner beach goddess with our sustainable styles that feel as good",
+            "link-text": "Bag ‘em",
+            "url": ""
+          }
+        },
+        "block_4dQWt8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8f13f865fe64fbe9b97ff19b1e54fa03_1.png",
+            "title": "Shift Pro 130 Boots",
+            "paragraph": "Product description goes here but you must prepare",
+            "link-text": "Bag ‘em",
+            "url": ""
+          }
+        },
+        "block_8zfb9T": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-09-06_at_9.10.44_PM_1_1.png",
+            "title": "POC Ventral Air MIPS",
+            "paragraph": "Product description goes here but you must prepare to unleash your inner beach goddess with our sustainable",
+            "link-text": "Bag ‘em",
+            "url": ""
+          }
+        },
+        "block_F3eD9X": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/600x600_1.png",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_3tRBmL": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_4.17.51_PM_1_a9f13227-a7e0-4e04-800b-993e702436b6.png",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_QKXPW8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wakayama-lifestyle-w-logo_1.png",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_3qpA8V": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame59.jpg",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_JUny8P": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2024-09-06_at_9.10.44_PM_1.png",
+            "title": "POC Ventral Air MIPS",
+            "paragraph": "Product description goes here but you must prepare to unleash your inner beach goddess with our sustainable",
+            "link-text": "Bag ‘em",
+            "url": ""
+          }
+        },
+        "block_QyEz8m": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_ztiaYq": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nordic-department-2-933x367_1.jpg",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "block_RLPkYU": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/join-our-team-skirack-933x367-11132023.jpg",
+            "title": "Title",
+            "paragraph": "Lorem ipsum dolor sit amet",
+            "link-text": "Button Label",
+            "url": ""
+          }
+        },
+        "collection_NmJ84Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "snowboard",
+            "block_image": "shopify:\/\/shop_images\/Category_card_7.png"
+          }
+        },
+        "collection_4KXHEM": {
+          "type": "collection",
+          "settings": {
+            "collection": "alpine-ski",
+            "block_image": "shopify:\/\/shop_images\/Category_card_Hover_1.png"
+          }
+        },
+        "collection_RYc4c9": {
+          "type": "collection",
+          "settings": {
+            "collection": "nordic-ski",
+            "block_image": "shopify:\/\/shop_images\/Category_card_9.png"
+          }
+        },
+        "collection_DYHgHr": {
+          "type": "collection",
+          "settings": {
+            "collection": "cycle",
+            "block_image": "shopify:\/\/shop_images\/Category_card_8.png"
+          }
+        },
+        "collection_MUBygD": {
+          "type": "collection",
+          "settings": {
+            "collection": "mtb",
+            "block_image": "shopify:\/\/shop_images\/Category_card_4.png"
+          }
+        },
+        "collection_XJFigQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "run",
+            "block_image": "shopify:\/\/shop_images\/Category_card_10.png"
+          }
+        },
+        "collection_WaQ78f": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids",
+            "block_image": "shopify:\/\/shop_images\/Category_card_14.png"
+          }
+        },
+        "collection_dffgYD": {
+          "type": "collection",
+          "settings": {
+            "collection": "gear",
+            "block_image": "shopify:\/\/shop_images\/Category_card_15.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_yCKmNT",
+        "block_4dQWt8",
+        "block_8zfb9T",
+        "block_F3eD9X",
+        "block_3tRBmL",
+        "block_QKXPW8",
+        "block_3qpA8V",
+        "block_JUny8P",
+        "block_QyEz8m",
+        "block_ztiaYq",
+        "block_RLPkYU",
+        "collection_NmJ84Y",
+        "collection_4KXHEM",
+        "collection_RYc4c9",
+        "collection_DYHgHr",
+        "collection_MUBygD",
+        "collection_XJFigQ",
+        "collection_WaQ78f",
+        "collection_dffgYD"
+      ],
+      "settings": {
+        "container_size": "large",
+        "col_heading": "Shop by Category_",
+        "tag": "NEW FOR 2025",
+        "heading": "<p>Staff Picks_<\/p>",
+        "custom-heading": "<p>Picky dad? Mom’s got everything? We know how that goes... <\/p>",
+        "custom-button-1": "Shop Gift Cards",
+        "custom-button-1-url": "",
+        "custom-button-2": "Check the Guide",
+        "custom-button-2-url": "",
+        "info_hide": false
+      }
+    },
+    "collage_Dty7qX": {
+      "type": "collage",
+      "blocks": {
+        "image_VBPhaW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "primary",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Group_1171274756_2.png",
+            "mb_image": "shopify:\/\/shop_images\/Frame_224_1.png",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "rgba(0,0,0,0)",
+            "top_tag": "NEW FOR 2025",
+            "show-tag": true,
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "PRO PRICING",
+            "title": "FIND LEGENDARY DEALS_",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "Browse Deals",
+            "link": "",
+            "btn_style": "solid",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "bottom-left",
+            "mobile_position": "center-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_zrdtjf": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "primary",
+            "desktop_columns": 1,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Frame_175_1.png",
+            "mb_image": "shopify:\/\/shop_images\/Frame_230_df841320-63d2-41bc-825c-641c27b5e763.png",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 0,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "rgba(0,0,0,0)",
+            "top_tag": "FREE PRO TIPS",
+            "show-tag": false,
+            "secondary-icon": "shopify:\/\/shop_images\/Layer_1.png",
+            "secondary-hover-icon": "shopify:\/\/shop_images\/Layer_1_1.png",
+            "secondary-icon-m": "shopify:\/\/shop_images\/Layer_1_41e834e5-8fca-4361-b944-d40053b24482.png",
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "",
+            "title": "Suprise someone you love &#10084;",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "Shop The Guide",
+            "link": "",
+            "btn_style": "outline",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "center-center",
+            "mobile_position": "center-center",
+            "hover_effect": "zoom"
+          }
+        }
+      },
+      "block_order": [
+        "image_VBPhaW",
+        "image_zrdtjf"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.container--with-aside-paddings {padding-left: 0px; padding-right: 0px; } .collage__card-grid-item:nth-child(2) {padding-left: 20px; padding-right: 20px; } .collage__card-grid-item:first-of-type .collage__image-block {border-radius: 0px; } .collage__card-grid-item:first-of-type {padding-bottom: 30px; } .collage__card-grid-item:nth-child(2) * {color: #fff; } .collage__card-grid-item:nth-child(2) .btn {border-color: #fff; }}"
+      ],
+      "settings": {
+        "block-class": "second-collage-section",
+        "color_scheme": "default",
+        "container_size": "medium",
+        "title": "",
+        "link-text-title": "",
+        "link-text-url": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "custom-card-pos": 0,
+        "image-text": "",
+        "img-link-text": "",
+        "custom-card-heading": "",
+        "custom-card-subheading": "",
+        "link-text": "",
+        "custom_card_url": "",
+        "columns": 3,
+        "desktop_space_between_cards": 25,
+        "mobile_layout": "one-column",
+        "mobile_row_height": 400,
+        "mobile_space_between_cards": 11,
+        "add_side_paddings": true,
+        "section_spacing_top": 57,
+        "section_spacing_bottom": 25
+      }
+    },
+    "collage_YadXaX": {
+      "type": "collage",
+      "blocks": {
+        "image_gT9KmN": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Group_1171274757.png",
+            "mb_image": "shopify:\/\/shop_images\/Frame_234_1.png",
+            "video": "shopify:\/\/files\/videos\/sr-placeholder-vid.mp4.mp4",
+            "model_video": true,
+            "popup_image": "shopify:\/\/shop_images\/Screen_Shot_2024-09-07_at_7.05.24_PM_1.png",
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "#000000",
+            "top_tag": "",
+            "show-tag": false,
+            "content_mobile": "CELEBRATING 50 YEARS_",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "",
+            "title": "Travel 50 Years in 180 seconds  🥂⛷",
+            "heading_size": "h6",
+            "text": "<p>In 1969, twin brothers Zandy and John Wheeler, along with a group of UVM ski bums opened up a small town ski shop and called it \"Skirack\"... 50 years later a lot has changed. Do you remember leather boots and straight skis? What about the day-glow days? Bryant breaks it all down right here;<\/p>",
+            "body_size": "body3",
+            "link_text": "Our Story",
+            "link": "",
+            "btn_style": "solid",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "bottom-left",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_w3pKxg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/Frame_185_1.png",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#ffffff",
+            "tag-bg-color": "#000000",
+            "top_tag": "SINCE 69'",
+            "show-tag": true,
+            "content_mobile": "",
+            "mobile_tag": "NEW FOR 2025",
+            "subHmobile": "PRO PRICING",
+            "caption": "WHO WE ARE",
+            "title": "MEET THE <br>GEORGE-WHEELERS_",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "Browse Deals",
+            "link": "",
+            "btn_style": "solid",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "bottom-left",
+            "mobile_position": "top-center",
+            "hover_effect": "zoom"
+          }
+        }
+      },
+      "block_order": [
+        "image_gT9KmN",
+        "image_w3pKxg"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.collage__card-grid-item:nth-child(2) .image-block__content {padding-top: 40px; }}"
+      ],
+      "settings": {
+        "block-class": "third-collage-section",
+        "color_scheme": "default",
+        "container_size": "medium",
+        "title": "",
+        "link-text-title": "",
+        "link-text-url": "",
+        "heading_size": "h5",
+        "alignment": "left",
+        "custom-card-pos": 0,
+        "image-text": "",
+        "img-link-text": "",
+        "custom-card-heading": "",
+        "custom-card-subheading": "",
+        "link-text": "",
+        "custom_card_url": "",
+        "columns": 3,
+        "desktop_space_between_cards": 25,
+        "mobile_layout": "one-column",
+        "mobile_row_height": 400,
+        "mobile_space_between_cards": 10,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 50
+      }
+    },
+    "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5": {
+      "type": "multiple-collections",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.product-card__actions {display: none; } .custom-position-relative {padding-right: 140px; } .product-card__title {text-align: left; } .product-card__price, .product-card__price-cost {justify-content: left; } .collection.multiple_coll {padding-bottom: 60px; }}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "desktop_layout": "carousel-overflow",
+        "mobile_layout": "carousel",
+        "title": "New Arrivals_",
+        "heading_size": "h5",
+        "alignment": "left",
+        "collection_list": [
+          "jackets",
+          "bottoms",
+          "baselayers",
+          "junior",
+          "gear"
+        ],
+        "img_ratio": "fit-portrait",
+        "product_card_align": "center",
+        "cards_to_show": 16,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 32,
+        "show_navigation_on_hover": false,
+        "collection_card_position": "none",
+        "collection_card_content_position": "on-image-top",
+        "collection_card_content_align": "left",
+        "collection_card_heading_size": "h6",
+        "collection_card_show_product_count": "caption",
+        "collection_card_overlay_opacity": 15,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 40,
+        "section_spacing_bottom": 53
+      }
+    },
+    "scrolling_text_3yepQ8": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_Y3Lr8a": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "FREE SHIPPING OVER 90",
+            "font_family": "heading",
+            "font_style": "solid",
+            "font_size": 86,
+            "letter_spacing": 0,
+            "spacing_between_messages": 40,
+            "top_and_bottom_spacing": 20,
+            "link": "",
+            "icon": "star-solid",
+            "icon_size": 40,
+            "scrolling_direction": "right_to_left",
+            "scrolling_speed": 10,
+            "background_color": "#ffffff",
+            "background_color_gradient": "",
+            "text_color": "#000000",
+            "text_color_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_Y3Lr8a"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.scrolling-text__text {font-size: 64px; color: #0f52ff; } .scrolling-text-section .container {padding-bottom: 0px; } .scrolling-text * {fill: #0f52ff; }}"
+      ],
+      "settings": {
+        "class": "desktop_main",
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_layout": "parallel",
+        "inclination_degree": 0,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 48
+      }
+    },
+    "custom_newsletter_ENV8P4": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "title_zfmjzi": {
+          "type": "title",
+          "settings": {
+            "title": "First time? Claim your $15 gift card!",
+            "heading_size": "h4"
+          }
+        },
+        "text_fp8R4N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New customers get $15 of their first order of $150 or more. <br\/>Valid for new customers only at skirack.com.<\/p>",
+            "body_size": "body4"
+          }
+        },
+        "subscribe_qgzX33": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_zfmjzi",
+        "text_fp8R4N",
+        "subscribe_qgzX33"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.newsletter {display: none; }}"
+      ],
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 16,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "solid",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 27
+      }
+    }
+  },
+  "order": [
+    "custom_landing_bar_X3Gi4H",
+    "35abde66-b33a-4178-b3ef-5bba319784ba",
+    "logo_list_rdbQMg",
+    "bf9cb432-647e-4d8a-95e9-e0e83242d93a",
+    "custom_slider_qWDkRx",
+    "collage_Dty7qX",
+    "collage_YadXaX",
+    "bdfcb69a-fe4c-45c6-bccc-aaec4c360dc5",
+    "scrolling_text_3yepQ8",
+    "custom_newsletter_ENV8P4"
+  ]
+}

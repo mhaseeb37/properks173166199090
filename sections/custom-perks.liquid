@@ -1,0 +1,289 @@
+{% liquid
+ assign options = section.settings
+ assign container_size = options.container_size
+ %}
+<style>
+  .container--large.container--with-aside-paddings{
+    
+  }
+
+.devTitlewithBtn h2 {
+  color: #383838;
+  font-size: 32px;
+  font-weight: 600;
+}
+  .join_now_btn a{
+    margin:0px auto;
+   }
+  .join_now_btn {
+     margin-top: 55px;
+    text-align:center;
+    display:none;
+  }
+  .devBtnText{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  }
+  .devTitle h5 strong{
+    font-weight: 800;
+  }
+  .devTitle h5{
+     font-size: 22px;
+     font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
+    .devTotalPerks {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top:55px;  
+}
+.devSinglePerk {
+    width: calc(25% - 15px);
+    background: #F6F6F6;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.devExploreperks{
+  padding-top:50px;
+  padding-bottom:100px;
+}
+  .devSinglePerk:hover  .devurlBtn svg{
+       margin-left: 5px;
+    transition: all 0.3s ease;
+}
+  .devTitlewithBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  .devBtnText {
+    padding: 7px 14px;
+    background: #DBFF00;
+    border-radius: 10px;
+    font-size: 12px;
+    width: fit-content;
+}
+  .perks_landing .devurlBtn a{
+      font-size:12px;
+      
+    }
+     .proper_main_e .devurlBtn a svg{
+       height:20px;
+       width:20px;
+     }
+  .devSinglePerk a{
+    text-decoration:none;
+  }
+.proper_main_e .devTitle *{
+  margin-bottom:12px;
+  font-size:19px;
+}
+.devTitle h5 a{
+  color:#016FD0;
+  text-decoration:underline;
+}
+.devTitle h5 em strong{
+  
+    font-style: normal;
+    text-decoration: line-through;
+
+}
+  @media screen and (max-width: 767px){
+    .devTitlewithBtn h2{
+          font-size: 22px;
+        }
+      .join_now_btn {
+        display:block;
+      }
+  
+      .devTitle h5{
+     font-size: 12px!important;
+  }
+    .devTitle h5 *{
+     font-size: 12px!important;
+  }
+  .devSinglePerk {
+    width: calc(50% - 4px);
+     gap: 40px;
+   }
+   .devTotalPerks {
+    gap: 8px;
+}
+    .devDetailsText{
+      display:none;
+    }
+.devTitlewithBtn {
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: flex-start;
+}
+    .devTitlewithBtn h2{
+      width:100%;
+    }
+  .devSinglePerk{
+    justify-content:space-between;
+  }
+  }
+
+</style>
+<div class="devExploreperks proper_main_e container container--{{ container_size }} section-spacing container--with-aside-paddings ">
+   <div class="devTitlewithBtn">
+     {% if section.settings.title != blank %}
+       <h2>{{ section.settings.title }}</h2>
+     {% endif %}
+    
+     {% if section.settings.badge != blank %} 
+        <div class="devBtnText">
+          <p>{{ section.settings.badge }}</p>
+        </div>
+     {% endif %}
+   </div>
+   <div class="devTotalPerks">
+     {% for block in section.blocks %}
+        <div class="devSinglePerk" data-pup="{{ block.settings.trigger_t }}">
+       
+      
+          <div class="devTitle">
+            {% if block.settings.title != blank %}
+             {{ block.settings.title }}
+            {% endif %}
+          </div>
+           {% if block.settings.url != blank %}
+         <a href="{{ block.settings.url }}">
+       {% endif %}
+          <div class="devurlBtn">
+            {% if block.settings.url != blank %}
+              <a href="{{ block.settings.url }}">
+                {% if block.settings.link-text != blank %} {{ block.settings.link-text }} {% endif %} {% render 'icon', icon_name: 'chevron', class: 'devrighticon' %}
+              </a>
+            {% endif %}
+          </div>
+          {% if block.settings.paragraph != blank %}
+              <div class="devDetailsText">
+                <p>{{ block.settings.paragraph }}</p>
+              </div>
+          {% endif %}
+      {% if block.settings.url != blank %}
+         </a>
+      {% endif %}
+        </div>
+     {% endfor %}
+   </div>
+  <div class="join_now_btn">
+    <a href="">
+    <button class="btn_joinNow btn btn--solid image-banner__btn" data-popup="popup_sec">Join Now</button>
+    </a>
+  </div>
+</div>
+<script>
+  var alltrigger = document.querySelectorAll(".devSinglePerk");
+var popup_over=document.querySelector(".popup_overlay");
+  var main_inner=document.querySelector(".popup_block_inner-m.join_freepopup");
+  var How_itwork=document.querySelector(".popup_block_inner-m.how-it-workpopup");
+  alltrigger.forEach(function(ele){
+    ele.addEventListener("click", function(){
+      var attribute = ele.getAttribute("data-pup");
+      var Allpopup=document.querySelectorAll(".inner_proper_main");
+      Allpopup.forEach(function(ele){
+        getThePopup.style.remove("active");
+      })
+      // Correct the query selector to properly interpolate the value of 'attribute'
+      var getThePopup = document.querySelector(".inner_proper_main[data-popup='" + attribute + "']");
+
+      // Ensure the popup exists and do something with it, e.g., show it
+      if (getThePopup) {
+        getThePopup.style.add("active");
+        popup_over.style.display="flex";
+        main_inner.style.display="block";
+        How_itwork.style.display="none";
+      }
+    });
+  });
+</script>
+{% schema %}
+  {
+    "name": "Explore Pro Perks",
+    "settings": [
+        {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        }
+      ],
+      "default": "page-width",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Section Title"
+      },
+      {
+        "type": "richtext",
+        "id": "badge",
+        "label": "Badge"
+      },
+    ],
+     "blocks": [
+      {
+        "type": "block",
+        "name": "Perk Block",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "title",
+            "label": "Title",
+            "default":"<h5>Free Patagonia Black Hole Bags </h5>"
+          },
+          {
+            "type":"text",
+            "label":"Add popup text",
+            "id":"trigger_t"
+          },
+          {
+            "type": "textarea",
+            "id": "paragraph",
+            "label": "Text",
+            "default":"Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet."
+          },
+          {
+            "type": "text",
+            "id": "link-text",
+            "label": "Link Text",
+            "default":"Button Label"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Text Link"
+          }
+        ]
+      }
+    ],
+      "presets": [
+      {
+        "name": "Explore Pro Perks",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

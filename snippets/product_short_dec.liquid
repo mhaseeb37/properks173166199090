@@ -1,0 +1,175 @@
+<style>
+.desktop_short_dec *{
+  color:#3b3933d1;
+  
+}
+  .mobile_short_dec *{
+  color:#3b3933d1;
+  
+}
+.learn-more{
+  text-decoration:none;
+}
+  .desktop_short_dec{
+    position:relative;
+    max-width:400px;
+  }
+  .learn-more {
+    position:abolute;
+    
+  }
+.short_main_inner {
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.learn-more {
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    right: 0px;
+    cursor:pointer;
+}
+.mobile_short_dec {
+  display:none;
+}
+.mobile_short_dec {
+  position:relative;
+}
+.mobile_short_inner{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+  
+  .mobile_short_inner.expanded{
+      display: block;
+  
+  -webkit-line-clamp: unset;
+  overflow: auto;
+  }
+ .mobile_short_inner.expanded  + .mobile_l{
+   position:unset;
+   text-decoration:underline;
+   
+ }
+.mobile_l{
+      position: absolute;
+    right: 0px;
+    background: white;
+    bottom: 0px;
+}
+  .under_line{
+    text-decoration:underline;
+  }
+@media screen and (max-width: 768px){
+  .desktop_short_dec{
+    display:none;
+  }
+  .mobile_short_dec{
+    display:block;
+  }
+  .mobile_short_dec{
+    max-width:400px
+  }
+   .main_short_prd_dec {
+    margin-top: 20px;
+} 
+}
+@media ( max-width: 426px ){
+  .desktop_short_dec{
+    max-width:330px;
+  }
+   .mobile_short_dec{
+    max-width:330px;
+  }
+  
+}
+</style>
+<div class="main_short_prd_dec">
+  {% if block.settings.shortDescription != blank %}
+  <div class="desktop_short_dec">
+  <div class="short_main_inner">
+  <span>{{ block.settings.shortDescription}} </span>
+     <a class="learn-more" data_url="{{ block.settings.m_link }}">
+      ... Learn More
+  </a>
+</div>
+ 
+  
+</div>
+    {% endif %}
+  <div class="mobile_short_dec">
+    <div class="main_mob_in">
+      {% if block.settings.shortDescription != blank %}
+   <span class="mobile_short_inner">{{ block.settings.shortDescription}}</span><span class="mobile_l">... <span class="under_line">More</span></span>
+        {% endif %}
+    </div>
+  
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const textElement = document.querySelectorAll(".short_main_inner *");
+    const moreContainer = document.querySelector(".learn-more");
+ 
+  const textElements = document.querySelectorAll(".short_main_inner p");
+
+  function countWords(text) {
+    return text.trim().split(/\s+/).length;
+  }
+
+  // Initialize a variable to hold the total word count
+  let totalWords = 0;
+
+  // Loop over each <p> element and accumulate the word count
+  textElements.forEach(function(paragraph) {
+    totalWords += countWords(paragraph.textContent);
+  });
+
+  // Check the total word count and show/hide the moreContainer accordingly
+  if (totalWords > 215) {
+    moreContainer.style.display = "block"; // Show if word count > 215
+  } else {
+    moreContainer.style.display = "none"; // Hide if word count <= 215
+  }
+    if(moreContainer){
+    moreContainer.addEventListener("click", function(){
+       var descMain=moreContainer.getAttribute("data_url");
+      descMain = descMain.replace("#", "");
+      console.log(descMain);
+    var Maindec=document.getElementById(descMain);
+      
+      
+      Maindec.scrollIntoView({ behavior: 'smooth' });
+      Maindec.setAttribute("data-aria-expanded", true);
+      var decWrap=Maindec.querySelector(".accordeon-plus__content-wrap");
+      decWrap.style.maxHeight="fit-content";
+    })
+  }
+   
+});
+  document.addEventListener("DOMContentLoaded", function() {
+    const textElementM = document.querySelector(".mobile_short_inner");
+    const moreContainerM = document.querySelector(".mobile_l");
+  
+   // textElementM.insertAdjacentHTML('afterend', btn_html);
+   
+    
+    moreContainerM.addEventListener("click", function(){
+     
+       textElementM.classList.toggle('expanded');
+      if (textElementM.classList.contains("expanded")){
+          moreContainerM.textContent="Show Less";
+      }
+      else{
+        moreContainerM.textContent="...Learn More";
+      }
+        
+    })
+   
+});
+</script>

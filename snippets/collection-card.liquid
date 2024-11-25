@@ -1,0 +1,202 @@
+{%- liquid
+  assign all_products_count = collection.all_products_count | default: 0
+
+  if img == blank
+    assign img = collection.products[0].featured_image
+  endif
+
+  if title == blank
+    assign title = 'cards.collection_card.store_front.default_title' | t
+  endif
+
+  assign on_image_variant_list = 'on-image-top,on-image-center,on-image-bottom,on-image-bottom-vertical' | split: ','
+  assign on_image_mode_enabled = false
+
+  if on_image_variant_list contains text_style
+    assign on_image_mode_enabled = true
+  endif
+
+  assign enable_background = false
+
+  if text_style == 'under-image-with-background'
+    assign enable_background = true
+  endif
+
+  assign btn_style = btn_style | default: 'link'
+
+  assign is_to_show_default_btn = false
+
+  if hover_effect == 'show_button'
+    assign is_to_show_default_btn = true
+  endif
+
+  if gradient_style == blank
+    if text_style contains 'on-image-top'
+      assign gradient_style = 'top'
+    elsif text_style contains 'on-image-center' or text_style == 'on-image-bottom-vertical'
+      assign gradient_style = 'center'
+    elsif text_style contains 'on-image-bottom'
+      assign gradient_style = 'bottom'
+    endif
+  endif
+-%}
+<style>
+  .collection-card h6.collection-card__title.h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+  .custom-svg-flex {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+    align-items: center;
+}
+  </style>
+<div class=' {{ hide_c }} collection-card link-parent-for-hover zoom-parent-for-hover {{ class }} {% if enable_background %} collection-card--with-background {% endif %} {% if hover_effect == 'show_all' %} collection-card--show-all-on-hover {% endif %} {% if hover_effect == 'show_button' %} collection-card--show-button-on-hover {% endif %} {% if add_side_paddings == false or add_side_paddings == blank %} collection-card--without-aside-paddings {% endif %}'>
+  <div
+    class='collection-card__media shape shape--{{ img_ratio }} {% if img_ratio contains 'fit' %} shape--fit {% endif %}'
+    {% if img_ratio == 'nature' %}
+      style='padding-bottom: {{ 1 | divided_by: img.aspect_ratio | times: 100 }}%;'
+    {% endif %}
+  >
+    {%- if img != blank -%}
+      <img
+        {% render 'image-attributes',
+          image: img,
+          size: 'medium',
+          class: 'collection-card__image zoom shape__target-image'
+        %}
+      >
+    {%- else -%}
+      {{ 'collection-1' | placeholder_svg_tag: 'placeholder-image collection-card__image zoom shape__target-image' }}
+    {%- endif -%}
+    {%- if on_image_mode_enabled -%}
+      <div
+        class='overlay collection-card__overlay {% if gradient_style == 'top' %} collection-card__overlay--top-gradient {% endif %} {% if gradient_style == 'center' %} collection-card__overlay--center-gradient {% endif %} {% if gradient_style == 'bottom' %} collection-card__overlay--bottom-gradient {% endif %}'
+      ></div>
+    {%- endif -%}
+  </div>
+  <div
+    class='
+      collection-card__content
+      {% if on_image_mode_enabled %} collection-card__content--on-image {% else %} collection-card__content--under-image {% endif %}
+      {% if with_bottom_spacing %} collection-card__content--bottom-spacing {% endif %}
+      {% if content_align == 'center' %} collection-card__content--center-alignment {% endif %}
+      {% if content_align == 'right' %} collection-card__content--right-alignment {% endif %}
+
+      {% if text_style == 'on-image-top' %} collection-card__content--on-image-top {% endif %}
+      {% if text_style == 'on-image-center' %} collection-card__content--on-image-center {% endif %}
+      {% if text_style == 'on-image-bottom' %} collection-card__content--on-image-bottom {% endif %}
+      {% if text_style == 'on-image-bottom-vertical' %} collection-card__content--on-image-bottom-vertical {% endif %}
+    '
+  >
+    <a
+      class='collection-card__link'
+      aria-label='{{ collection.title | strip_html | escape }}'
+      {% if collection.url != blank %}
+        href='{{ collection.url }}'
+      {% endif %}
+    ></a>
+
+    {%- if on_image_mode_enabled -%}
+      {%- if show_product_count == 'caption' -%}
+        <div class='collection-card__count'>
+          {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+        </div>
+      {%- endif -%}
+      <h6 class='collection-card__title {{ heading_size }}'>{{ title }}_{% if show_product_count == 'superscript' %}&nbsp;<sup class="collection-card__superscript">{{all_products_count}}</sup>{% endif %}</h6>
+       <div class='collection-card__count'>
+          {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+        </div>
+      {%- if link_text != blank -%}
+        {%- if btn_style == 'link' -%}
+          <a
+            class='link'
+            {% if collection.url != blank %}
+              href='{{ collection.url }}'
+            {% endif %}
+            aria-label='{{ link_text }}'
+          >
+            <span class='link-parent-for-hover'>
+              <span class='link__text'>{{ link_text }}</span>
+            </span>
+            {%- render 'icon', icon_name: 'link-chevron', class: 'link__chevron' -%}
+          </a>
+        {%- else -%}
+          <a
+            class='btn btn--{{ btn_style }}'
+            {% if collection.url != blank %}
+              href='{{ collection.url }}'
+            {% endif %}
+            aria-label='{{- link_text -}}'
+          >
+            {{- link_text -}}
+          </a>
+        {%- endif -%}
+      {%- endif -%}
+
+      {%- if link_text == blank and collection.url != blank and is_to_show_default_btn == true -%}
+        <a
+          class='btn btn--solid image-block__btn--default'
+          {% if collection.url != blank %}
+            href='{{ collection.url }}'
+          {% endif %}
+          aria-label='{{- collection.title -}}'
+        >
+          {% render 'icon-pack', icon: 'arrow', class: '' %}
+        </a>
+      {%- endif -%}
+
+    {%- else -%}
+      <h6 class='collection-card__title {{ heading_size }} {% if show_product_count == 'none' %}custom-svg-flex{% endif %}'>{{ title }} {% if show_product_count == 'none' %}
+<svg class="title-svg" style="margin-left:10px;" width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.58301 6.39404C1.03072 6.39404 0.583008 6.84176 0.583008 7.39404C0.583008 7.94633 1.03072 8.39404 1.58301 8.39404V6.39404ZM18.1695 8.10115C18.56 7.71063 18.56 7.07746 18.1695 6.68694L11.8055 0.322975C11.415 -0.0675491 10.7819 -0.0675491 10.3913 0.322975C10.0008 0.713499 10.0008 1.34666 10.3913 1.73719L16.0482 7.39404L10.3913 13.0509C10.0008 13.4414 10.0008 14.0746 10.3913 14.4651C10.7819 14.8556 11.415 14.8556 11.8055 14.4651L18.1695 8.10115ZM1.58301 8.39404H17.4624V6.39404H1.58301V8.39404Z" fill="black"/>
+</svg>
+{% endif %}<i{% if show_product_count == 'superscript' %}&nbsp;<sup class="collection-card__superscript">{{all_products_count}}</sup>{% endif %}</h6>
+      {% if template == "list-collections" %}
+      <div class='collection-card__count' {{ template }}>
+        {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+      </div>
+        {% endif %}
+     
+      {%- if show_product_count == 'caption' and header != true  -%}
+        
+        {% if hide_count == true %}
+        <div class='collection-card__count'>
+          {{- 'cards.collection_card.store_front.product_count' | t: count: all_products_count -}}
+        </div>
+        {% endif %}
+      {%- endif -%}
+        {% if header== true and collection.metafields.custom.collection_bottom_link_text.value != blank%}
+          <div class='collection_shop_link'>
+            <a href="{{ collection.url }}" class="animated-underline">
+              {{ collection.metafields.custom.collection_bottom_link_text.value }}
+            </a>
+          </div>
+        {% endif %}        
+    {%- endif -%}
+  </div>
+</div>
+<style>
+  .custom-svg-flex{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    width:100%;
+    margin:0 auto;
+    gap:4px;
+  }
+ .collection_shop_link{
+   font-weight:normal;
+   font-size:14px;
+   text-decoration:none;
+   color:#3B3933;
+ }
+  .title-svg{
+    max-width:15px;
+    display:inline;
+  }
+</style>

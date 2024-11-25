@@ -1,0 +1,147 @@
+<style>
+.properks_main_container {
+  padding-bottom:{{section.settings.padding_bottom}}px;
+  padding-top:{{section.settings.padding_top}}px;
+ 
+    max-width: 1150px;
+    margin: 0px auto;
+  padding-left: 20px;
+    padding-right: 20px;
+
+}
+  .logo_image_m {
+    max-width: 50px;
+}
+  .logo_image_m img{
+    width:100%;
+}
+.image_heading_m *{
+  text-align:center;
+  color:#6B6B6B;
+}
+.properks_main_container .image_content * {
+    text-align: center;
+    color: #3b3933bf;
+    font-size: 12px;
+}
+.image_heading_m *{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+  .main_inner_properks {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    padding: 45px 112px;
+    border-radius: 20px;
+}
+.image_heading_m {
+  font-size:20px;
+}
+.content_mobile *{
+  text-align: center;
+    color: #828282;
+}
+.content_mobile {
+  display:none;
+}
+  @media screen and (max-width: 767px){
+    .content_mobile{
+      display:block;
+    }
+    .image_content{
+      display:none;
+    }
+    .main_inner_properks {
+    padding: 57px 40px;
+}
+    .properks_main_container {
+   
+    padding-left: 20px;
+    padding-right: 20px;
+}
+    .content_mobile * {
+    text-align: center;
+    color: #828282;
+    font-size: 12px;
+}
+  }
+</style>
+{% for tag in product.tags %}
+  {% if tag contains "properks" %}
+<div class="properks_main_container">
+  <div class="main_inner_properks">
+    {% if section.settings.icon_image != blank %}
+    <div class="logo_image_m">
+      <img src="{{ section.settings.icon_image | image_url }}">
+    </div>
+      {% endif %}
+    <div class="image_heading_m">
+      {{ section.settings.heading }}
+    </div>
+    <div class="image_content">
+      {{ section.settings.sheading }}
+    </div>
+    <div class="content_mobile">
+      {{ section.settings.sheadingmob }}
+    </div>
+  </div>
+</div>
+    {% endif %}
+  {% endfor %}
+{% schema %}
+  {
+    "name": "Properks_info_widget",
+    "settings": 
+    [
+      {
+      "type": "range",
+      "min":0,
+      "max":100,
+      "step":1,
+      "label":"Padding Bottom",
+      "id":"padding_bottom",
+      "default":0,
+      "unit":"px" 
+    },
+    {
+      "type": "range",
+      "min":0,
+      "max":100,
+      "step":1,
+      "label":"Padding Top",
+      "id":"padding_top",
+      "default":0,
+      "unit":"px"
+    },
+    {
+        "type":"image_picker",
+        "label":"Add Image",
+        "id":"icon_image"
+    },
+    {
+      "type":"richtext",
+      "label":"Add Heading",
+      "id":"heading"
+    },
+      {
+      "type":"richtext",
+      "label":"Add Sub Heading",
+      "id":"sheading"
+    },
+      {
+      "type":"richtext",
+      "label":"Add Sub Heading Mobile",
+      "id":"sheadingmob"
+    }
+    ],
+    "presets": [{
+      "name":"Properks_info_widget",
+      "category":"product_page"
+    }]
+  }
+{% endschema %}

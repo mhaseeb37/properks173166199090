@@ -1,0 +1,93 @@
+{% liquid
+ assign options = section.settings
+ assign container_size = options.container_size
+ %}
+<style>
+  .container--large.container--with-aside-paddings{
+    
+  }
+  .devVideoBanner{
+    height:{{section.settings.mobile_video_height}}px;
+    margin-bottom: 12px;
+  }
+  .devVideoBanner video{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  @media screen and (min-width:767px){
+    .devVideoBanner{
+      height:{{section.settings.desktop_video_height}}px;
+       margin-bottom: 40px;
+    }
+  }
+</style>
+<div class="container container--{{ container_size }} section-spacing container--with-aside-paddings ">
+   <div class="devVideoBanner">
+   {{
+      section.settings.video
+      | video_tag: class: 'devVideoBanner', autoplay: true, loop: true, muted: true, controls: false
+
+    }}
+   </div>
+</div>
+{% schema %}
+  {
+    "name": "Pro Video Banner",
+    "settings": [
+     {
+      "type": "select",
+      "id": "container_size",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:sections.general_section_settings.container_size.page_width_option"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.general_section_settings.container_size.large_width_option"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.general_section_settings.container_size.medium_width_option"
+        }
+      ],
+      "default": "page-width",
+      "label": "t:sections.general_section_settings.container_size.label"
+    },
+     {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+      "type": "range",
+      "id": "desktop_video_height",
+      "min": 100,
+      "max": 500,
+      "step": 5,
+      "default": 150,
+      "unit": "px",
+      "label": "Desktop Video Height"
+    },
+        {
+      "type": "range",
+      "id": "mobile_video_height",
+      "min": 100,
+      "max": 500,
+      "step": 5,
+      "default": 150,
+      "unit": "px",
+      "label": "Mobile Video Height"
+    },
+    ],
+    "presets": [
+      {
+        "name": "Pro Video Banner",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

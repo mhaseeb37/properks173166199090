@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/service-department-winter-933x367-01312024.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Ski & Snowboard Repair & Service",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "Bicycle Shop",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since 1969 Skirack's bike shop has been the place to go for all things cycling. We have a full showroom floor of <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/fitness-and-city-bikes\/electric-bikes\" target=\"_self\">electric bikes<\/a>, <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/road-bikes\/cyclocross-and-gravel\" target=\"_self\">gravel bikes<\/a>, <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/mountain-bikes\">mountain bikes<\/a>, <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/fitness-and-city-bikes\">road bikes<\/a>, <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/fitness-and-city-bikes\">fitness bikes<\/a>, <a href=\"https:\/\/www.skirack.com\/shop\/cycling\/bikes\/fitness-and-city-bikes\">city bikes<\/a> and more! And to help you decide which bike is perfect for you - whether you’re a beginner or a pro - is a full-time staff of friendly, helpful experts. We’ll listen to all your needs, wants and wishes, and help find you the perfect ride, fit professionally, at the perfect price.<\/p><p>Skirack also features a <a href=\"https:\/\/www.skirack.com\/service-and-repair\">full service repair and maintenance department<\/a>, and a <a href=\"https:\/\/www.skirack.com\/bicycle-fitting\">bicycle fitting station<\/a> where any rider, on any bike, can be professionally sized and fit. Learn more about our professionally trained service technicians or learn how a proper fit can improve comfort, performance, and happiness!<\/p><p>Please come on by the place where everyone loves to ride - where you can pump up your tires, refill your water bottle, and get back on the road, or trail, or path...<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 39
+      }
+    },
+    "custom_liquid_FWfn7N": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "xsmall",
+        "custom_liquid": "<table class=\"service-table\">\n<tbody>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"3\"><h5>Here is a sampling of our ski and snowboard repair and service offerings. We use Swix premium tuning products exclusively.<\/h5><\/th><\/tr>\n<tr>\n \n<\/tr>\n<tr><th colspan=\"3\"><br><h6>Alpine, A\/T and Telemark Ski Service<\/h6><hr color=\"dadada\" size=\"1\"><\/th><\/tr>\n<tr>\n<td><strong>Alpine Binding Mount<\/strong><\/td>\n<td>Alpine and Tele ski binding installation<br><em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$65<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Alpine Binding Remount<\/strong><\/td>\n<td>Alpine and Tele ski used binding installation<\/td>\n<td class=\"prices\"><strong>$80<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Alpine Binding System Check<\/strong><\/td>\n<td>All binding components are cleaned and inspected for best performance. Bindings are adjusted by a manufacturer certified binding technician. Function test is performed with calibration of release\/retention settings.<br><em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$35<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Ceramic Edge<\/strong><\/td>\n<td>Ski\/Board edges are set, then sharpened and polished using our TrimJet Ceramic Edge Machine<\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Infrared Hot Wax<\/strong><\/td>\n<td>Hot wax of your Ski\/Board using our Wax Future Infrared Machine with temperature specific Swix Wax.<\/td>\n<td class=\"prices\"><strong> $25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Ceramic Edge and Buff Wax<\/strong><\/td>\n<td>Ski\/board edges are set and polished in our TrimJet edging machine and a coat of wax applied with our WaxJet roller.<br> <em>Upgrade to an infrared wax for $10 more.<\/em><\/td>\n<td class=\"prices\"><strong>$35<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Buff Wax<\/strong><\/td>\n<td>Universal wax applied using our Wax Jet roller<\/td>\n<td class=\"prices\"><strong>$15<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Belt 'n' Buff<\/strong><\/td>\n<td>Belt Base Tune, Buff Wax<\/td>\n<td class=\"prices\"><strong>$45<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Junior Tune (Less than 120cm)<\/strong><\/td>\n<td>Belt grind, rough edge, and buff wax.<\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Basic Tune<\/strong><\/td>\n<td>Stone Grind, Ceramic Edge, Buff Wax<\/td>\n<td class=\"prices\"><strong>$55 - 60<span style=\"color: #ff0000;\"><em><br><\/em><\/span><\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Standard Tune<\/strong><\/td>\n<td>Stone Grind, Ceramic Edge, Temp Specific Swix Wax, Base Repair up to $10<\/td>\n<td class=\"prices\"><strong>$80 - 85<span style=\"color: #ff0000;\"><em><br><\/em><\/span><\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Elite Tune<a href=\"stone-grind-ski-service\"><br><\/a><\/strong><\/td>\n<td>Removal and sanding of sidewall, shaping of tips and tails, stone grinding, set the edge bevel on base and on side, hand polish all edges. <br><em>* Any of the above can be priced separately starting at $15 per service.<\/em><\/td>\n<td class=\"prices\"><strong>$100<span style=\"color: #ff0000;\"><em><br><\/em><\/span><\/strong><\/td>\n<\/tr>\n<tr>\n<td><\/td>\n<td><em>* Specific edge angles\/bevels can be done upon request <br> * A la Carte options are available, based on $70\/hour labor <br>* Base Repair is available at $10 and up<\/em><strong><\/strong><\/td>\n<td><\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"3\"><br><h6>Snowboard Service<\/h6><hr color=\"dadada\" size=\"1\"><\/th><\/tr>\n<tr>\n<td><strong>Belt 'n' Buff<\/strong><\/td>\n<td>Belt Base Tune, Buff Wax<\/td>\n<td class=\"prices\"><strong>$45<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Ceramic Edge and Buff Wax<\/strong><\/td>\n<td>Ski\/Board Edges are set, sharpened and polished and then your base hot waxed with a Universal Wax.<br> <em>$10 add on for Infrared Wax<\/em><\/td>\n<td class=\"prices\"><strong>$35<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Basic Tune<\/strong><\/td>\n<td>Stone Grind, Ceramic Edge, Buff Wax<br> * Take $10 off if bindings are removed<br> * $10 extra for split boards<\/td>\n<td class=\"prices\"><strong>$55 - 60<span style=\"color: #ff0000;\"><em><br><\/em><\/span><\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Standard Tune<\/strong><\/td>\n<td>Stone Grind, Ceramic Edge, Temp Specific Swix Wax, Base Repair up to $10<br> * Take $10 off if bindings are removed<br> * $10 extra for split boards**<\/td>\n<td class=\"prices\"><strong>$70 - 85<span style=\"color: #ff0000;\"><em><br><\/em><\/span><\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Elite Tune<a href=\"stone-grind-ski-service\"><br><\/a><\/strong><\/td>\n<td>Removal and sanding of sidewall, shaping of tips and tails, stone grinding, set the edge bevel on base and on side, hand polish all edges. <br><em>* Any of the above can be priced separately starting at $15 per service.<\/em><\/td>\n<td class=\"prices\"><strong>$100<\/strong><em><strong><span style=\"color: #ff0000;\"><br><\/span><\/strong><\/em><\/td>\n<\/tr>\n<tr>\n<td><\/td>\n<td><em>* Specific edge angles\/bevels can be done upon request <br> * A la Carte options are available, based on $70\/hour labor <br>* Base Repair is available at $10 and up<br><\/em><\/td>\n<td><\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"3\"><br><h6>Nordic Skis, Nordic Skates and Roller Ski Service<\/h6><hr color=\"dadada\" size=\"1\"><br><\/th><\/tr>\n<tr>\n<td><strong>Tour\/Race Binding Mount*<\/strong><\/td>\n<td>Mounting of NNN, Profil or Pilot bindings. <br><em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$40<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>3-Pin\/ NNN BC Binding Mount*<\/strong><\/td>\n<td>3-pin 75mm and NNN BC bindings with a separate heel piece. <br><em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$30 - 40<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>3-Pin\/ NNN BC Binding Re-Mount*<\/strong><\/td>\n<td>3-pin 75mm and NNN BC bindings with a separate heel piece. <br><em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$50<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Telemark Releasable Binding Mount*<\/strong><\/td>\n<td>Includes all releasable telemark binding setups - with DIN.<br> <em>***Both boots are required.***<\/em><\/td>\n<td class=\"prices\"><strong>$60<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Base Prep<\/strong><\/td>\n<td>A thorough cleaning of the ski base and a coat of base or temperature specific wax.<\/td>\n<td class=\"prices\"><strong>$30<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Basic Base Wax Saturation<\/strong><\/td>\n<td>Base cleaning. Soft CH wax using infared waxing technology.<\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Basic Base Wax Saturation plus Hardener<\/strong><\/td>\n<td>Base cleaning. Soft CH wax using infared waxing technology plus hardener.<\/td>\n<td class=\"prices\"><strong>$45<\/strong><em><span style=\"color: #ff0000;\"><strong><br><\/strong><\/span><\/em><\/td>\n<\/tr>\n<tr>\n<td><strong>Nordic Stone Grind<\/strong><\/td>\n<td>With One Coat CH11 soft wax.<\/td>\n<td class=\"prices\"><strong>$65<\/strong><em><strong><span style=\"color: #ff0000;\"><br><\/span><\/strong><\/em><\/td>\n<\/tr>\n<tr>\n<td><strong>Race Stone Grind + Prep<\/strong><\/td>\n<td>Snow specific structure, two coats of premium Swix wax, brush finish and ready to race.<\/td>\n<td class=\"prices\"><strong>$85<\/strong><em><span style=\"color: #ff0000;\"><strong><br><\/strong><\/span><\/em><\/td>\n<\/tr>\n<tr>\n<td><strong>Kick Wax Removal<\/strong><\/td>\n<td><\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Roller Ski Tire \/ Tube Install<\/strong><\/td>\n<td>Flat Repair<\/td>\n<td class=\"prices\"><strong>$30<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Roller Ski Mount<\/strong><\/td>\n<td>Boot size required<\/td>\n<td class=\"prices\"><strong>$35<\/strong><\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\"><br>*In the case of a remount (moving or replacing a binding), add $10-$20 to the normal mounting charge for binding removal, cleanup, and hole plugs.<\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">**Use and\/or storage can effect the adjustment of releasable bindings. Therefore, it is a good idea to have the your bindings adjusted annually. Both boots are required.<\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">&nbsp;<\/td>\n<\/tr>\n<tr>\n<td colspan=\"3\">***Both boots are needed for the proper mounting of all 3-pin\/75mm bindings.<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n\n<style>\ntable.service-table td {\n    vertical-align: top;\n}\n<\/style>",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 100
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "custom_liquid_FWfn7N",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

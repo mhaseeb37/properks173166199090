@@ -1,0 +1,396 @@
+<section class="match-steps-{{ section.id }}">
+  <div class="match-steps-wrapper container container--full-screen section-spacing container--with-aside-paddings">
+    <div class="match-steps-row">
+      {% for block in section.blocks %}
+        <div data-aos="fade-right"
+     data-aos-offset="3000" class="match-steps-col match-steps-col-{{ forloop.index }}">
+          <div class="top-heading">
+            <img src="{{ block.settings.icon | img_url: 'master' }}">
+            <h3>{{ block.settings.title }}</h3>
+            <img class="accordion-icon" src="https://cdn.shopify.com/s/files/1/0878/6965/3298/files/Vector_183.png?v=1727665495" alt="toggle-icon">
+          </div>
+          <div class="step-details">
+            {{ block.settings.details }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="match-step-btns desktop-hide-btns">
+       <a class="solid-btn" href="{{ section.settings.link-1 }}">{{ section.settings.btn-1 }}</a>
+       <a class="outline-btn" href="{{ section.settings.link-2 }}">{{ section.settings.btn-2 }}</a>
+     </div>
+    <div class="match-steps-policy">
+      <p>{{ section.settings.details }}</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .match-steps-{{ section.id }}{
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+  }
+  .match-steps-row{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    flex-wrap: wrap;
+  }
+  .match-steps-col{
+    flex: 31%;
+    max-width: 31%;
+    background-color: #f6f6f6;
+    border-radius: 16px;
+    padding: 30px;
+    min-height: 657px;
+  }
+  .match-steps-col .top-heading{
+    border-bottom: 0.5px solid #939393;
+    text-align: center;
+  } 
+  .match-steps-col .top-heading img{
+    max-width: 50px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .match-steps-col .top-heading h3{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 89%;
+    text-align: center;
+    letter-spacing: -0.0016em;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 34px;
+  }
+ .match-steps-col .step-details{
+    padding-top: 34px;
+  }
+  .match-steps-col .step-details p{  
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.0016em;
+    margin: 0;
+    color: #000000;
+    padding-bottom: 24px;
+    padding-left: 25px; 
+    position: relative;
+  }
+  .match-steps-col .step-details p::before {
+    content: "+";
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 13px;
+  }
+  @media(min-width: 769px){
+    .match-steps-row{
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+    .accordion-icon, .desktop-hide-btns{
+      display: none;
+    }
+    .match-steps-policy{
+      max-width: 914px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 74px;
+    }
+    .match-steps-policy p{     
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #939393;
+      margin: 0;
+
+    }
+  }
+  @media(max-width: 768px){
+   .match-steps-{{ section.id }} {
+    padding-top: {{ section.settings.mob-padding-top }}px;
+    padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+
+    .match-step-btns{
+    max-width: 233px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+    .match-step-btns a{
+      margin-bottom: 14px;
+    }
+  .match-step-btns a.solid-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff; 
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 125%;
+    width: max-content;
+    padding: 18.5px 0px;
+    width: 100%;
+    border-radius: 16px;
+    text-align: center;
+  }
+  .match-step-btns a.outline-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 125%;
+    width: max-content;
+    padding: 18.5px 0px;
+    border-radius: 16px;
+    border: 1.5px solid #000;
+    text-align: center;
+    width: 100%;
+  }
+    
+    .match-steps-col{
+      border-bottom: 2px solid #c7c7c7;
+      padding-bottom: 26px;
+      flex: 100%;
+      max-width: 320px;
+      margin: 0px auto 20px auto;
+      min-height: auto;
+      background: #fff;
+      border-radius: 0px;
+      padding: 30px 0px;
+      
+    }
+    .match-steps-col.match-steps-col-3{
+      border-bottom: 0px;
+    }
+   .match-steps-col .top-heading{
+      display: flex;
+      align-items: center;
+      border-bottom: 0px solid #939393;
+      width: 100%;
+      column-gap: 26px;
+     justify-content: space-between;
+     position: relative;
+     max-width: 320px;
+     margin: 0 auto;
+     cursor: pointer;
+    }
+   .match-steps-col .top-heading img{
+      max-width: 32px;
+      height: auto;
+      padding-bottom: 0px;
+    }
+   .match-steps-col .top-heading h3{
+     font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #000000;
+      padding-bottom: 0px;
+     flex: calc(100% - 58px);
+     max-width: calc(100% - 58px);
+     text-align: left;
+    }
+
+  .top-heading .accordion-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 13px;
+    height: auto;
+  }
+    
+    .step-details {
+      display: none; 
+    }
+
+    .match-steps-col.active .step-details {
+      display: block; 
+      max-width: 320px;
+     margin: 0 auto;
+    }
+
+    .match-steps-policy{
+      max-width: 308px;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 35px;
+    }
+    .match-steps-policy p{     
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 18px;
+      text-align: center;
+      color: #939393;
+      margin: 0;
+      
+    }
+    
+    
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const headings = document.querySelectorAll('.top-heading');
+
+    headings.forEach(function(heading) {
+      heading.addEventListener('click', function() {
+        const parentCol = this.closest('.match-steps-col');
+        const isOpen = parentCol.classList.contains('active');
+        
+       
+        parentCol.classList.toggle('active');
+
+       
+        const icon = this.querySelector('.accordion-icon');
+        if (isOpen) {
+          icon.src = "https://cdn.shopify.com/s/files/1/0878/6965/3298/files/Vector_183.png?v=1727665495";
+        } else {
+          icon.src = "https://cdn.shopify.com/s/files/1/0878/6965/3298/files/Vector_183_03c9fb15-aa5b-4649-b3ff-b8bdfc79df80.png?v=1727665508";
+        }
+      });
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Matching Steps",
+    "settings": [
+      {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Padding Top",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "px"
+      },
+      {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Padding Bottom",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "px"
+      },
+      {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Mobile Padding Top",
+         "default": 20,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "px"
+      },
+      {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Mobile Padding Bottom",
+         "default": 20,
+         "min": 0,
+         "max": 100,
+         "step": 1,
+         "unit": "px"
+      },
+      {
+        "type": "color",
+        "id": "bg",
+        "label": "Section Background Color",
+        "default": "#FFF"
+      },
+      {
+        "type": "richtext",
+        "id": "details",
+        "label": "Bottom Details",
+        "default": "<p>*At Skirack we try our best to ensure the accuracy of our pricing. However, even with our most sincere efforts, pricing errors may still occur. If an item's price is displayed incorrectly, we will cancel your order for that item and alert you of the order cancellation. For further information, please see our Terms and Conditions.</p>"
+      },
+      {
+        "type": "text",
+        "id": "btn-1",
+        "label": "Button Label",
+        "default": "Price Match Form"
+      },
+      {
+        "type": "text",
+        "id": "btn-1-m",
+        "label": "Mobile Button Label",
+        "default": "Price Match Form"
+      },
+      {
+        "type": "url",
+        "id": "link-1",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "btn-2",
+        "label": "Button Label",
+        "default": "Questions? Contact Us"
+      },
+      {
+        "type": "url",
+        "id": "link-2",
+        "label": "Button Link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "step",
+        "name": "Step",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Icon",
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "To Qualify"
+          },
+          {
+            "type": "richtext",
+            "id": "details",
+            "label": "Details",
+            "default": "<p>Lorem ipsum</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Matching Steps",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}

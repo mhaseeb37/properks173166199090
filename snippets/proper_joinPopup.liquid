@@ -1,0 +1,58 @@
+<style>
+ .mobileim_im{
+   display:none;
+ }
+  @media screen and (max-width:768px){
+    .desktop_im{
+      display:none;
+    }
+    .mobileim_im{
+      display:block;
+    }
+  }
+</style>
+
+<div class="inner_proper_main {% if forloop.index == 1 %} active {% endif %}join_pro_{{ forloop.index }}"   data-popup="{{ block.settings.popup_t }}"   data-index="{{ forloop.index }}">
+  <div class="properk_join ">
+    <div class="popup_inner">
+      <div class="pimage_popup">
+        <img  class="desktop_im"src="{{ block.settings.slide_img | image_url }}">
+        <img  class="mobileim_im"src="{{ block.settings.slide_imgm | image_url }}">
+      </div>
+      <div class="pcontent_popup">
+        <div class="popup_content_inner">
+         <div class="popup_main-con">
+          {{ block.settings.hmpopopp }}
+         </div>
+          {% if block.settings.bottom_icon != blank %}
+          <div class="logo_main_bottom">
+          <img src="{{ block.settings.bottom_icon | image_url}}">
+          </div>
+          {% endif %}
+          <div class="main_con_bt">
+            {{ block.settings.popup_content }}
+          </div>
+          {% if block.settings.pcbtn != blank %}
+          <div class="btn_beat_price">
+            <a href="{{ block.settings.pcbtnl}}">
+              {{ block.settings.pcbtn }}
+            </a>
+          </div>
+            {% endif %}
+          <div class="btn_nexts">
+            <button class="main_btn_next">
+            {{ block.settings.btnt }}
+            </button>
+          </div>
+      </div>
+    </div>
+      <div class="close_btn_m" style="cursor:pointer">
+        <svg width="30" height="30" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="17.1332" cy="17.114" r="15.5394" stroke="black" stroke-width="3"/>
+<path d="M11.1035 23.144L23.1636 11.0839" stroke="black" stroke-width="3" stroke-linecap="square"/>
+<path d="M11.1035 11.0839L23.1636 23.144" stroke="black" stroke-width="3" stroke-linecap="square"/>
+</svg>
+      </div>
+  </div>
+</div>
+</div>

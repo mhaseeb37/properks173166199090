@@ -1,0 +1,369 @@
+{
+  "sections": {
+    "sign_in_reward_ticker_ipY4Kc": {
+      "type": "sign-in-reward-ticker",
+      "blocks": {
+        "block_VWmYGh": {
+          "type": "block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame_57_aabee782-3036-4d2e-b08f-e67916290f35.png",
+            "announcement": "<p>to achieve rewards<\/p>",
+            "announcement_mob": "<p>To activate rewards, <a href=\"\/pages\/properks-sign-in\" title=\"Properks sign in\">Sign in<\/a> or <a href=\"\/pages\/properks-sign-in\" title=\"Properks sign in\">Join Now<\/a><\/p>",
+            "url-text": "Sign in",
+            "url": "shopify:\/\/pages\/properks-sign-in",
+            "link-text-alignment": "row"
+          }
+        },
+        "block_RfVGH4": {
+          "type": "block",
+          "settings": {
+            "announcement": "<p>Not a member?<\/p>",
+            "announcement_mob": "",
+            "url-text": "Join ProPerks",
+            "url": "",
+            "link-text-alignment": "row-reverse"
+          }
+        }
+      },
+      "block_order": [
+        "block_VWmYGh",
+        "block_RfVGH4"
+      ],
+      "settings": {
+        "background-color": "#f5f5f6",
+        "text-color": "#383838",
+        "border-color": "#dedede",
+        "button-color": "#383838"
+      }
+    },
+    "custom_cart_mf3BpL": {
+      "type": "custom-cart",
+      "blocks": {
+        "items_kHFNJT": {
+          "type": "items",
+          "settings": {
+            "sec_btn": "shopify:\/\/pages\/properks-sign-in"
+          }
+        },
+        "properks_hzVH6x": {
+          "type": "properks",
+          "settings": {
+            "properks-icon": "shopify:\/\/shop_images\/Frame_58.png",
+            "cart-prds": "darn-tough-socks",
+            "properks-title": "<p>FREE - Patagonia 40l Black Hole Duffle Bag<\/p>",
+            "properks-text": "<p>ProPerks<\/p>"
+          }
+        },
+        "properks_k9dPge": {
+          "type": "properks",
+          "settings": {
+            "properks-icon": "shopify:\/\/shop_images\/Frame_58.png",
+            "cart-prds": "ski-snow-tour-neck-warner",
+            "properks-title": "<p>FREE - Darn Tough Micro Crew Merino Socks<\/p>",
+            "properks-text": "<p>ProPerks<\/p>"
+          }
+        },
+        "properks_TnGyCa": {
+          "type": "properks",
+          "settings": {
+            "properks-icon": "shopify:\/\/shop_images\/Frame_58.png",
+            "cart-prds": "patagonia-25l-black-hole-tote-perk",
+            "properks-title": "<p>FREE - Skida Snow Tour Neck Warmer<\/p>",
+            "properks-text": "<p>ProPerks<\/p>"
+          }
+        },
+        "properks_6HjqPY": {
+          "type": "properks",
+          "settings": {
+            "properks-icon": "shopify:\/\/shop_images\/Frame_58.png",
+            "cart-prds": "patagonia-40l-black-hole-duffle-perk",
+            "properks-title": "<p>FREE - Skida Snow Tour Neck Warmer<\/p>",
+            "properks-text": "<p>ProPerks<\/p>"
+          }
+        },
+        "order_notes_JxJfTt": {
+          "type": "order_notes",
+          "settings": {}
+        },
+        "in_cart_related_3yCfVV": {
+          "type": "in_cart_related",
+          "settings": {
+            "hide_for_empty_cart": true,
+            "color_scheme": "secondary",
+            "enable_color_background": true,
+            "heading": "Other Shoppers Added",
+            "heading_size": "h6",
+            "heading_alignment": "left",
+            "recommendations_type": "auto",
+            "featured_collection": "",
+            "featured_products": [],
+            "img_ratio": "inherited",
+            "content_alignment": "left",
+            "cards_to_show": 10,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "cards_color_background": false,
+            "show_arrows_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "subtotal_YCWrxY": {
+          "type": "subtotal",
+          "settings": {
+            "free-return": "",
+            "free-shipping": "",
+            "show_taxes_and_shipping_costs": true,
+            "show_currency_code": false
+          }
+        },
+        "buttons_r6fxTY": {
+          "type": "buttons",
+          "settings": {}
+        },
+        "customer_pro_perks_6Lhc3i": {
+          "type": "customer_proPerks",
+          "settings": {
+            "welcome-background-color": "#eed9c7",
+            "welcome-icon": "shopify:\/\/shop_images\/Frame_57.png",
+            "welcome-icon-title": "<p>ProPerks<\/p>",
+            "welcome-heading": "<p>Welcome Back<\/p>",
+            "heading-1": "My Member Status",
+            "text-1": "<p>YEAR Member Status<\/p>",
+            "heading-2": "How to Qualify",
+            "text-2": "<p>All you need to do is place 3 orders in a calendar year to qualify for current and next year’s status. Your first year status is on us. Yep...it’s actually that simple.<\/p>",
+            "heading-3": "Go to My Account",
+            "text-3": "My Account",
+            "button-url": ""
+          }
+        },
+        "pro_perks_block_tgqXHV": {
+          "type": "proPerks_block",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame_57.png",
+            "icon-title": "<p>ProPerks<\/p>",
+            "heading": "<p>Get free gear + rewards<\/p>",
+            "message": "<p>Discover the best outdoor rewards program in the biz  – created by runners, skiers, bikers, hikers, and adventurers just like you. No silly points or tiers –one simple (free) membership to rule them all.<\/p>",
+            "link-text": "Learn More",
+            "url": "",
+            "button-label-1": "Join Free",
+            "button-url-1": "",
+            "button-label-2": "Sign In",
+            "button-url-2": ""
+          }
+        }
+      },
+      "block_order": [
+        "items_kHFNJT",
+        "properks_hzVH6x",
+        "properks_k9dPge",
+        "properks_TnGyCa",
+        "properks_6HjqPY",
+        "order_notes_JxJfTt",
+        "in_cart_related_3yCfVV",
+        "subtotal_YCWrxY",
+        "buttons_r6fxTY",
+        "customer_pro_perks_6Lhc3i",
+        "pro_perks_block_tgqXHV"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "img_ratio": "fit-portrait-xl",
+        "add_side_paddings": false,
+        "section_spacing_top": 42,
+        "section_spacing_bottom": 96
+      }
+    },
+    "cart": {
+      "type": "cart",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+            "show_taxes_and_shipping_costs": true,
+            "show_currency_code": true
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        },
+        "items": {
+          "type": "items",
+          "settings": {}
+        },
+        "order_notes": {
+          "type": "order_notes",
+          "settings": {}
+        },
+        "2bcfb89d-d6dd-4c35-b1f8-7120c5e7d5d5": {
+          "type": "in_cart_related",
+          "settings": {
+            "hide_for_empty_cart": true,
+            "color_scheme": "secondary",
+            "enable_color_background": false,
+            "heading": "You may also like",
+            "heading_size": "h6",
+            "heading_alignment": "left",
+            "recommendations_type": "auto",
+            "featured_collection": "",
+            "featured_products": [],
+            "img_ratio": "fit-landscape",
+            "content_alignment": "left",
+            "cards_to_show": 7,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 10,
+            "cards_color_background": false,
+            "show_arrows_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons",
+        "items",
+        "order_notes",
+        "2bcfb89d-d6dd-4c35-b1f8-7120c5e7d5d5"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "img_ratio": "fit-portrait-xl",
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "custom_image_banner_QA4DVx": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "image_slider_4jx9Vy": {
+          "type": "image_slider",
+          "settings": {
+            "background-image": "shopify:\/\/shop_images\/Frame_66.png",
+            "overlay": 0,
+            "text": "<p>Intervale Center<\/p>",
+            "icon": "shopify:\/\/shop_images\/9023548_heart_fill_icon_d132b338-144c-4633-9686-4a3917b07e4c.png",
+            "link-text": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4jx9Vy"
+      ],
+      "settings": {
+        "text-color": "#000000"
+      }
+    },
+    "custom_image_banner_fiMKwa": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "image_slider_ca8L4e": {
+          "type": "image_slider",
+          "settings": {
+            "background-image": "shopify:\/\/shop_images\/2P6A3601_1_2.png",
+            "overlay": 2,
+            "text": "<p>Our Backyard<\/p>",
+            "icon": "shopify:\/\/shop_images\/9023548_heart_fill_icon_d132b338-144c-4633-9686-4a3917b07e4c.png",
+            "link-text": "Meet Skirack",
+            "url": ""
+          }
+        },
+        "image_slider_rFVrDE": {
+          "type": "image_slider",
+          "settings": {
+            "background-image": "shopify:\/\/shop_images\/join-our-team-skirack-933x367-11132023.jpg",
+            "overlay": 4,
+            "text": "<p>Vermont<\/p>",
+            "icon": "shopify:\/\/shop_images\/9023548_heart_fill_icon_d132b338-144c-4633-9686-4a3917b07e4c.png",
+            "link-text": "Meet Skirack",
+            "url": ""
+          }
+        },
+        "image_slider_Xg6GDP": {
+          "type": "image_slider",
+          "settings": {
+            "background-image": "shopify:\/\/shop_images\/service-department-winter-933x367-01312024.jpg",
+            "overlay": 4,
+            "text": "<p>Intervale Center<\/p>",
+            "icon": "shopify:\/\/shop_images\/9023548_heart_fill_icon_d132b338-144c-4633-9686-4a3917b07e4c.png",
+            "link-text": "See how we give back",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ca8L4e",
+        "image_slider_rFVrDE",
+        "image_slider_Xg6GDP"
+      ],
+      "settings": {
+        "text-color": "#ffffff"
+      }
+    },
+    "custom_newsletter_XfMDVC": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "title_9wFerH": {
+          "type": "title",
+          "settings": {
+            "title": "First time? Claim your $15 gift card!",
+            "heading_size": "h5"
+          }
+        },
+        "text_awPPb3": {
+          "type": "text",
+          "settings": {
+            "text": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com",
+            "body_size": "body6"
+          }
+        },
+        "subscribe_rrGGyd": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_9wFerH",
+        "text_awPPb3",
+        "subscribe_rrGGyd"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 16,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "solid",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "sign_in_reward_ticker_ipY4Kc",
+    "custom_cart_mf3BpL",
+    "cart",
+    "custom_image_banner_QA4DVx",
+    "custom_image_banner_fiMKwa",
+    "custom_newsletter_XfMDVC"
+  ]
+}

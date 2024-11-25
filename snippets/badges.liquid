@@ -1,0 +1,59 @@
+{% liquid
+  assign prepared_section_background_color = section_background_color | strip
+%}
+<style>
+
+  {% unless customer %}
+  .custom-badge-pdp{
+    color:red !important;
+    border:1px solid black !important;
+    background: transparent !important;
+    padding: 1px 15px !important;
+  }
+    {% endunless %}
+.product-card__badge.product-sale-amount-badge {
+  background:#BDFF00!important;
+  color:black !important;
+  border:none!important;
+  font-family:"JetBrainsMono-M";
+  
+}
+.product-card__badge.colleciton_badge.product-badge.product-badge--custom-1 {
+  color:black;
+  background:#FFA2A2;
+   font-family:"JetBrainsMono-M";
+  text-transform:uppercase;
+}
+  
+</style>
+
+{% case name %}
+  {% when 'sold_out' %}
+    {% if product.available == false %}
+      <div class='{{ class }} product-badge product-badge--sold-out {% if prepared_section_background_color == settings.product_card_sold_out_badge_bg %} product-badge--with-inner-border {% endif %}'>
+        {{- 'product.store_front.sold_out' | t -}}
+      </div>
+    {% endif %}
+  {% when 'sale' %}
+    {% if product.compare_at_price > product.price %}
+      <div class='{{ class }} product-badge product-badge--sale {% if prepared_section_background_color == settings.product_sale_badge_bg %} product-badge--with-inner-border {% endif %}'>
+        {% render 'sale-badge-text', price: product.price, old_price: product.compare_at_price %}
+      </div>
+    {% endif %}
+  {% when 'custom_1' %}
+    <div class='{{ class }} product-badge product-badge--custom-1 {% if prepared_section_background_color == settings.product_card_custom_badge_1_bg %} product-badge--with-inner-border {% endif %}'>
+      {{ settings.product_card_custom_badge_1_text }}
+    </div>
+  {% when 'custom_2' %}
+    <div class='{{ class }} product-badge product-badge--custom-2 {% if prepared_section_background_color == settings.product_card_custom_badge_2_bg %} product-badge--with-inner-border {% endif %}'>
+      {{ settings.product_card_custom_badge_2_text }}
+    </div>
+  {% when 'custom_3' %}
+    <div class='{{ class }} product-badge product-badge--custom-3 {% if prepared_section_background_color == settings.product_card_custom_badge_3_bg %} product-badge--with-inner-border {% endif %}'>
+      {{ settings.product_card_custom_badge_3_text }}
+    </div>
+  {% when 'sale_amount' %}
+    <div class='{{ class }} product-sale-amount-badge custom-badge-pdp {% if prepared_section_background_color == settings.product_sale_amount_badge_bg %} product-sale-amount-badge--with-inner-border{% endif %}'>
+      {% render 'sale-amount-badge-text', price: product.price, old_price: product.compare_at_price %}
+    </div>
+{% endcase %}

@@ -1,0 +1,119 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "logo_with_text",
+          "settings": {
+            "logo_img": "shopify:\/\/shop_images\/Skirack-Logo-Mtn-Ridgeline_5.png",
+            "logo_img_mobile": "shopify:\/\/shop_images\/Skirack-Logo-Mtn-Ridgeline_5.svg",
+            "second_img": "shopify:\/\/shop_images\/Group_103.svg",
+            "second_img_mobile": "shopify:\/\/shop_images\/Group_103_1.svg",
+            "logo_width": 150,
+            "title": "",
+            "heading_size": "caption2",
+            "text": "<p>Welcome to Skirack online – the one stop shop for skiers, bikers, runners, hikers, and adventurers just like you. Explore curated outdoor goods and join <a href=\"\/pages\/properk-landing\" title=\"Properk-landing\">ProPerks<\/a> for free gear and legendary pro pricing. <\/p>",
+            "body_size": "body4"
+          }
+        },
+        "menu_eTdPxg": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "body_size": "body4",
+            "title": "Menu",
+            "heading_size": "caption2"
+          }
+        },
+        "menu_A6FzKj": {
+          "type": "menu",
+          "settings": {
+            "menu": "support",
+            "body_size": "body4",
+            "title": "Support",
+            "heading_size": "caption2"
+          }
+        },
+        "menu_UqAB7B": {
+          "type": "menu",
+          "settings": {
+            "menu": "retail-store",
+            "body_size": "body4",
+            "title": "Retail Store",
+            "heading_size": "caption2"
+          }
+        },
+        "footer-3": {
+          "type": "social_media",
+          "settings": {
+            "title1": "<p>Price <strong>Match<\/strong> Beat Guarantee<\/p>",
+            "body1": "<p>Learn More -&gt;<\/p>",
+            "title": "Follow Us",
+            "heading_size": "caption2",
+            "text": "<p>Follow the Skirack + ProPerks community!<\/p>",
+            "body_size": "body4"
+          }
+        },
+        "footer-2": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu": "my-account",
+            "body_size": "body4",
+            "title": "My Account",
+            "heading_size": "caption2"
+          }
+        },
+        "footer-4": {
+          "type": "subscribe",
+          "settings": {
+            "title": "Stay in the loop!",
+            "heading_size": "caption2",
+            "text": "<p>Join our emails for exclusive promotions and outdoor tis. We never spam ;)<\/p>",
+            "body_size": "body4",
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "menu_eTdPxg",
+        "menu_A6FzKj",
+        "menu_UqAB7B",
+        "footer-3",
+        "footer-2",
+        "footer-4"
+      ],
+      "custom_css": [
+        ".footer__utils--bordered {border-top: 1px solid #f6f6f6;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_column_count": "4",
+        "enable_border": false,
+        "bottom_bar": "",
+        "show_payment_icons": true,
+        "copyright_text": "",
+        "enable_follow_on_shop": false,
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "show_policy_links": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 19,
+        "extralink1": "Track Your Order",
+        "bottom_link1": "#",
+        "extralink2": "Gift Guide",
+        "bottom_link2": "#"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

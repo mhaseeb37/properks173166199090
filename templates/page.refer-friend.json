@@ -1,0 +1,283 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "IMAGE BANNER",
+        "title": "Image with text",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "image_banner_ME9mCN": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "Lorem Ipsum",
+        "title": "Refer a Friend",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "images_with_text_Jferfm": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_RxMymM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_RxMymM"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1.3,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "Share the products you love and you can get rewarded!",
+        "heading_size": "h2",
+        "body": "<p>To see if your eligible, please provide the information requested. <\/p>",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 80
+      }
+    },
+    "image_slider_CpGr4t": {
+      "type": "image-slider",
+      "blocks": {
+        "slide_Y7rn68": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "subheading": "INVITE YOUR FRIENDS",
+            "heading": "Share the products you love and you can get rewarded!",
+            "heading_size": "h2",
+            "body": "<p>To see if your eligible, please provide the information requested.<\/p>",
+            "body_size": "body3",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "slide_8wGdCa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "subheading": "INVITE YOUR FRIENDS",
+            "heading": "Refer",
+            "heading_size": "h2",
+            "body": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "body_size": "body3",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "slide_LXxfMJ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "subheading": "EARN REWARDS",
+            "heading": "Reward",
+            "heading_size": "h2",
+            "body": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "body_size": "body3",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "slide_TQErqV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "subheading": "REFER AGAIN",
+            "heading": "Repeat",
+            "heading_size": "h2",
+            "body": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "body_size": "body3",
+            "button_text": "START NOW",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Y7rn68",
+        "slide_8wGdCa",
+        "slide_LXxfMJ",
+        "slide_TQErqV"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "slider_type": "vertical-text",
+        "content_alignment": "left",
+        "content_max_width": 528,
+        "image_position": "left",
+        "desktop_img_ratio": 1,
+        "mobile_img_ratio": 1,
+        "rotate_images": false,
+        "add_side_paddings": true,
+        "section_spacing_top": 100,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "image_banner_ME9mCN",
+    "images_with_text_Jferfm",
+    "image_slider_CpGr4t",
+    "instagram_bjiVgU"
+  ]
+}

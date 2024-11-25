@@ -1,0 +1,288 @@
+{
+  "sections": {
+    "image_banner_wmXFdj": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "Pro Pricing",
+        "title": "Pro Pricing",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_BUCUgB": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_AtQAah": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_Amtbgw": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_EYMQTK": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Pro Pricing",
+            "heading_size": "h3"
+          }
+        },
+        "text_aKpCbK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body4"
+          }
+        },
+        "buttons_NAQDQf": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_AtQAah",
+        "caption_Amtbgw",
+        "heading_EYMQTK",
+        "text_aKpCbK",
+        "buttons_NAQDQf"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "page-width",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 20,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "collection_list_wUjtnn": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "left",
+        "collection_list": [
+          "mtb",
+          "cycle",
+          "run",
+          "alpine-ski",
+          "snowboard",
+          "nordic-ski",
+          "snowshoe",
+          "kids",
+          "accessories",
+          "car-racks"
+        ],
+        "img_ratio": "default",
+        "text_style": "on-image-center",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "h6",
+        "show_product_count": "caption",
+        "desktop_columns": 5,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "collection_card_overlay_opacity": 10,
+        "collection_card_overlay_color": "#000000",
+        "collection_card_title_color": "#ffffff",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "instagram_BJVJr8": {
+      "type": "instagram",
+      "blocks": {
+        "post_mhMXCY": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_Q8VHa7": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_HBQWpw": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_VkPDbJ": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_mhMXCY",
+        "post_Q8VHa7",
+        "post_HBQWpw",
+        "post_VkPDbJ"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 10,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90
+      }
+    },
+    "newsletter_iXXLFC": {
+      "type": "newsletter",
+      "blocks": {
+        "caption_eVEBhb": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "NEWSLETTER"
+          }
+        },
+        "title_gMFB3f": {
+          "type": "title",
+          "settings": {
+            "title": "Subscribe",
+            "heading_size": "h4"
+          }
+        },
+        "text_3BgGnN": {
+          "type": "text",
+          "settings": {
+            "text": "Invite customers to subscribe for early sale access, new in, promotions, and more.",
+            "body_size": "body3"
+          }
+        },
+        "subscribe_DHYEJr": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "caption_eVEBhb",
+        "title_gMFB3f",
+        "text_3BgGnN",
+        "subscribe_DHYEJr"
+      ],
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 64,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "solid",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_banner_wmXFdj",
+    "rich_text_BUCUgB",
+    "page",
+    "collection_list_wUjtnn",
+    "instagram_BJVJr8",
+    "newsletter_iXXLFC"
+  ]
+}

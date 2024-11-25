@@ -1,0 +1,873 @@
+{
+  "sections": {
+    "properks_product_widget_EtHyKN": {
+      "type": "properks_product_widget",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "lcImage": "shopify:\/\/shop_images\/Vector_18.png",
+        "dtH": "<p>This item requires <\/p>",
+        "dtsh": "<p>ProPerks membership. <\/p>",
+        "mtH": "<p>Item Requires Membership. <a href=\"#\" title=\"#\">Why?<\/a><\/p>",
+        "mtsh": "",
+        "first_btn_t": "Join Free",
+        "second_btn_t": "Sign In",
+        "first_btn_link": "",
+        "second_btn_link": ""
+      }
+    },
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "show_breadcrumbs_product_title": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h5"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "sm",
+            "below_t": "<p>Lowest Price Guarantee<\/p>",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "properk_text_FxeYFV": {
+          "type": "properk_text",
+          "settings": {
+            "desktop_t": "<p>Require Properks Membership. <a href=\"#\" title=\"#\">Join Free<\/a><\/p>",
+            "mobile_Logo": "shopify:\/\/shop_images\/Vector_19.png",
+            "mobile_t": "<p>Requires ProPerks. <a href=\"#\" title=\"#\">Join Free <\/a><\/p>",
+            "tafter_d": "<p>Discount unlocked by ProPerks Membership :)<\/p>",
+            "img_after": "shopify:\/\/shop_images\/Group_275_448df305-4e94-4050-82d7-1892494d86e6.png",
+            "tafter_m": "<p>Discount unlocked by ProPerks Membership :)<\/p>"
+          }
+        },
+        "shordescription_ekKDVM": {
+          "type": "shordescription",
+          "settings": {
+            "shortDescription": "{{ product.metafields.custom.short_description_product | metafield_tag }}",
+            "m_link": "#block_accordion-1"
+          }
+        },
+        "collapsible_row_aztgHk": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Item Requires ProPerks Membership. <a href=\"\/blogs\/news\" target=\"_blank\" title=\"News\">Join Free<\/a><\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 60
+          }
+        },
+        "29040344-ce22-4d9d-aab8-1dcb43bb2ab5": {
+          "type": "product_drawer_with_tabs",
+          "disabled": true,
+          "settings": {
+            "btn_style": "text",
+            "popup_link_text": "Drawer with tabs",
+            "heading_size": "caption3",
+            "icon": "shipping-box",
+            "icon_size": 24,
+            "button_background_color": "#e9ffcd",
+            "button_text_color": "#141416",
+            "tab_1_title": "Tab 1",
+            "tab_1_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_1_page": "",
+            "tab_1_body_size": "body3",
+            "tab_2_title": "Tab 2",
+            "tab_2_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_2_page": "",
+            "tab_2_body_size": "body3",
+            "tab_3_title": "Tab 3",
+            "tab_3_text": "<p>Tell more about your product, care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "tab_3_page": "",
+            "tab_3_body_size": "body3"
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "button-solid",
+            "show_swatches": true,
+            "primary_swatch_option_type": "variant-images",
+            "secondary_swatch_option_type": "swatches",
+            "hide_single_value_options": true,
+            "size_guide_image": "shopify:\/\/shop_images\/Screenshot_2024-09-17_at_12.56.16_PM_1_1.png",
+            "option_name": "Size",
+            "information_drawer_button_label": "Size Guide",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "show_inventory_status": "always",
+            "inventory_threshhold": 4,
+            "text_when_many_in_stock": "In stock",
+            "text_when_few_in_stock": "Less than 3 in stock",
+            "show_inventory_counter": false,
+            "high_level_indicator_color": "#73ce20",
+            "low_level_indicator_color": "#8c45ff",
+            "color_inventory_label": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "enable_pickup_availability": false,
+            "enable_gift_card": false,
+            "show_sticky_btn_on_mobile": true,
+            "add_to_cart_btn_style": "solid",
+            "checkout_btn_style": "outline"
+          }
+        },
+        "c9188b10-e29c-4c63-b385-a3faa860d64a": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "taglink": "#block_accordion-2",
+            "heading": "Free Returns",
+            "heading_size": "caption3",
+            "body": "",
+            "body_size": "body4",
+            "content_alignment": "left",
+            "icon": "eco",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#f6f6f6",
+            "tag_text_color": "#141416",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_M9zUHf": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "taglink": "#block_accordion-4",
+            "heading": "Price Guarantee",
+            "heading_size": "caption3",
+            "body": "",
+            "body_size": "body4",
+            "content_alignment": "left",
+            "icon": "checkmark",
+            "custom_icon_image": "shopify:\/\/shop_images\/Group_278_1.png",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#f6f6f6",
+            "tag_text_color": "#141416",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_HAbwgp": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "taglink": "#block_accordion-5",
+            "heading": "Free Shipping $90+",
+            "heading_size": "caption3",
+            "body": "",
+            "body_size": "body4",
+            "content_alignment": "left",
+            "icon": "shipping-box",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#f6f6f6",
+            "tag_text_color": "#141416",
+            "enable_drawer": false,
+            "drawer_text": "<p>Tell more about your product, add care instructions, country of origin, or manufacturer information.<\/p>",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136": {
+          "type": "related_products",
+          "settings": {
+            "color_scheme": "secondary",
+            "show_background": false,
+            "show_in_quick_view": false,
+            "title": "You may also like",
+            "heading_size": "h6",
+            "alignment": "left",
+            "product_recommendations_type": "auto",
+            "featured_collection": "",
+            "featured_products": [],
+            "img_ratio": "fit-portrait",
+            "block_layout": "carousel-with-vertical-cards",
+            "content_alignment": "left",
+            "products_to_show": 5,
+            "desktop_space_between_cards": 12,
+            "mobile_space_between_cards": 12,
+            "cards_color_background": false,
+            "show_navigation_on_hover": true,
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "properk_text_FxeYFV",
+        "shordescription_ekKDVM",
+        "collapsible_row_aztgHk",
+        "29040344-ce22-4d9d-aab8-1dcb43bb2ab5",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "inventory_status",
+        "quantity_selector",
+        "buy_buttons",
+        "c9188b10-e29c-4c63-b385-a3faa860d64a",
+        "information_tag_M9zUHf",
+        "information_tag_HAbwgp",
+        "6d6606d5-ae7e-4306-b3d7-67030f2e4136"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "media_to_content_ratio": "fixed",
+        "img_ratio": "portrait",
+        "layout": "thumbnails-left",
+        "desktop_space_between_media": 20,
+        "thumbnails_size": 88,
+        "mobile_layout": "thumbnails-right",
+        "mobile_space_between_media": 20,
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true,
+        "add_side_paddings": true,
+        "desktop_spacing_top": 32,
+        "desktop_spacing_bottom": 48,
+        "mobile_spacing_top": 12,
+        "mobile_spacing_bottom": 12
+      }
+    },
+    "rich_text_LjkCMP": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_MCCx6G": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "custom_icon_image": "shopify:\/\/shop_images\/icon__lock_unlocked__1.png",
+            "icon_size": 48
+          }
+        },
+        "heading_RNFHzy": {
+          "type": "heading",
+          "settings": {
+            "title": "Why do I need a ProPerks Membership for this item?",
+            "heading_size": "h6"
+          }
+        },
+        "text_tLa7Gw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself and show your confidence. Featured with permission from <a href=\"\/collections\" target=\"_blank\" title=\"All collections\">Ravella The Label<\/a>. A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself <\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_MCCx6G",
+        "heading_RNFHzy",
+        "text_tLa7Gw"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "medium",
+        "content_align": "center",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
+    },
+    "rich_text_hGWRDb": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_EfmziV": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "custom_icon_image": "shopify:\/\/shop_images\/icon__lock_unlocked__1.png",
+            "icon_size": 48
+          }
+        },
+        "heading_7jfXyD": {
+          "type": "heading",
+          "settings": {
+            "title": "Why do I need a ProPerks Membership for this item?",
+            "heading_size": "h6"
+          }
+        },
+        "text_b6jYHF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself and show your confidence. Featured with permission from <a href=\"\/collections\" target=\"_blank\" title=\"All collections\">Ravella The Label<\/a>. A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself <\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_EfmziV",
+        "heading_7jfXyD",
+        "text_b6jYHF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "medium",
+        "content_align": "center",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
+    },
+    "properks_info_widget_Trre9X": {
+      "type": "properks_info_widget",
+      "settings": {
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "icon_image": "shopify:\/\/shop_images\/icon__lock_unlocked__1.png",
+        "heading": "<p>Why do I need a ProPerks Membership for this item?<\/p>",
+        "sheading": "<p>A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself and show your confidence. Featured with permission from <a href=\"\/collections\" target=\"_blank\" title=\"All collections\">Ravella The Label<\/a>. A popular choice for women of all shapes and sizes, designed with movement in mind, whatever your plans are. There's no better way to express yourself <\/p>",
+        "sheadingmob": ""
+      }
+    },
+    "product-details": {
+      "type": "product-details",
+      "blocks": {
+        "description_W9YUWD": {
+          "type": "description",
+          "settings": {
+            "title": "Product Details",
+            "heading_size": "caption2",
+            "body_size": "body3",
+            "icon": "none",
+            "custom_icon_image": "shopify:\/\/shop_images\/Img_3.png",
+            "icon_size": 24
+          }
+        },
+        "860566f2-5be2-4ed8-9964-b27e88c6c92b": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Return & Exchanges",
+            "heading_size": "caption2",
+            "icon": "easy-returns",
+            "icon_size": 24,
+            "show_description": false,
+            "text": "<p>We hope you love your purchase as much as we do, but if not, here’s what to do. In addition to your Statutory Rights, should you change your mind, we will happily exchange or refund provided that the following conditions have been met:<br\/><\/p><ol><li>The items with the original receipt are returned within 30 days of purchase.<\/li><li>Items must be in the original condition as purchased with all labels\/tickets attached.<\/li><\/ol><p>Provided the conditions in our refund & exchange policy have been met, refunds will be processed using the original form of payment. You can return an item purchased online by posting it to us. Please contact customer service for return address. Please note that delivery costs will be excluded from the refund unless goods are returned in accordance with your statutory rights (e.g. they are faulty or not as ordered).<\/p><p><br\/>Provided the conditions in our refund & exchange policy have been met, you may exchange an item for something else from Revella the Label. Exchanges are subject to stock availability. You can exchange an item purchased online by posting it to us. Please contact customer service for return address.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "collapsible_row_BRdnUp": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Find your size",
+            "heading_size": "caption2",
+            "icon": "search",
+            "custom_icon_image": "shopify:\/\/shop_images\/Img_2.png",
+            "icon_size": 24,
+            "show_description": false,
+            "text": "<p>Pair image with text to tell more about your product: care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "collapsible_row_Vz34T4": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Price Guarentee",
+            "heading_size": "caption2",
+            "icon": "document",
+            "custom_icon_image": "shopify:\/\/shop_images\/Img_3.png",
+            "icon_size": 24,
+            "show_description": false,
+            "text": "<p>Pair image with text to tell more about your product: care instructions, country of origin, manufacturer information, matching colors and accessories.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "collapsible_row_EANCyU": {
+          "type": "collapsible_row",
+          "settings": {
+            "title": "Shipping",
+            "heading_size": "caption2",
+            "icon": "shipping-box",
+            "icon_size": 24,
+            "show_description": false,
+            "text": "<p>Skirack currently ships items to all 48 contiguous states, Alaska, and Hawaii, and Puerto Rico. We also ship to Military APO \/ FPO addresses. We currently do not ship to International addresses.<\/p><p>If your order meets or exceeds the amount advertised on the website, you qualify for free shipping. Choose the FREE delivery option (up to 10 business days) at checkout. This offer is valid for orders shipped to addresses in the 48 contiguous United States. The Free shipping option is not valid for orders shipped to Alaska, Hawaii, Puerto Rico, or anywhere else outside of the lower 48 states. Free shipping orders will be shipped by the most appropriate method based on their physical size and destination. Some items such as bicycles are not available to be shipped and are only available to be picked up in our Burlington, Vermont store.<\/p><p>2-Day Delivery to Alaska and Hawaii may take three days. Next-Day Delivery is available only in the continental US. Next-Day Delivery to Alaska and Hawaii may take an additional 1-2 days.<\/p><p>All shipping methods do not deliver on weekends, but the on business days (Mon-Fri).<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "description_W9YUWD",
+        "860566f2-5be2-4ed8-9964-b27e88c6c92b",
+        "collapsible_row_BRdnUp",
+        "collapsible_row_Vz34T4",
+        "collapsible_row_EANCyU"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": true,
+        "container_size": "medium",
+        "style": "collapsible-rows",
+        "expand_first_collapsible_row": false,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "title": "You may also like",
+        "heading_size": "h5",
+        "alignment": "center",
+        "product_recommendations_type": "manually",
+        "featured_collection": "cycle",
+        "featured_products": [],
+        "img_ratio": "fit-portrait",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "product_card_align": "center",
+        "cards_to_show": 18,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 12,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "1c58a53e-d2dd-4e5c-b684-b7aecf54a6be": {
+      "type": "collage",
+      "blocks": {
+        "534bf55b-7398-4fa0-ac15-dc87ef799863": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/sr-placeholder-img.webp",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "rgba(0,0,0,0)",
+            "top_tag": "",
+            "show-tag": false,
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "IMAGE",
+            "title": "Image with text",
+            "heading_size": "h6",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "body_size": "body3",
+            "link_text": "Link label",
+            "link": "",
+            "btn_style": "link",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "3e1d9eaf-4579-49c0-9cfd-19c26e8bf3d6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-1",
+            "desktop_columns": 2,
+            "desktop_rows": 2,
+            "image": "shopify:\/\/shop_images\/sr-placeholder-img.webp",
+            "model_video": false,
+            "model_btn": "Our Story",
+            "overlay_opacity": 20,
+            "tag-text-color": "#000000",
+            "tag-bg-color": "rgba(0,0,0,0)",
+            "top_tag": "",
+            "show-tag": false,
+            "content_mobile": "",
+            "mobile_tag": "",
+            "subHmobile": "",
+            "caption": "IMAGE",
+            "title": "Image with text",
+            "heading_size": "h6",
+            "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+            "body_size": "body3",
+            "link_text": "Link label",
+            "link": "",
+            "btn_style": "link",
+            "link_text-2": "",
+            "link-2": "",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        }
+      },
+      "block_order": [
+        "534bf55b-7398-4fa0-ac15-dc87ef799863",
+        "3e1d9eaf-4579-49c0-9cfd-19c26e8bf3d6"
+      ],
+      "disabled": true,
+      "settings": {
+        "block-class": "",
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "title": "",
+        "link-text-title": "",
+        "link-text-url": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "custom-card-pos": 0,
+        "image-text": "",
+        "img-link-text": "",
+        "custom-card-heading": "",
+        "custom-card-subheading": "",
+        "link-text": "",
+        "custom_card_url": "",
+        "columns": 4,
+        "desktop_space_between_cards": 12,
+        "mobile_layout": "one-column",
+        "mobile_row_height": 430,
+        "mobile_space_between_cards": 16,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "35a80c75-d4b0-4340-9552-75a9f11586de": {
+      "type": "images-with-text",
+      "blocks": {
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg"
+          }
+        },
+        "image_gyd39L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg"
+          }
+        },
+        "image_Bq7YNP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg"
+          }
+        },
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bike-fit-e-bike-933x367-02012024.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-0",
+        "image_gyd39L",
+        "image_Bq7YNP",
+        "template--16729789563121__35a80c75-d4b0-4340-9552-75a9f11586de-1681824353e40c4786-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1.3,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "IMAGES WITH TEXT",
+        "heading": "Promo with featured images",
+        "heading_size": "h2",
+        "body": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.<\/p>",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 440,
+        "first_button_text": "Button label",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 80
+      }
+    },
+    "instagram_Re6KB7": {
+      "type": "instagram",
+      "blocks": {
+        "post_MxDPjY": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_rdnwJf": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_HHHheE": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_TgAAi3": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_MxDPjY",
+        "post_rdnwJf",
+        "post_HHHheE",
+        "post_TgAAi3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 90
+      }
+    },
+    "multicolumn_wgqRFm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_edCjLP": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "delivery-truck",
+            "custom_icon_image": "shopify:\/\/shop_images\/image_6.png",
+            "icon_size": 64,
+            "title": "FREE SHIPPING",
+            "text": "<p>We provide free and fast worldwide delivery via Express Shipping on orders above $150<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_DCx4Um": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "easy-returns",
+            "custom_icon_image": "shopify:\/\/shop_images\/image_6_1.png",
+            "icon_size": 64,
+            "title": "EASY RETURN & EXCHANGES",
+            "text": "<p>Should you change your mind we will happily exchange or refund within 30 days of purchase<\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_XRcW98": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "customer-support",
+            "custom_icon_image": "shopify:\/\/shop_images\/image_6_2.png",
+            "icon_size": 64,
+            "title": "24\/7 SUPPORT",
+            "text": "<p>Should you have questions about delivery, returns, and technical issues, we are always here to help <a href=\"\/pages\/contact\" title=\"Contact\">Send us a message &gt;<\/a><\/p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_edCjLP",
+        "column_with_icon_DCx4Um",
+        "column_with_icon_XRcW98"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "desktop_layout": "grid",
+        "mobile_layout": "grid",
+        "title": "",
+        "heading_size": "h5",
+        "text": "",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 24,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 24,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 80,
+        "section_spacing_bottom": 25
+      }
+    },
+    "custom_newsletter_ARb7GN": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "title_TnpbCt": {
+          "type": "title",
+          "settings": {
+            "title": "First time? Claim your $15 gift card!",
+            "heading_size": "h4"
+          }
+        },
+        "text_r7qtTU": {
+          "type": "text",
+          "settings": {
+            "text": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com.",
+            "body_size": "body6"
+          }
+        },
+        "subscribe_3XNnmY": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_TnpbCt",
+        "text_r7qtTU",
+        "subscribe_3XNnmY"
+      ],
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 16,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "properks_product_widget_EtHyKN",
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "rich_text_LjkCMP",
+    "rich_text_hGWRDb",
+    "properks_info_widget_Trre9X",
+    "product-details",
+    "product-recommendations",
+    "1c58a53e-d2dd-4e5c-b684-b7aecf54a6be",
+    "35a80c75-d4b0-4340-9552-75a9f11586de",
+    "instagram_Re6KB7",
+    "multicolumn_wgqRFm",
+    "custom_newsletter_ARb7GN"
+  ]
+}

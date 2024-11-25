@@ -1,0 +1,102 @@
+<style>
+.main_inner_topnav {
+  
+    padding-inline: 20px;
+}  
+  .main_top_nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #00000030;
+    padding: 10px;
+    margin-bottom: 29px;
+    padding-bottom: 24px;
+   
+}
+.main_nav a {
+  text-decoration:none;
+}
+  .main_nav a {
+    text-decoration: none;
+    padding: 0px 71px;
+    color: #00000082;
+}
+  .image-banner__text {
+    margin-bottom:0px;
+  }
+  @media screen and (max-width: 1046px){
+     .main_nav a {
+    text-decoration: none;
+    padding: 0px 30px;
+    color: #00000082;
+}
+  }
+ 
+@media screen and (max-width: 768px){
+    .main_top_nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #00000030;
+    padding: 10px;
+    margin-bottom: 29px;
+    padding-bottom: 24px;
+      padding-top: 24px;
+      flex-wrap:wrap;
+   
+}
+   .main_nav {
+    min-width: 50%;
+     text-align:left;
+}
+ .main_nav a {
+    text-decoration: none;
+    padding:0px;
+    color: #00000082;
+   text-align:left;
+}
+}
+</style>
+<div class="main_inner_topnav">
+ <div class="main_top_nav">
+   {% for block in section.blocks %}
+     <div class="main_nav">
+       <a href={{ block.settings.Url}}>
+         {{ block.settings.text_main }}
+       </a>
+     </div>
+   {% endfor %}
+ </div>
+</div>
+{% schema %}
+  {
+    "name": "top Nav landing",
+    "settings": [
+      
+    ],
+    "blocks": [
+      {
+        "type": "links",
+        "name":"link",
+        "settings": [
+         {
+          "type":"text",
+           "label":"Add text",
+           "id":"text_main"
+          
+        },
+           {
+          "type":"url",
+           "label":"Add link",
+           "id":"Url"
+          
+        },
+          
+        ]
+      }
+    ],
+    "presets":[{
+      "name":"Top Nav Landing"
+    }]
+  }
+{% endschema %}

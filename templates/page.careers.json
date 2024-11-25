@@ -1,0 +1,298 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/join-our-team-skirack-933x367-11132023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Join Our Team",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Join the Adventure at Skirack and Patagonia Burlington!<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skirack of Burlington, VT, a locally owned and operated ski\/bike\/run specialty retail and service store which also owns Patagonia Burlington is looking for you. Now in our 55th year, ideal candidates are interested in working with a privately owned business that values personal health and well-being as well as contributing to the communities in which we work and live.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 0
+      }
+    },
+    "faq_jVwiLP": {
+      "type": "faq",
+      "blocks": {
+        "question_wwyAFz": {
+          "type": "question",
+          "settings": {
+            "title": "Service Writers and Technicians for Ski-Board-Bike, Skirack",
+            "heading_size": "caption3",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p><strong>FLSA:<\/strong>Non-exempt (FT & PT) available<\/p><p><strong>Benefits:<\/strong>Available for FT employees working 35 hours per week<\/p><p><strong>Pay range:<\/strong>Commensurate with experience.<\/p><p><strong>Ski Rack Inc. is looking for experienced technicians and service writers to join our team. This position requires that a technician be able to diagnose and complete repairs on snow sport and bicycle gear of all nature from various manufacturers, assemble new bikes, mount bindings, ski tuning and complete quality assurance inspections.<\/strong><\/p><p><strong>Essential Duties:<\/strong><\/p><ul><li>Work directly with guests and retail department staff to fit, service, and maintain bike, snowboard and alpine skiing equipment including, but not limited to binding mounting and adjustments, equipment repair, tuning, and waxing.<\/li><li>Perform evaluations and initial inspections to write and prepare notes for service technicians.<\/li><li>Research part compatibility and availability as needed with repairs.<\/li><li>Prioritize daily repairs to meet deadlines.<\/li><li>Deliver high customer service through thorough communication and high-quality repairs.<\/li><li>Provide the highest level of customer service.<\/li><li>Actively contribute to a positive work environment.<\/li><li>Maintain a high degree of cleanliness and organization in the repair shop.<\/li><\/ul><p><strong>Successful Candidates Will Have:<\/strong><\/p><ul><li>A minimum of 2 years of tech or service writing experience is required.<\/li><li>Alpine, Nordic and AT mounting experience.<\/li><li>Function and release testing experience.<\/li><li>Experience with ski tuning machinery (Winterstieger, Reichmann, etc.).<\/li><li>Ski\/Board repair experience.<\/li><li>Suspension, E-Bike, electronic drivetrain, and service writing are a plus.<\/li><li>Supply your own basic repair tools - Allen keys, chain whips, adjustable wrenches, etc..<\/li><li>Ability to work weekdays and weekends.<\/li><li>Thrive in a dynamic and fast-paced environment.<\/li><li>Display mechanical aptitude and critical thinking skills.<\/li><li>Showcase strong verbal and written communication skills.<\/li><li>Demonstrated ability to work independently and as part of a team.<\/li><li>Commitment to maintaining an organized work environment.<\/li><li>Be highly resourceful when problem-solving.<\/li><li>Approach their job as a professional with a commitment to excellence.<\/li><li>Standing for extended periods up to an entire work shift.<\/li><li>Positive attitude, open to feedback and day-to-day direction.<\/li><\/ul>",
+            "page": "",
+            "body_size": "body5",
+            "image_width": 100
+          }
+        },
+        "question_JfCBpt": {
+          "type": "question",
+          "settings": {
+            "title": "Retail Sales Associates (Part Time) for Skirack (Nordic, run, alpine, snowboard, apparel) and Patagonia Burlington (apparel)",
+            "heading_size": "caption3",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p><strong>Pay range:<\/strong>$15.00 - $17.00 commensurate with experience.<\/p><p><strong>Position Type:<\/strong>Days and hours of work vary by schedule. Evening and weekend work is required as the business requires.<\/p><p><strong>The Base camp Retail Sales Associate works closely with customers to ensure maximum client satisfaction by assisting in determining their needs, answering their questions about products\/product availability and recommending the right solutions, while processing the sales transaction, returns, refunds, and promptly resolving complaints.<\/strong><\/p><p><strong>Essential Job Responsibilities:<\/strong><\/p><ul><li>Ensure high levels of customer satisfaction through excellent sales service<\/li><li>Assess customers’ needs and provide assistance and information on product features, benefits, and overall value<\/li><li>Follow and achieve department’s sales goals on a monthly, quarterly and yearly basis<\/li><li>“Go the extra mile” to drive sales<\/li><li>Maintain in-stock and presentable condition assigned areas<\/li><li>Remain knowledgeable on products offered and discuss available options<\/li><li>Process purchases, returns, and exchanges<\/li><li>Comply with inventory control procedures<\/li><li>Handle customer complaints in a calm and professional manner<\/li><li>Report anything unusual, or any major incidents, to management<\/li><li>Organize and replenish front stock and help merchandize store<\/li><li>Maintain a clean and tidy work and retail space<\/li><li>Be enthusiastic and informative about all products<\/li><li>Take direction from and report to assigned floor leader<\/li><\/ul><p><strong>Experience\/Skills\/Behaviors:<\/strong><\/p><ul><li>High school diploma or GED equivalent preferred<\/li><li>Previous retail, sales and\/or hospitality experience a plus<\/li><li>Computer literate; familiarity using POS systems<\/li><li>Extremely personable, positive, and approachable<\/li><li>Fantastic customer service skills<\/li><li>Detail oriented and highly organized<\/li><li>Positive attitude, approachability, active listene<\/li><\/ul>",
+            "page": "",
+            "body_size": "body5",
+            "image_width": 100
+          }
+        },
+        "question_H7qiNC": {
+          "type": "question",
+          "settings": {
+            "title": "Assistant Store Manager, Patagonia Burlington (Full Time)",
+            "heading_size": "caption3",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>The Assistant Store Manager is a key member of the Skirack, Inc. leadership team. They demonstrate a personal commitment to lead through action to serve and fulfill our mission. They ensure that our team is enthusiastic, educated, professional, and productive. They are the key resource that staff go to do their jobs.<\/p><p><strong>Job Responsibilities:<\/strong><\/p><ul><li>Direct the execution of day to day operations store wide by setting clear expectations based on guidance from Store, Service and Category Managers<\/li><li>Plan and train base camp staff in day to day operations, product knowledge, and service to ensure performance standards are being met. Seeks support from other Leadership resources including Category Managers to complete this work<\/li><li>Track the performance of base camp staff to ensure they are delivering operational and customer service excellence<\/li><li>Delegate work and follow up on progress to ensure progress is being made<\/li><li>Ensure the accuracy of all opening\/closing procedures, cash management, and resolution of discrepancies<\/li><li>Train staff in the practices we use to prevent theft and shrinkage<\/li><li>Provides clear direction and follow up to staff to ensure high cleanliness standards in the store, restrooms, employee break room, parking lot and immediate grounds at all times<\/li><li>Constantly monitoring staff performance to ensure everyone is improving daily<\/li><li>Takes action to redirect, educate, and motivate employees when performance does not meet expectations<\/li><li>Supports Store Managers in documenting staff performance to ensure Company standards are being met<\/li><li>Proactively collaborates and communicates with Store, Service and Category Managers to pursue new opportunities and address operational challenges<\/li><li>Ensures that all written standards for the visual presentation of the store along with the organization and maintenance of all inventory, layaway, warranty and maintenance back stock areas are followed<\/li><li>Supports the Inventory Team in the daily accuracy of all retail activities including execution of Web Fulfillment, Receiving, and Cycle Counts when needed<\/li><li>Supports the execution of seasonal floor transition plans<\/li><li>Provides timely feedback to Category Managers on customer requests and product feedback<\/li><li>Supports and directs work to uphold company safety practices, ensuring the store is OSHA\/VOSHA compliant at all times<\/li><li>Supports the company by performing other duties and tasks that are assigned that may fall outside of daily job responsibilities<\/li><\/ul><p><strong>Qualifications:<\/strong><\/p><ul><li>2-3 years' experience with a track record of managing and building effective teams.(outdoor retail industry experience preferred)<\/li><li>Ability to coordinate projects, execute plans & work well within a team<\/li><li>Has a demonstrated sense of urgency and ability to prioritize on the fly<\/li><li>Experienced with retail operations inclusive of product training and visual merchandising<\/li><li>Demonstrated skill to build systems and tools to ensure timely responsiveness to requests and that deadlines are met<\/li><li>Receptive to feedback and willingness to be coached<\/li><li>Skilled in Microsoft Office, G Suite and other relevant software<\/li><li>Ability to work a variable schedule including nights, weekends, and peak business periods<\/li><li>Travel: 10% or as required: for store visits, trade shows, events, and other professional development opportunities<\/li><li>Able to lift 30+ pounds, stand\/walk for extended periods of time<\/li><\/ul><p>This is a full-time, benefitted position.<\/p>",
+            "page": "",
+            "body_size": "body5",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "question_wwyAFz",
+        "question_JfCBpt",
+        "question_H7qiNC"
+      ],
+      "custom_css": [
+        ".accordeon-plus--top-bordered {border-top: 1px solid rgb(231 231 231);}",
+        ".caption3 {font-weight: normal;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "xsmall",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "Immediate Opportunities Available:",
+        "heading_size": "h5",
+        "text": "",
+        "body_size": "body6",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_GatReK": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>\"It is the responsibility of every employee to contribute to a positive work environment through cooperative and professional interactions with co-workers, customers, and vendors.\"<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please respond with a current cover letter and resume to <a href=\"mailto:%20kimberlys@skirack.com\">kimberlys@skirack.com<\/a><\/p><p>Skirack Inc. is an equal opportunity employer. We celebrate diversity and are committed to an inclusive workplace for all employees.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "heading_GatReK",
+        "text_7iNmRF"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "faq_jVwiLP",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

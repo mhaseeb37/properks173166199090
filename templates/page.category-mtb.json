@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "IMAGE BANNER",
+        "title": "Image with text",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "collection_list_zG6qk6": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Men",
+        "heading_size": "h5",
+        "alignment": "center",
+        "collection_list": [
+          "men"
+        ],
+        "img_ratio": "default",
+        "text_style": "on-image-center",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "h6",
+        "show_product_count": "none",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 10,
+        "show_navigation_on_hover": true,
+        "collection_card_overlay_opacity": 10,
+        "collection_card_overlay_color": "#000000",
+        "collection_card_title_color": "#ffffff",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "collage_Tb7dik": {
+      "type": "collage",
+      "blocks": {
+        "image_6aWmnE": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Bikes",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Bikes",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_NTxXnj": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Apparel",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Apparel",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_FWirn3": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Shoes",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Shoes",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_LnBKL6": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Helmets",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Helmets",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_6rCyC8": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Parts",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Parts",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        },
+        "image_3fwQXx": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "custom-5",
+            "desktop_columns": 1,
+            "desktop_rows": 1,
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "overlay_opacity": 20,
+            "caption": "",
+            "title": "Accessories",
+            "heading_size": "h6",
+            "text": "",
+            "body_size": "body3",
+            "link_text": "",
+            "link": "\/collections\/mtb\/Accessories",
+            "btn_style": "link",
+            "content_position": "center-center",
+            "mobile_position": "bottom-center",
+            "hover_effect": "zoom"
+          }
+        }
+      },
+      "block_order": [
+        "image_6aWmnE",
+        "image_NTxXnj",
+        "image_FWirn3",
+        "image_LnBKL6",
+        "image_6rCyC8",
+        "image_3fwQXx"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "title": "MTB",
+        "heading_size": "h5",
+        "alignment": "center",
+        "columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_layout": "carousel",
+        "mobile_row_height": 500,
+        "mobile_space_between_cards": 16,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "collection_list_zG6qk6",
+    "collage_Tb7dik"
+  ]
+}

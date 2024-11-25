@@ -1,0 +1,173 @@
+<style>
+  .main_inner_properk {
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #a3a3a3;
+    padding: 32px 60px;;
+    border-radius: 16px;
+    align-items:center;
+}
+
+
+.properk_refer_main.pro-{{ section.id }}{
+  padding-top:{{section.settings.top_spacing}}px;
+  padding-bottom:{{section.settings.bottom_spacing}}px;
+  padding-left:15px;
+  padding-right:15px;
+}
+  .left_side_main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pro_pricing_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 850px){
+  .inner_text_main {
+    width:100%;
+    
+  }
+  .left_side_main {
+  width:100%;
+  
+}
+.left_side_main {
+  display:block;
+  text-align:center;
+}
+.properk_imagem {
+  margin:0px auto;
+}
+  .properk_imagem{
+    max-width:34px;
+  }
+  .text_side_m{
+    font-size:12px;
+    font-weight:500;
+  
+  }
+.right_side_main {
+  margin-top:12px;
+}
+.first_link_m svg{
+  display:none;
+}
+.second_link_m svg{
+  display:none;
+}
+  .first_link_m a{
+ justify-content:center;
+}
+.second_link_m a{
+ justify-content:center;
+}
+  .first_link_m a {
+    justify-content: center;
+    padding: 16px 13px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    font-family: var(--gsc-headings-font-family);
+    font-size:12px;
+}
+  .second_link_m{
+    margin-top:7px;
+  }
+  .second_link_m a {
+    justify-content: center!important;
+    padding: 16px 13px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 16px;
+    border:1px solid black;
+     font-family: var(--gsc-headings-font-family)!important;
+    font-size:12px;
+}
+
+   .pro_pricing_inner-perks {
+    display: flex;
+   flex-wrap:wrap;}
+  
+.right_side_main {
+  width:100%;
+  
+}
+.button_container_main{
+  width:100%;
+}
+.main_inner_properk{
+flex-wrap:wrap;
+text-align:center;
+gap: 10px;}
+}
+</style>
+<div class="properk_refer_main pro-{{ section.id }} ">
+  <div class="main_inner_properk  container container--large">
+    <div class="inner_text_main">
+      {{ section.settings.text_m }}
+    </div>
+    {% if section.settings.btn_t != blank %}
+    <div class="button_container_main">
+      <a href="{{ section.settings.btn_l}}" class="btn btn--solid refer_btn">
+        {{ section.settings.btn_t }} 
+
+      </a>
+    </div>
+      {% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Refer Properk",
+    "settings": [
+      {
+        "type":"range",
+        "id":"top_spacing",
+        "label":"Top Spacing",
+        "step": 1,
+        "max": 100,
+        "min":0,
+        "default":10,
+        "unit": "Px"
+      },
+       {
+        "type":"range",
+        "id":"bottom_spacing",
+        "label":"Bottom Spacing",
+        "step": 1,
+        "max": 100,
+        "min":0,
+        "default":10,
+        "unit": "Px"
+      },
+      {
+        "type":"richtext",
+        "label":"Add Text",
+        "id":"text_m"
+        
+      },
+      {
+        "type":"text",
+        "label":"btn_text",
+        "id":"btn_t"
+      },
+      {
+        "type":"url",
+        "label":"btn_url",
+        "id":"btn_l"
+      }
+    ],
+    "presets": [{
+      "name":"Refer Properk"
+    }]
+  }
+{% endschema %}

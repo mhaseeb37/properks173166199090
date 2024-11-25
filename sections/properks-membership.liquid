@@ -1,0 +1,252 @@
+<section class="properks-membership">
+  {% if customer %}
+    <div class="properks-container" id="member-msg">
+       <div class="close_btn_properk">
+       
+<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.87207 1.46875L1.18262 10.1582" stroke="black" stroke-width="1.2093" stroke-linecap="round"/>
+<path d="M9.87207 10.1582L1.18262 1.46875" stroke="black" stroke-width="1.2093" stroke-linecap="round"/>
+</svg>
+
+      </div>
+      <div class="properks-lock-icon">
+        <img src="{{ section.settings.properks-icon | image_url }}">
+      </div>
+      <div class="properks-text">
+        <h5>Welcome Back, {{ customer.name }}. </h5>
+          <h5>Category Unlocked!</h5>
+      </div>
+      <div class="close-icon" id="close-membership-msg">
+        <img src="{{ 'close-icon.png' | asset_url }}">
+      </div>
+    </div>
+  {% else %}
+    <div class="properks-container" id="non-member-msg">
+      <div class="close_btn_properk">
+       
+<svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.87207 1.46875L1.18262 10.1582" stroke="black" stroke-width="1.2093" stroke-linecap="round"/>
+<path d="M9.87207 10.1582L1.18262 1.46875" stroke="black" stroke-width="1.2093" stroke-linecap="round"/>
+</svg>
+
+      </div>
+      <div class="properks-lock-icon">
+        <img src="{{ section.settings.non-properks-icon | image_url }}">
+      </div>
+      <div class="properks-text">
+        <h5>{{ section.settings['non-properks'] }}</h5>
+      </div>
+      <div class="properks-buttons">
+        <a href="{{ section.settings.url-signup }}">
+        <div class="dark-button button">
+          <p>Join Free</p>
+        </div>          
+        </a>
+        <a href="{{ section.settings.url-login }}">
+        <div class="light-button button">
+          <p>Sign In</p>
+        </div>    
+        </a>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+  <script>
+    var allclosebtns=document.querySelectorAll(".close_btn_properk");
+    allclosebtns.forEach(function(ele){
+      
+  
+    ele.addEventListener("click", function(){
+      var parentEle=ele.parentNode;
+      parentEle.style.display="none";
+    })
+        })
+  </script>
+  
+<style>
+  .sticky-top{
+    position: sticky;
+    top:70px;
+    z-index:3;
+  }
+.properks-container{
+  position:relative;
+}
+  .close_btn_properk {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    display:none;
+}
+.dark-button:hover {
+    background: white;
+    color: #383838;
+    border: 1px solid #3838384d;
+}
+  .light-button:hover{
+    background:#383838;
+    color:white;
+    
+  }
+  @media(max-width:768px){
+    .sticky-top{
+      top:60px;
+    }
+    .close_btn_properk{
+      display:block;
+    }
+   .properks-text *{
+     text-align:left;
+     font-size:13px;
+     color:#2A2A2A;
+      max-width:183px!important;
+   }
+  .properks-container{
+    gap:14px;
+   
+  }
+  
+    .properks-buttons .button {
+    border-radius: 12px!important;
+    padding: 10px 51px!important;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+    .properks-text{
+      max-width:252px!important;
+    }
+    
+  }
+    @media(max-width:550px){
+    .sticky-top{
+      top:80px;
+    }
+  }
+  .properks-membership{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:15px 20px;
+  }
+  .properks-container{
+    width:100%;
+    margin:0 auto;
+    border-radius:10px;
+    position:relative;
+    border:0.5px solid #adadad;
+    display:flex;
+    background-color:#F6F6F6;
+    padding:30px 45px;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  #member-msg .properks-text h5{
+    text-align:left;
+  }
+  .close-icon{
+    position:absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer;
+  }
+  .close-icon img{
+    width:20px;
+  }
+  .properks-lock-icon img{
+    width:30px;
+    height:auto;
+  }
+  .properks-text{
+    width: 100%;
+    max-width:210px;
+  }
+  .properks-text h5{
+    font-size:14px;
+    text-align:center;
+    font-weight:500;
+  }
+  .properks-buttons{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .properks-buttons a{
+    text-decoration:none;
+  }
+  .properks-buttons .button{
+    border-radius: 10px;
+    padding:10px 30px;
+    font-size:12px;
+    cursor:pointer;
+  }
+  .dark-button{
+    color:white;
+    background-color:#383838;
+  }
+  .light-button{
+    color:black;
+    background-color:white;
+    border:0.5px solid #8a8a8a;
+  }
+  @media (max-width:550px){
+      .properks-container{
+        padding:20px 5px;
+        justify-content:center;
+        gap:14px;
+        border-radius:16px;
+        background:white;
+      }
+  }
+</style>
+<script>
+  const btn = document.getElementById("close-membership-msg");
+  const msg = document.getElementById("member-msg");
+if (btn){
+  btn.addEventListener("click", function(){
+    msg.style.display = "none";
+  })
+}
+</script>
+{% schema %}
+{
+  "name": "ProPerks Membership",
+  "class":"sticky-top",
+  "settings": [
+    {
+      "type": "url",
+      "id": "url-login",
+      "label": "Login URL",
+    },
+    {
+      "type": "url",
+      "id": "url-signup",
+      "label": "Sign Up URL"
+    },
+    {
+      "type": "image_picker",
+      "id": "properks-icon",
+      "label": "Icon for Member"
+    },
+    {
+      "type": "richtext",
+      "id": "non-properks",
+      "label": "Text for Non Member"
+    },
+    {
+      "type": "image_picker",
+      "id": "non-properks-icon",
+      "label": "Icon for Non Member"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ProPerks Membership",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

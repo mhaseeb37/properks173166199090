@@ -1,0 +1,358 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>New customers save 10% with the code GET10<\/p>",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "announcement_2": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Join ProPerks + Get Free Gear<\/p>",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "imagewithtext_bdDH6B": {
+          "type": "imagewithtext",
+          "settings": {
+            "devImage": "shopify:\/\/shop_images\/Frame_54.svg",
+            "devtitle": "<h5>Join ProPerks<\/h5>",
+            "paragraph": "Meet the best outdoor rewards program in the biz. No silly points or tiers – just one simple (free) membership to rule them all. Get free gear and instant access.",
+            "link-text": "Join Free",
+            "url": "\/"
+          }
+        },
+        "imagewithtext_7FdzE4": {
+          "type": "imagewithtext",
+          "settings": {
+            "devtitle": "<h5>New Customers get $15<\/h5>",
+            "paragraph": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com. And yes, now you can stack this reward with your ProPerks :)",
+            "link-text": "Claim Now",
+            "url": "\/"
+          }
+        },
+        "imagewithtext_kYhiiR": {
+          "type": "imagewithtext",
+          "settings": {
+            "devtitle": "<h5>Price Match Beat Guarantee<\/h5>",
+            "paragraph": "It's our mission to provide you with the lowest price. If you find an item in stock online from an authorized retailer at a lower final price (after tax + shipping costs), we’ll beat it by 5%.",
+            "link-text": "Learn More",
+            "url": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_1",
+        "announcement_2",
+        "imagewithtext_bdDH6B",
+        "imagewithtext_7FdzE4",
+        "imagewithtext_kYhiiR"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_only_on_homepage": false,
+        "color_scheme": "custom-5",
+        "innerlink": "properks-menu",
+        "container_size": "full-screen",
+        "show_navigation_arrows": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 6,
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "show_social_list": false,
+        "enable_style": true,
+        "enable_pro_perks": true,
+        "icon-perk": "shopify:\/\/shop_images\/Frame_56.svg",
+        "perks-txt": "properks",
+        "perks-link": "https:\/\/skirackbtv.myshopify.com\/pages\/pro-pricing",
+        "add_side_paddings": true,
+        "desktop_spacing_top": 20,
+        "desktop_spacing_bottom": 0,
+        "mobile_spacing_top": 0,
+        "mobile_spacing_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "83080f15-bfa2-4fe6-a15c-86e118ea2ddd": {
+          "type": "menu-3",
+          "settings": {
+            "mega_nav_item_name": "shop",
+            "hide_nav": false,
+            "text-direction": "Horizontal",
+            "hide-c": false,
+            "block_visibility": "desktop_and_mobile",
+            "block_layout": "carousel",
+            "collection_list": [
+              "men",
+              "women",
+              "kids",
+              "accessories"
+            ],
+            "img_ratio": "portrait",
+            "text_style": "under-image",
+            "collection_card_content_align": "left",
+            "heading_size": "caption2",
+            "show_product_count": "caption",
+            "columns": 3,
+            "desktop_space_between_cards": 12,
+            "header_block_paddings_desktop": 20,
+            "mobile_space_between_cards": 12,
+            "header_block_paddings_mobile": 20,
+            "collection_card_overlay_opacity": 0,
+            "collection_card_overlay_color": "#000000",
+            "collection_card_title_color": "#ffffff",
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "menu_3_ycAFKG": {
+          "type": "menu-3",
+          "settings": {
+            "mega_nav_item_name": "activity",
+            "hide_nav": true,
+            "text-direction": "vertical",
+            "hide-c": true,
+            "block_visibility": "desktop_and_mobile",
+            "block_layout": "carousel",
+            "collection_list": [
+              "cycle",
+              "gear",
+              "snowshoe",
+              "women",
+              "snowboard",
+              "alpine-ski",
+              "accessories",
+              "kids",
+              "men",
+              "mtb"
+            ],
+            "img_ratio": "portrait-xl",
+            "text_style": "on-image-center",
+            "collection_card_content_align": "center",
+            "heading_size": "caption2",
+            "show_product_count": "caption",
+            "columns": 6,
+            "desktop_space_between_cards": 12,
+            "header_block_paddings_desktop": 20,
+            "mobile_space_between_cards": 12,
+            "header_block_paddings_mobile": 20,
+            "collection_card_overlay_opacity": 10,
+            "collection_card_overlay_color": "#000000",
+            "collection_card_title_color": "#ffffff",
+            "autoplay_mode": "disabled",
+            "autoplay_interval": 3
+          }
+        },
+        "ad5b492f-e107-4508-9613-245a05308a86": {
+          "type": "menu-1",
+          "settings": {
+            "mega_nav_item_name": "gift guide",
+            "blkheading": "Surprise someone you love  ❤️",
+            "btn1text": "Shop Gift Cards",
+            "btn1url": "shopify:\/\/products\/example-alpine-ski-product-ski-boot",
+            "btn2text": "Check the Guide",
+            "btn2url": "shopify:\/\/collections\/gear",
+            "btm_heading": "Picky dad? Mom’s got everything? We know how that goes.",
+            "hide_nav": true,
+            "block_visibility": "desktop_and_mobile",
+            "color_scheme": "custom-5",
+            "desktop_img_ratio": 1,
+            "columns": 6,
+            "desktop_space_between_cards": 9,
+            "header_block_paddings_desktop": 20,
+            "mobile_img_ratio": 1.4,
+            "mobile_space_between_cards": 12,
+            "header_block_paddings_mobile": 20,
+            "heading_size": "h6",
+            "body_size": "body3",
+            "content_position": "center-center",
+            "mobile_position": "bottom-left",
+            "enable_vertical_text": false,
+            "overlay_opacity": 19,
+            "hover_effect": "zoom",
+            "show_item_1": true,
+            "item_1_img": "shopify:\/\/shop_images\/Category_card_3.png",
+            "item_1_title": "",
+            "item_1_text": "",
+            "item_1_btn_text": "",
+            "item_1_link": "",
+            "item_1_btn_style": "solid",
+            "show_item_2": true,
+            "item_2_img": "shopify:\/\/shop_images\/Category_card_Hover.png",
+            "item_2_title": "",
+            "item_2_text": "",
+            "item_2_btn_text": "",
+            "item_2_link": "",
+            "item_2_btn_style": "solid",
+            "show_item_3": true,
+            "item_3_img": "shopify:\/\/shop_images\/Category_card_Hover_1.png",
+            "item_3_title": "",
+            "item_3_text": "",
+            "item_3_btn_text": "",
+            "item_3_link": "",
+            "item_3_btn_style": "solid",
+            "show_item_4": true,
+            "item_4_img": "shopify:\/\/shop_images\/Category_card_4.png",
+            "item_4_title": "",
+            "item_4_text": "",
+            "item_4_btn_text": "",
+            "item_4_link": "",
+            "item_4_btn_style": "solid",
+            "show_item_5": true,
+            "item_5_img": "shopify:\/\/shop_images\/Category_card_5.png",
+            "item_5_title": "",
+            "item_5_text": "",
+            "item_5_btn_text": "",
+            "item_5_link": "",
+            "item_5_btn_style": "solid",
+            "show_item_6": true,
+            "item_6_img": "shopify:\/\/shop_images\/Category_card_7.png",
+            "item_6_title": "",
+            "item_6_text": "",
+            "item_6_btn_text": "",
+            "item_6_link": "",
+            "item_6_btn_style": "solid",
+            "show_item_7": true,
+            "item_7_img": "shopify:\/\/shop_images\/Category_card_8.png",
+            "item_7_title": "",
+            "item_7_text": "",
+            "item_7_btn_text": "",
+            "item_7_link": "",
+            "item_7_btn_style": "solid",
+            "show_item_8": true,
+            "item_8_img": "shopify:\/\/shop_images\/Category_card_9.png",
+            "item_8_title": "",
+            "item_8_text": "",
+            "item_8_btn_text": "",
+            "item_8_link": "",
+            "item_8_btn_style": "solid",
+            "show_item_9": true,
+            "item_9_img": "shopify:\/\/shop_images\/Category_card_10.png",
+            "item_9_title": "",
+            "item_9_text": "",
+            "item_9_btn_text": "",
+            "item_9_link": "",
+            "item_9_btn_style": "solid",
+            "show_item_10": true,
+            "item_10_img": "shopify:\/\/shop_images\/Category_card_12.png",
+            "item_10_title": "",
+            "item_10_text": "",
+            "item_10_btn_text": "",
+            "item_10_link": "",
+            "item_10_btn_style": "solid",
+            "show_item_11": true,
+            "item_11_img": "shopify:\/\/shop_images\/Category_card_14.png",
+            "item_11_title": "",
+            "item_11_text": "",
+            "item_11_btn_text": "",
+            "item_11_link": "",
+            "item_11_btn_style": "solid",
+            "show_item_12": true,
+            "item_12_img": "shopify:\/\/shop_images\/Category_card_15.png",
+            "item_12_title": "",
+            "item_12_text": "",
+            "item_12_btn_text": "",
+            "item_12_link": "",
+            "item_12_btn_style": "solid",
+            "show_item_13": false,
+            "item_13_title": "Image with text",
+            "item_13_text": "",
+            "item_13_btn_text": "Button label",
+            "item_13_link": "",
+            "item_13_btn_style": "solid",
+            "show_item_14": false,
+            "item_14_title": "Image with text",
+            "item_14_text": "",
+            "item_14_btn_text": "Button label",
+            "item_14_link": "",
+            "item_14_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "83080f15-bfa2-4fe6-a15c-86e118ea2ddd",
+        "menu_3_ycAFKG",
+        "ad5b492f-e107-4508-9613-245a05308a86"
+      ],
+      "custom_css": [
+        ".image-block {background: transparent;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "full-screen",
+        "enable_sticky": "static",
+        "enable_shadow": false,
+        "enable_border": false,
+        "enable_transparent": false,
+        "menu": "main-menu",
+        "menu_type": "dropdown",
+        "grid": "1",
+        "menu_trigger": "hover",
+        "color_menu_items": "Item 1:#E32417, Item 2:#F1C232",
+        "desktop_logo_img": "shopify:\/\/shop_images\/Skirack-Logo-Mtn-Ridgeline_5.png",
+        "desktop_logo_width": 140,
+        "mobile_logo_width": 120,
+        "is_transparent_only_on_homepage": true,
+        "transparent_opacity": 0,
+        "transparent_blurring": 0,
+        "transparent_background_color": "#ffffff",
+        "transparent_items_color": "#ffffff",
+        "icon_style": "round-outline",
+        "cart_icon": "bag",
+        "login_mobile_position": "in_header",
+        "show_language_selector": false,
+        "show_currency_selector": false,
+        "add_side_paddings": true,
+        "desktop_spacing_top": 20,
+        "desktop_spacing_bottom": 20,
+        "mobile_spacing_top": 0,
+        "mobile_spacing_bottom": 0
+      }
+    },
+    "custom_font_BJehDJ": {
+      "type": "custom-font",
+      "blocks": {
+        "image_3z3rP9": {
+          "type": "image",
+          "settings": {
+            "name": "JetBrainsMono-M",
+            "custom_font_weight": "none",
+            "custom_font_style": "none",
+            "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0878\/6965\/3298\/files\/JetBrainsMono-Medium.ttf?v=1727472237",
+            "apply_h1": false,
+            "apply_h2": false,
+            "apply_h3": false,
+            "apply_h4": false,
+            "apply_h5": false,
+            "apply_h6": false,
+            "apply_span": false,
+            "apply_p": false,
+            "apply_custom": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3z3rP9"
+      ],
+      "settings": {
+        "enable": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "custom_font_BJehDJ"
+  ]
+}

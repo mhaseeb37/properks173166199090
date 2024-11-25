@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="{{ request.locale.iso_code }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="{{ settings.default_color_scheme }}">
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- endif -%}
+    {% render 'meta-tags' %}
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    >
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+         AOS.init();
+      })
+ 
+</script>
+    <title>
+      {{ page_title }}
+      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+    </title>
+
+    {% render 'css-variables' %}
+    {{ 'bundle.js' | asset_url | preload_tag: as: 'script' }}
+    {{ 'bundle.css' | asset_url | stylesheet_tag: preload: true }}
+    {{ 'account-app.css' | asset_url | stylesheet_tag: preload: true }}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    {% render 'fonts' %}
+
+    {{ content_for_header }}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body class="color-{{ settings.default_color_scheme }} round-level-{{ settings.round_level }} {% if settings.round_level != "0" %} round-style {% endif %}">
+    <a id="SkipContent" class="visually-hidden skip-to-content-link btn btn--lg btn--solid" href="#MainContent">
+      {{ 'accessibility.skip_to_text' | t }}
+    </a>
+
+    {% if template.name == 'password' %}
+      {% sections 'password-header-group' %}
+    {% else %}
+      {% sections 'main-header-group' %}
+      {% sections 'main-aside-group' %}
+    {% endif %}
+
+    {% sections 'popup-group' %}
+
+    <main id="MainContent">
+      {{ content_for_layout }}
+    </main>
+
+    {%- if template.name == 'password' -%}
+      {% sections 'password-footer-group' %}
+    {%- else -%}
+      {% sections 'main-footer-group' %}
+    {%- endif -%}
+
+    {%- render 'dialog-components' -%}
+    {%- render 'interface-controls' -%}
+    {%- render 'page-overlays' -%}
+
+    <div id="Portal"></div>
+    {%- render 'inject-routes' -%}
+    {%- render 'save-global-data-in-global-scope' -%}
+    <script>
+      window.lazySizesConfig = window.lazySizesConfig || {}
+      window.lazySizesConfig.loadMode = 1
+    </script>
+    {% if customer %}
+      <script>
+        document.querySelector('.main_properks_widget').style.display = 'none';
+      </script>
+    {% else %}
+      <script>
+        document.querySelector('.main_properks_widget').style.display = 'block';
+      </script>
+    {% endif %}
+    <script src="{{ 'bundle.js' | asset_url }}" defer="defer"></script>
+  </body>
+</html>

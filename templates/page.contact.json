@@ -1,0 +1,148 @@
+{
+  "sections": {
+    "split_image_banner": {
+      "type": "split-image-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "image_proportion": 0,
+        "content_wrapper_width": 50,
+        "caption": "SPLIT IMAGE BANNER",
+        "title": "Two images with text in between",
+        "heading_size": "h2",
+        "text": "<p>Fill in the text to tell customers by what your products are inspired.<\/p>",
+        "body_size": "body3",
+        "content_max_width": 468,
+        "desktop_content_align": "left",
+        "mobile_content_align": "center",
+        "btn_text": "Button label",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "image_banner_Ejd9QJ": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "Contact Us",
+        "title": "Leave a Message",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "title": "Leave a Message",
+        "heading_size": "h5",
+        "text": "If you are inquiring about a donation or event support, please fill out our <a href=\"https:\/\/www.skirack.com\/donations\">Donation Request Form. <\/a>Due to higher than normal demand, responses may be delayed.",
+        "body_size": "body3",
+        "text_align": "left",
+        "input_style": "outline",
+        "show_phone": true,
+        "show_captcha": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "store_locator_amgXRb": {
+      "type": "store-locator",
+      "blocks": {
+        "store_Mbzw6J": {
+          "type": "store",
+          "settings": {
+            "store_coordinates": "44.475621,-73.215754,16z",
+            "store_name": "Ski Rack Burlington",
+            "heading_size": "caption2",
+            "store_details": "<p>85 Main Street Burlington<br\/>VT 05401<br\/><br\/><strong>Store hours<\/strong><br\/>Sun: 11:00 - 17:00<br\/>Mon-Sat: 10:00 - 18:00<\/p>",
+            "body_size": "body4",
+            "show_directions": false,
+            "img_ratio": 1
+          }
+        }
+      },
+      "block_order": [
+        "store_Mbzw6J"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "large",
+        "expand_first_tab": false,
+        "subheading": "FIND US",
+        "heading": "Store locations",
+        "heading_size": "h2",
+        "body_richtext": "<p>Add locations of your points of sale on the map, provide store details like opening hours, interior photos, and more.<\/p>",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "api_key": "",
+        "map_desktop_ratio": 1,
+        "map_mobile_ratio": 1,
+        "map_position": "right",
+        "map_style": "standard",
+        "map_custom_style": "",
+        "map_zoom": 10,
+        "map_default_image": "shopify:\/\/shop_images\/mapPlaceholder_noinline.af3a4b7300a65b66f974eed7023840ac.svg",
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "split_image_banner",
+    "image_banner_Ejd9QJ",
+    "page",
+    "contact-form",
+    "store_locator_amgXRb"
+  ]
+}

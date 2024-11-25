@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/junior-lease-nordic-salomon-933x367-09022021.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Junior Cross Country Ski Lease",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Nordic Junior Lease: 2023-24 Winter Season Pricing & Information:<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are your kids first-time Nordic skiers? Or are they rapidly outgrowing their old equipment? If you're looking for high quality gear that fits and performs well, but don't want to break the bank, Skirack’s Junior Nordic Ski Lease Program is a great solution.<\/p><p>Featuring Salomon Prolink equipment with Swix Poles - and an experienced staff to ensure the best fit. Our Lease Program will get your high school or junior skiers on gear that will allow them to craft their skills and excel.<\/p><p><strong>Here are the details:<\/strong><\/p><ul><li>Skate and Classic competition-level racing skis, bindings, boots, and poles.<\/li><li>Professional fitting by a staff that has decades of experience with Nordic race equipment.<\/li><li>\"Single-event\" or \"two-event\" package lease options: allowing you to lease either Skate or Classic equipment <strong>OR<\/strong> both Skate and Classic equipment.<\/li><li>New and used equipment is available as well as  à la carte.<\/li><li>Quantities are limited.<\/li><\/ul><h6><strong>1. High School Race Lease Packages<\/strong><\/h6><p><strong>Two Event Package:<\/strong><\/p><p>Everything needed for skiers participating in <strong>both<\/strong> skate and classic events: <strong>two sets<\/strong> of skis with bindings, boots, and <strong>two sets<\/strong> of poles (one sized for classic, one for skate).<\/p><ul><li>Used: $219<\/li><\/ul><p><strong>One Event Package:<\/strong><\/p><p>Everything needed for skiers participating in either classic <strong>or<\/strong> skate single events: one set of skis, boots, and one set of poles.<\/p><ul><li>Used: $129<\/li><\/ul><h6><strong>2. Bill Koch Race Junior Lease Packages<\/strong><\/h6><p><strong>Two Event Package:<\/strong><\/p><p>Everything needed for skiers participating in <strong>both<\/strong> skate and classic events: <strong>two sets<\/strong> of skis with bindings, boots, and <strong>two sets<\/strong> of poles (one sized for classic, one for skate).<\/p><ul><li>Used: $169<\/li><\/ul><p><strong>One Event Package:<\/strong><\/p><p>Everything needed for skiers participating in either classic <strong>or<\/strong> skate single events: one set of skis, boots, and one set of poles.<\/p><ul><li>Used: $109<\/li><\/ul><h6><strong>3. Race Lease À La Carte<\/strong><\/h6><p><strong>High School New:<\/strong><br\/><em>Very limited quantities available<\/em><\/p><ul><li>Skis with Bindings: $129<\/li><li>Boots: $100<\/li><li>Poles: $30<\/li><\/ul><p><\/p><p><strong>High School Used:<\/strong><\/p><ul><li>Skis with Bindings: $80<\/li><li>Boots: $50<\/li><li>Poles: $20<\/li><\/ul><p><\/p><p><strong>Bill Koch Junior New:<\/strong><br\/><em>Very limited quantities available<\/em><\/p><ul><li>Skis with Bindings - $90<\/li><li>Boots - $70<\/li><li>Poles - $30<\/li><\/ul><p><\/p><p><strong>Bill Koch Junior Used:<\/strong><\/p><ul><li>Skis with Bindings - $60<\/li><li>Boots - $40<\/li><li>Poles - $15<\/li><\/ul><p><\/p><h6><strong>4. Touring Junior Lease Package (Used)<\/strong><\/h6><ul><li>Waxless Touring Skis (for under 130 lbs.) with NNN Bindings, junior boots and poles: $99<\/li><\/ul><h6><strong>5. Touring Junior Lease À La Carte (Used)<\/strong><\/h6><ul><li>Waxless Touring Skis (for under 130 lbs.) with NNN Bindings: $55<\/li><li>Junior Boots: $40<\/li><li>Poles: $10<\/li><\/ul><p><\/p><p><em><strong>Junior <\/strong><\/em><a href=\"\/pages\/junior-alpine-ski-lease\" title=\"Junior Alpine Ski Lease\"><em><strong>Downhill Ski<\/strong><\/em><\/a><em><strong> and <\/strong><\/em><a href=\"\/pages\/junior-snowboard-lease\" title=\"Junior Snowboard Lease\"><em><strong>Snowboard<\/strong><\/em><\/a><em><strong> Lease is also available.<\/strong><\/em><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 97
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

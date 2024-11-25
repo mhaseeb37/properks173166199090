@@ -1,0 +1,231 @@
+{
+  "sections": {
+    "collection-hero-banner": {
+      "type": "collection-hero-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "contentcol": "",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.3,
+        "mobile_ratio": 1.2,
+        "show_collection_image": true,
+        "show_breadcrumbs": true,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "desktop_overlay_opacity": 10,
+        "mobile_overlay_opacity": 10,
+        "heading_size": "h5",
+        "body_size": "body4",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "left",
+        "content_max_width": 1304,
+        "content_spacing": 28,
+        "mobile_content_spacing": 20,
+        "mobile_content_position": "align-items:center;",
+        "mobile_content_align": "center",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "properks_membership_qTDERL": {
+      "type": "properks-membership",
+      "disabled": true,
+      "settings": {
+        "url-login": "https:\/\/skirackbtv.myshopify.com\/account\/login",
+        "url-signup": "https:\/\/skirackbtv.myshopify.com\/account\/register",
+        "properks-icon": "shopify:\/\/shop_images\/Group_275.png",
+        "non-properks": "<p>This category required ProPerks membership<\/p>",
+        "non-properks-icon": "shopify:\/\/shop_images\/icon__lock_locked.png"
+      }
+    },
+    "sale_ticker_hyDxhn": {
+      "type": "sale-ticker",
+      "blocks": {
+        "block_fxaqUG": {
+          "type": "block",
+          "settings": {
+            "announcement": "<p>Extra 20% Off Select Warm-Weather Gear<\/p>",
+            "url-text": "Shop Sale",
+            "url": ""
+          }
+        },
+        "block_cYhXiT": {
+          "type": "block",
+          "settings": {
+            "announcement": "<p>$20 For Your Crew, $20 For You<\/p>",
+            "url-text": "Refer A Friend Now",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_fxaqUG",
+        "block_cYhXiT"
+      ],
+      "settings": {
+        "background-color": "#9e4129"
+      }
+    },
+    "products": {
+      "type": "products",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "enable_sorting": true,
+        "show_product_count": true,
+        "show_column_count_switcher": true,
+        "enable_filtering": true,
+        "filters_position": "left",
+        "filter_style": "drawer",
+        "categories_style": "collapsed_tabs",
+        "option_style": "checkbox-outline",
+        "show_color_swatches": true,
+        "show_divider": false,
+        "enable_uppercase_title": true,
+        "custom-card-pos": 5,
+        "custom-card-img": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_12.36.43_PM_1.png",
+        "custom-card-icon": "shopify:\/\/shop_images\/Group_102.png",
+        "image-text": "<p>Join ProPerks<\/p>",
+        "img-link-text": "Learn More",
+        "custom-card-heading": "<p>Free Gear and Rewards<\/p>",
+        "custom-card-subheading": "<p>Discover the best rewards program in the biz<\/p>",
+        "link-text": "Join Free",
+        "custom_card_url": "",
+        "img_ratio": "fit-portrait",
+        "product_card_align": "left",
+        "product_per_page": 16,
+        "desktop_columns": "4",
+        "desktop_space_between_cards": 12,
+        "mobile_columns": "1",
+        "mobile_space_between_cards": 8,
+        "pagination_type": "load-button-pagination",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "17261691248be1f6a9": {
+      "type": "apps",
+      "blocks": {
+        "boost_ai_search_discovery_filter_product_list_ssr_exFUrG": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/filter-product-list-ssr\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "boost_ai_search_discovery_filter_product_list_ssr_exFUrG"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "custom_liquid": "",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "collection_list_AN87mr": {
+      "type": "collection-list",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "Shop Activities",
+        "heading_size": "h6",
+        "alignment": "center",
+        "collection_list": [
+          "alpine-ski",
+          "snowboard",
+          "nordic-ski"
+        ],
+        "img_ratio": "square",
+        "text_style": "under-image",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "caption1",
+        "show_product_count": "none",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "custom-heading": "",
+        "custom-button-1": "",
+        "custom-button-1-url": "",
+        "custom-button-2": "",
+        "custom-button-2-url": "",
+        "collection_card_overlay_opacity": 10,
+        "collection_card_overlay_color": "#000000",
+        "collection_card_title_color": "#ffffff",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 56,
+        "section_spacing_bottom": 0
+      }
+    },
+    "custom_newsletter_NBpMiw": {
+      "type": "custom-newsletter",
+      "blocks": {
+        "title_DDignr": {
+          "type": "title",
+          "settings": {
+            "title": "First time? Claim your $15 gift card!",
+            "heading_size": "h5"
+          }
+        },
+        "text_DMcM4e": {
+          "type": "text",
+          "settings": {
+            "text": "New customers get $15 of their first order of $150 or more. Valid for new customers only at skirack.com",
+            "body_size": "body6"
+          }
+        },
+        "subscribe_TUQBLR": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_DDignr",
+        "text_DMcM4e",
+        "subscribe_TUQBLR"
+      ],
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 16,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "solid",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "collection-hero-banner",
+    "properks_membership_qTDERL",
+    "sale_ticker_hyDxhn",
+    "products",
+    "17261691248be1f6a9",
+    "collection_list_AN87mr",
+    "custom_newsletter_NBpMiw"
+  ]
+}

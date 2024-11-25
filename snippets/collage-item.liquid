@@ -1,0 +1,64 @@
+{%- liquid
+  assign options = block.settings
+  assign collection = options.collection
+  assign show_product_count = options.show_product_count
+  assign image = options.image | default: collection.image
+  assign mb_image = options.mb_image
+  assign model_video = options.model_video
+  assign model_btn = options.model_btn
+  assign popup_image = options.popup_image
+  assign video = options.video
+  assign caption = options.caption
+  assign title = options.title
+  assign text = options.text
+  assign link_text = options.link_text
+  assign link = options.link
+  assign link_text-2 = options.link_text-2
+  assign link-2 = options.link-2
+  assign product = options.product
+  assign content_position = options.content_position
+  assign body_size = options.body_size
+  assign heading_size = options.heading_size
+  assign quote_alignment = options.quote_alignment
+
+  assign product_card_align = options.product_card_align
+
+  assign btn_style = options.btn_style | default: 'link'
+  assign hover_effect = options.hover_effect
+  assign show_rating = options.show_rating
+   assign top_icon = options.top_icon
+   assign top_tag = options.top_tag
+   assign tag-text-color = options.tag-text-color
+   assign tag-bg-color = options.tag-bg-color
+   assign secondary-icon = options.secondary-icon
+   assign mobile_icon = options.secondary-icon-m
+   assign content_mobile=options.content_mobile
+   assign subHmobile=options.subHmobile
+   assign mobile_tag=options.mobile_tag
+   assign secondary-hover-icon = options.secondary-hover-icon
+   assign show-tag = options.show-tag
+   assign caption-icon = options.caption-icon
+   assign block-class = options.block-class
+-%}
+{% liquid
+  assign swatch_patterns = settings.primary_custom_colors_and_patterns
+  assign primary_custom_colors_and_patterns = swatch_patterns | newline_to_br | split: '<br />'
+%}
+{% capture section_background_color %}
+  {% render 'get-section-background-color', section: section %}
+{% endcapture %}
+
+{%- liquid
+  case block.type
+    when 'collection'
+      render 'collection-card', class: 'collage__collection-card', img_ratio: 'adapt', heading_size: heading_size, content_position: content_position, title: collection.title, img: image, collection: collection, text_style: 'on-image-top', show_product_count: show_product_count, link_text: link_text, btn_style: btn_style, link_url: collection.url, hover_effect: hover_effect
+    when 'image'
+      render 'custom-image-block' class: 'collage__image-block collage_image_colList', img_ratio: 'adapt', block-class:block-class,subHmobile: subHmobile, mobile_tag: mobile_tag , caption-icon:caption-icon, show-tag:show-tag, top_icon:top_icon,top_tag:top_tag,mobile_icon: mobile_icon,content_mobile: content_mobile,secondary-icon:secondary-icon,secondary-hover-icon: secondary-hover-icon, tag-text-color: tag-text-color, tag-bg-color:tag-bg-color, heading_size: heading_size, body_size: body_size, caption: caption, title: title, text: text, image: image, mb_image:mb_image, video: video, model_video: model_video, model_btn:model_btn, popup_image:popup_image, link: link, link_text: link_text, link-2:link-2, link_text-2:link_text-2, btn_style: btn_style, hover_effect: hover_effect, block: block, section: section
+    when 'product'
+      render 'product-card', class: 'collage__product-card', product: product, color_swatches_when_to_show: 'on_hover', card_style: 'solid', img_ratio: 'adapt', product_card_align: product_card_align, add_side_paddings: add_side_paddings, primary_custom_colors_and_patterns: primary_custom_colors_and_patterns, section_background_color: section_background_color
+    when 'quote'
+      render 'quote', class: 'collage__quote', block: block, quote_alignment: quote_alignment, with_background: true, show_rating: show_rating
+    when 'rich-text'
+      render 'rich-text-block', class: 'collage__rich-text', block: block
+  endcase
+-%}

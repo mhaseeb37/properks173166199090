@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "IMAGE BANNER",
+        "title": "Image with text",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_YbmPfg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_kAqrqF": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_8863tr": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_WMaKf7": {
+          "type": "heading",
+          "settings": {
+            "title": "About Us",
+            "heading_size": "h5"
+          }
+        },
+        "text_gXHzNw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skirack first opened its doors in 1969 just a few blocks from its present location at the corner of Main and Pine streets in downtown Burlington, Vermont. Over the years, we have undergone many changes and all with one goal in mind - to provide the finest outdoor goods and services.<\/p><p><\/p><p>For a few years, we operated two stores on lower Main street. Skirack was our home for all things self propelled - bikes, cross country skis, snowshoes, inline skates, running shoes, kayaks, and the clothing and accessories for it all. The Downhill Edge housed our gravity division - downhill skis and snowboards. Now it's all under one roof.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "buttons_7Kq9pT": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_kAqrqF",
+        "caption_8863tr",
+        "heading_WMaKf7",
+        "text_gXHzNw",
+        "buttons_7Kq9pT"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
+    },
+    "custom_liquid_zRHC9n": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "custom_liquid": "<img style=\"display:block;margin:0 auto;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0878\/6965\/3298\/files\/skirack-doodle-933x367_1.png?v=1724240492\">",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "images_with_text_7P3kHf": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_P8xcD3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_P8xcD3"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "small",
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "body": "<p>In May 2011, we once again began operating two stores in downtown Burlington, when we began a special partnership with one our favorite outdoor clothing and gear companies, Patagonia, and opened <a href=\"http:\/\/www.patagoniaburlington.com\/\">Patagonia Burlington<\/a>.<\/p>",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 100,
+        "section_spacing_bottom": 80
+      }
+    },
+    "images_with_text_8nPeFd": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_JECtAk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_JECtAk"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "small",
+        "content_layout": "right",
+        "image_layout": "collage",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "body": "<p>We have the pleasure of doing business in what many have termed \"one of the most livable cities in America.\" A short walk from our front door is Lake Champlain with the Adirondack mountains of New York as a backdrop.<\/p><p>If you would be interested in working in a fun and dynamic environment and living in one of the most beautiful places on Earth (forgive us our bias), please feel free to check out our <a href=\"https:\/\/www.skirack.com\/careers\">current job listings<\/a>.<\/p><p>We are here to help you enjoy the sports we enjoy. If there is anything we can do to help, please feel free to <a href=\"https:\/\/skirackbtv.myshopify.com\/pages\/contact\" title=\"contact us\">contact us<\/a> .<\/p>",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "",
+        "first_button_link": "",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 80,
+        "section_spacing_bottom": 100
+      }
+    },
+    "video_banner_VHibUn": {
+      "type": "video-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "youtube_or_vimeo_video": "https:\/\/www.youtube.com\/watch?v=UjY0fAIHsMU",
+        "video_alt_text": "Skirack History: 50 Years in 180 Seconds",
+        "enable_autoplay": false,
+        "enable_controls": true,
+        "enable_looping": false,
+        "mute_video": true,
+        "cover_image": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "subheading": "",
+        "heading": "Skirack History: 50 Years in 180 Seconds",
+        "heading_size": "h2",
+        "text": "<p>In 1969, twin brothers Zandy and John Wheeler, along with a group of UVM ski bums opened up a small town ski shop and called it \"Skirack\".<\/p>",
+        "body_size": "body3",
+        "desktop_content_position": "center",
+        "desktop_content_align": "center",
+        "content_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "center",
+        "mobile_content_align": "center",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_YbmPfg",
+    "custom_liquid_zRHC9n",
+    "images_with_text_7P3kHf",
+    "images_with_text_8nPeFd",
+    "video_banner_VHibUn",
+    "instagram_bjiVgU"
+  ]
+}

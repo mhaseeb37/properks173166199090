@@ -1,0 +1,87 @@
+<style>
+.logo_img img{
+max-width:11px;
+}
+.properk_d_main {
+    display: flex;
+    gap: 9px;
+    font-size: 16px;
+    color: #5e5d57;
+}
+.properk_m_main {
+    display: none;
+   
+}
+  .properk_m_c {
+    font-size: 16px;
+    color: #5e5d57;
+}
+  .properk_text-main {
+    margin-top: 11px;
+}
+.properk_text-main a{
+  color:blue;
+}
+@media screen and (max-width:768px){
+  .properk_m_main {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.properk_d_main{
+  display:none;
+}
+  .properk_m_c {
+    font-size: 14px;
+    color: #5e5d57;
+}
+}
+</style>
+
+<div class="properk_text-main ">
+  <div class="properk_inner_m">
+
+{% if customer %}
+<div class="properk_tafter_login">
+    <div class="properk_d_main">
+         <div class="logo_img">
+           <img src="{{ block.settings.img_after | image_url }}">
+        </div>
+        <div class="properk_m_c">
+           {{ block.settings.tafter_d }}
+        </div>
+      
+    </div>
+      <div class="properk_m_main">
+        <div class="logo_img">
+          <img src="{{ block.settings.img_after | image_url }}">
+        </div>
+        <div class="properk_m_c">
+          {{ block.settings.tafter_m }}
+        </div>
+        
+      </div>
+      
+    </div>
+   {% else %}
+
+
+        <div class="properk_tbefore_login">
+    <div class="properk_d_main">
+    {{ block.settings.desktop_t }}
+    </div>
+      <div class="properk_m_main">
+        <div class="logo_img">
+          <img src="{{ block.settings.mobile_Logo | image_url }}">
+        </div>
+        <div class="properk_m_c">
+          {{ block.settings.mobile_t }}
+        </div>
+        
+      </div>
+      
+    </div>
+  {% endif %}
+    
+  </div>
+</div>

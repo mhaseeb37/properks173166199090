@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "image_banner_PagJaW": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/home-gravel-bikes-1250x520-02262024.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "LOREM IPSUM",
+        "title": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "questions": {
+      "type": "faq",
+      "blocks": {
+        "question1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>We ship primarily to the United States and Canada. We are authorized by some manufacturers to sell only within the United States. We have shipped internationally and do so on a case by case basis. Please<a href=\"https:\/\/www.skirack.com\/contacts\">contact us<\/a>to see if we might be able to fulfill your order.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have a printed catalog?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>At this time, we do not have a mail order catalog.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question3": {
+          "type": "question",
+          "settings": {
+            "title": "Do you mount bindings when they are ordered with skis?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Yes, for nordic (cross country) skis only. We offer this service at no extra charge. In a note field on the final page during checkout, you can request mounting. Please provide your boot information (make, model, and size) if boots are not a part of the order. We do not offer mounting for Alpine (Downhill) skis. Downhill ski and binding orders will ship unmounted.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_477eCm": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Please refer to our<a href=\"https:\/\/www.skirack.com\/return-policy\">Return Policy page<\/a>.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_twaAi7": {
+          "type": "question",
+          "settings": {
+            "title": "What is the status of my order?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>You can get the status of your order from the <a href=\"https:\/\/www.skirack.com\/sales\/order\/history\">order history <\/a>in your account, assuming you created one and did not checkout as a guest. If you checked out s a guest without creating an account, feel free to <a href=\"https:\/\/www.skirack.com\/contacts\">contact us <\/a>about the status of your order. You should receive a shipping confirmation email as well as a tracking information email. Please double check your spam folder if you do not receive these emails.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_TJeqxD": {
+          "type": "question",
+          "settings": {
+            "title": "How do I get a tracking number for my order?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>You should receive a tracking email directly upon shipment of your order. Please double check your spam folder if you do not receive this email. You can also get your order status and tracking number(s) from the<a href=\"https:\/\/www.skirack.com\/sales\/order\/history\">Order History page<\/a>assuming you created an account at the time of your order.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "question1",
+        "question2",
+        "question3",
+        "question_477eCm",
+        "question_twaAi7",
+        "question_TJeqxD"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "Online Store FAQ",
+        "heading_size": "h5",
+        "text": "Answers to most common questions about products, orders, shipments, and payments.",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 36,
+        "section_spacing_bottom": 36
+      }
+    },
+    "faq_gy9WP4": {
+      "type": "faq",
+      "blocks": {
+        "question_tDHVDA": {
+          "type": "question",
+          "settings": {
+            "title": "What are you store hours?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Store Hours are: Monday through Saturday: 10-6 | Sunday 11-5. Please refer to the footer of this page for up to date Service and Rental hours.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 50
+          }
+        },
+        "question_EFD6ed": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have any job openings?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Our openings vary throughout the year but we are consistently looking for good people to join our team. If interested, please forward a cover letter and resume via email to<a href=\"mailto:jobs@skirack.com\">jobs@skirack.com<\/a>or via snail mail to HR\/Skirack, 85 Main Street, Burlington, VT 05401. You can check for any current posted job openings<a href=\"https:\/\/www.skirack.com\/careers\">here<\/a>.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_k6mnrT": {
+          "type": "question",
+          "settings": {
+            "title": "Do you rent bikes and\/or skis?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>We rent bicycles from approximately May 1st through October 31st depending upon the weather. We rent skis, snowboards and snowshoes during the winter months. Please refer to our<a href=\"https:\/\/rentals.skirack.com\/\">rental pages<\/a>for our current rental offerings.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_brXfTL": {
+          "type": "question",
+          "settings": {
+            "title": "Do you buy used bikes or take trade-ins?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Our bike consignment program is currently on hold.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_d7pEba": {
+          "type": "question",
+          "settings": {
+            "title": "When is your bike swap\/ski swap?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Our annual Bike Swap is usually the first Saturday in May and our annual Ski Swap is usually the first or second Saturday in January. Check out our <a href=\"https:\/\/www.skirack.com\/events-calendar\">Events Calendar <\/a>for up to date information.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "question_tDHVDA",
+        "question_EFD6ed",
+        "question_k6mnrT",
+        "question_brXfTL",
+        "question_d7pEba"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "Burlington Store FAQ",
+        "heading_size": "h5",
+        "text": "Answers to most common questions about products, orders, shipments, and payments.",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 36,
+        "section_spacing_bottom": 36
+      }
+    },
+    "faq_MmgYKx": {
+      "type": "faq",
+      "blocks": {
+        "question_mpyiUi": {
+          "type": "question",
+          "settings": {
+            "title": "Do waxless cross country skis really need no wax?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>The term \"waxless\" in cross country skis is not entirely accurate. Waxless skis do not require kick wax and instead have a mechanical \"fish scale\" pattern cut into the base of the ski underneath the foot that provides kick and uphill grip. These skis still benefit from glide wax. Generally, a liquid or paste wax is applied to the entire bottom of the ski from tip to tail. This provides better glide and also keeps snow and ice from building up in the waxless pattern.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_dAbzwj": {
+          "type": "question",
+          "settings": {
+            "title": "Do waxless cross country skis really need no wax?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>The term \"waxless\" in cross country skis is not entirely accurate. Waxless skis do not require kick wax and instead have a mechanical \"fish scale\" pattern cut into the base of the ski underneath the foot that provides kick and uphill grip. These skis still benefit from glide wax. Generally, a liquid or paste wax is applied to the entire bottom of the ski from tip to tail. This provides better glide and also keeps snow and ice from building up in the waxless pattern.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "question_mpyiUi",
+        "question_dAbzwj"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "General FAQ",
+        "heading_size": "h5",
+        "text": "Answers to most common questions about products, orders, shipments, and payments.",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 36,
+        "section_spacing_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "page",
+    "image_banner_PagJaW",
+    "questions",
+    "faq_gy9WP4",
+    "faq_MmgYKx"
+  ]
+}

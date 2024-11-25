@@ -1,0 +1,399 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/alpine-department-alt1-2018-19-933x367.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Alpine Ski Shop",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Fit Guarantee<\/strong> ",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know the right ski boots will make or break your day on the mountain, and so do our boot fitters. That is why we guarantee our boot fits. We promise that within one full season of purchasing your ski boots, you will be enjoying the slopes in complete comfort. We will provide 2 follow up visits (2hrs of total time) for boot work to ensure your feet are happy. If the boots still do not meet your needs after 1-2 additional days on the hill, then we will give you 100% of your investment** towards another product that we\/you feel will better meet your needs.<br\/><em>** Refund to store credit<\/em><\/p><p>We confidently make this promise because our fitters are extensively trained to determine the right boot by analyzing the shape and size of your feet, your body type and experience, while congruently getting to know you, your skiing needs and goals. The Skirack is home to all the fit equipment and machinery needed to execute alterations in-house by the experts that know it best.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": true,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_Y4CKbC": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_6M77pd": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_Xfn6ec": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_yR9gbR": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Need New Downhill Ski Boots or Help with Yours?<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_A3HGQh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boot fitting services are available year-round. Stop in or send us a message at <a href=\"mailto:bootfit@skirack.com\">bootfit@skirack.com<\/a> to set up a fitting.<\/p><p>We confidently make this promise because our fitters are extensively trained to determine the right boot by analyzing the shape and size of your feet, your body type and experience, while congruently getting to know you, your skiing needs and goals. The Skirack is home to all the fit equipment and machinery needed to execute alterations in-house by the experts that know it best.<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_6M77pd",
+        "caption_Xfn6ec",
+        "heading_yR9gbR",
+        "text_A3HGQh"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "custom_liquid_APJYFW": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "table.service-table {text-align: left;}",
+        "table.service-table strong {font-weight: normal;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "custom_liquid": "<table class=\"service-table\">\n<tbody>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"2\">SHELL MODIFICATIONS<br><em style=\"font-size:14px;font-weight:normal\">*Billed per boot. Adjustments include all necessary modifications to the liner.<\/em> <\/th><\/tr>\n<tr>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n\n<td><strong>Shell Punch \/ Grind<\/strong><\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Lateral Shell Stretch<\/strong><\/td>\n<td class=\"prices\"><strong>$30<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Lengthen Toe Box<\/strong><\/td>\n<td class=\"prices\"><strong>$30<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Bootboard Grind<\/strong><\/td>\n<td class=\"prices\"><strong>$15<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Liner-Only Modifications<\/strong><\/td>\n<td class=\"prices\"><strong>$20<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Shell Trim for Easy Entry \/ Exit<\/strong><\/td>\n<td class=\"prices\"><strong>$20<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Re-Punch Our Own Punch<\/strong><\/td>\n<td class=\"prices\"><strong>$10<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Miscellaneous Labor<\/strong><\/td>\n<td class=\"prices\"><strong>$80\/hr<\/strong><\/td>\n<\/tr>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"2\">CUSTOM FOOTBEDS<\/th><\/tr>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n\n<tr>\n<td><strong>With Current Boots<\/strong><\/td>\n<td class=\"prices\"><strong>$225<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>With New Boot Purchase<\/strong><\/td>\n<td class=\"prices\"><strong>$179<\/strong><\/td>\n<\/tr>\n<tr>\n <\/tr>\n<tr>\n<td><strong>Foam Padding<\/strong><\/td>\n<td class=\"prices\"><strong>$4\/pad<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Heel Lifts<\/strong><\/td>\n<td class=\"prices\"><strong>$5 each<\/strong><\/td>\n<\/tr>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n<tr><th colspan=\"2\">BOOT HEATER INSTALLATION<\/th><\/tr>\n<tr>\n<td colspan=\"2\">&nbsp;<\/td>\n<\/tr>\n\n<tr>\n<td><strong>With Hotronic System Purchase<\/strong><\/td>\n<td class=\"prices\"><strong>$25<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Install New Hotronic or Transfer from a Different Boot <br><em>(replacement parts not included)<\/em><\/strong><\/td>\n<td class=\"prices\"><strong>$50<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Hotronic With Any New Boot Purchase<\/strong><\/td>\n<td class=\"prices\"><strong>FREE<\/strong><\/td>\n<\/tr>\n<tr>\n<td><strong>Installing Other Boot Heating Systems<\/strong><\/td>\n<td class=\"prices\"><strong>$80\/hr<\/strong><\/td>\n<\/tr>\n<\/tbody>\n<\/table>",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "video_banner_Rb6rYF": {
+      "type": "video-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "youtube_or_vimeo_video": "https:\/\/www.youtube.com\/watch?v=ZEx73ob_QwE",
+        "video_alt_text": "New Downhill Ski Boot Fit at Skirack",
+        "enable_autoplay": false,
+        "enable_controls": true,
+        "enable_looping": false,
+        "mute_video": true,
+        "cover_image": "shopify:\/\/shop_images\/home-run-summer-running-1250x520-06212023.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "subheading": "",
+        "heading": "New Downhill Ski Boot Fit at Skirack",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "center",
+        "desktop_content_align": "center",
+        "content_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "center",
+        "mobile_content_align": "center",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "rich_text_Y4CKbC",
+    "custom_liquid_APJYFW",
+    "video_banner_Rb6rYF",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

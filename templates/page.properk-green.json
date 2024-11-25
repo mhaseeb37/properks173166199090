@@ -1,0 +1,924 @@
+{
+  "sections": {
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "video_perk_green_8GrWzj": {
+      "type": "video-perk-green",
+      "settings": {
+        "container_size": "page-width",
+        "video": "shopify:\/\/files\/videos\/sr-placeholder-vid.mp4.mp4",
+        "desktop_video_height": 150,
+        "mobile_video_height": 150
+      }
+    },
+    "custom_banner_perk_Uq9pMF": {
+      "type": "custom-banner-perk",
+      "blocks": {
+        "model_popup_join_AXP7VL": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Group_215.png",
+            "popup_t": "patagonia_bag",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_228.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<h6><strong>$25.00<\/strong><\/h6><p><strong>Free<\/strong><\/p><p><strong><br\/>Skida Snow<br\/>Tour Neckie<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p><\/p><p>Add $190+ pre tax to your cart, and the Skida Snow Tour Neck Warmer will automatically show up. Select your favorite pattern and enjoy :)<\/p><p><\/p><p>Fine Print:<\/p><p><\/p><p>This promotion is for a Skida Snow Tour Neck Warner. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.Cart value must equal between $190 and $258 USD<\/p><p><\/p><p><\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_W8zzDe": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65.png",
+            "popup_t": "skida_neckies",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_229.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<h6><strong>$25.00<\/strong><\/h6><p><strong>FREE<\/strong><\/p><p><strong>Skida Snow<br\/>Tour Neckie<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>Add $190+ pre tax to your cart, and the Skida Snow Tour Neck Warmer will automatically show up. Select your favorite pattern and enjoy :)<\/p><p>Fine Print:<\/p><p>This promotion is for a Skida Snow Tour Neck Warner. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.Cart value must equal between $190 and $258 USD.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_TMGVVC": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_4257090e-4edb-427c-a613-7144252f7434.png",
+            "popup_t": "tough_socks",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<h6><strong>$24.00<\/strong><\/h6><p><strong>FREE<\/strong><\/p><p><strong>Darn Tough Micro<br\/>Crew Merino Socks<\/strong><\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>Add $159+ pre tax to your cart, and the socks will automatically show up. Best of all, they qualify for Darn Tough’s legendary guarantee. Pick your color and size in checkout.<\/p><p>Fine Print:<\/p><p>This promotion is for a single pair of Mens or Women's Darn Tough Micro Crew Socks. Pending stock availability. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return to Skirack.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_EAdPPp": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "match_beat",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_87e9ff6b-2854-41b2-957a-b12f662efe01.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p><strong>Price <\/strong><em><strong>Match<\/strong><\/em><strong> Beat<\/strong><\/p><p>Guarantee<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), <a href=\"#\" title=\"#\">we will beat it by 5%.<\/a><\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "Price Beat Rules",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_zLFecL": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "black_hole",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_a735a719-8372-4763-b848-d1836ca37c88.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p>Free Returns <br\/>for 90 Days<\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>Add $259+ pre tax to your cart, and the Patagonia Black Hole Duffle will automatically show up. And yes, of course we made it so you can choose your favorite color :)<\/p><p>Fine Print:<\/p><p>This promotion is for a Patagonia Black Hole 40l Duffle Bag. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_JWDQeK": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "expedited_shipping",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_a6833032-f20b-4fe3-9da9-de45ca6ca588.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p>Free Expedited Shipping <br\/>in Contiguous USA<\/p>",
+            "popup_content": "<p>How to access this perk:<\/p><p>It's our goal to provide you with the lowest price. If you find an item available online from an authorized retailer at a lower final price (after any tax and shipping costs), we will beat it by 5%.<\/p><p>Fine Print:<\/p><p>There are a few rules, so please make sure you’ve read these before submitting a request.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_c6AgnD": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "legendary_c",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_bd37a469-0ddc-4749-8d41-39d110c5249a.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p>The Legendary<br\/><a href=\"\/pages\/get-pro-pricing\" title=\"Get Pro Pricing\">ProPricing<\/a> Category<\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>As a member, you get complete access to top gear from top brands, at the best prices on the internet!  Everything in ProPricing in minimum of 50% off with as much as 90% off! As long as you’re signed in to your ProPerks account, you have access!<\/p><p>Fine Print:<\/p><p>Limit to one item per customer! Requires an active ProPerks membership.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": "Next Perk"
+          }
+        },
+        "model_popup_join_NxeB9m": {
+          "type": "model_popup_join",
+          "settings": {
+            "slide_img": "shopify:\/\/shop_images\/Frame_65_c0a54565-5f00-45ab-a9c8-f0a71c6dad90.png",
+            "popup_t": "onsal",
+            "slide_imgm": "shopify:\/\/shop_images\/Group_230_7c4c6962-2d69-4db2-9c93-a265a6c6801e.png",
+            "bottom_icon": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+            "hmpopopp": "<p><strong>UNLOCK<\/strong><\/p><p>Take an EXTRA 5% <br\/>off on sale items<\/p>",
+            "popup_content": "<p>How to access this perk: <\/p><p>Add $259+ pre tax to your cart, and the Patagonia Black Hole Duffle will automatically show up. And yes, of course we made it so you can choose your favorite color :)<\/p><p>Fine Print:<\/p><p>This promotion is for a Patagonia Black Hole 40l Duffle Bag. Pending stock availability. All color variants may not be available at all times. Promotion cannot be redeemed for cash value, or applied to a different purchase. This item is not eligible for return.<\/p>",
+            "pcbtn": "",
+            "pcbtnl": "",
+            "btnt": ""
+          }
+        },
+        "properk_model_popp_49qNRG": {
+          "type": "properkModelPopp",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Group_209.png",
+            "background_image": "shopify:\/\/shop_images\/1262316236_jpg.png",
+            "first_blkH": "<p>Discover ProPerks<\/p>",
+            "first_subblkH": "<p>The best Membership program in the biz. Get FREE Patagonia, Skida, Darn Tough + more. 🤘 <\/p>",
+            "first_blk_btnt": "How it Works",
+            "first_blk_linkbntn": "",
+            "bottom_textfirstblk": "<p>Already a member? <a href=\"#\" title=\"#\">Sign In<\/a><\/p>",
+            "sec_Blk_h": "<p>It’s 100% Free<\/p>",
+            "sec_subnBlk_h": "<p>Sign in to access your perks and check your qualification status any time. <\/p>",
+            "secblk1linkn": "Sign In",
+            "lgofirst_imgo": "shopify:\/\/shop_images\/Premium.svg",
+            "secblk2linkn": "Join Now",
+            "lgosecond_imgo": "shopify:\/\/shop_images\/Award.svg",
+            "secblk1link": "shopify:\/\/pages\/properks-sign-in",
+            "secblk2link": "shopify:\/\/pages\/join-our-team",
+            "heading_3rd": "<p>Your 2024\/25 Perks<\/p>",
+            "subheading_3rd": "<p>Member Perks are automatically applied at checkout beginning.<\/p>",
+            "main_heading_text": "<p>Price<strong> Match <\/strong>Beat Guarantee<\/p>",
+            "main_subheading_text": "<p>Save the matching for dating apps.<\/p><p>We’ll beat any non-sale price by 10%. <\/p>",
+            "main_logofirst": "shopify:\/\/shop_images\/Coin.png",
+            "frist_fourthtext": "How it Works",
+            "first_inner_ur": "#",
+            "sec_fourth_text": "Submit a Request",
+            "sedur": "#",
+            "seconlinkimg": "shopify:\/\/shop_images\/loyalty.png"
+          }
+        },
+        "block_links_79fhFE": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "FREE Patagonia Black Hole Du",
+            "add_tsub": "Spend $259",
+            "logo": "shopify:\/\/shop_images\/Award_c90dc298-83d9-4941-a79d-06a284fb115b.svg",
+            "Link": "#"
+          }
+        },
+        "block_links_4dDHX4": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "FREE Skida Snow Tour Warmer...",
+            "add_tsub": "Spend $190",
+            "logo": "shopify:\/\/shop_images\/Award_b62b545c-0fa3-4362-8540-94992ae2c5d6.svg",
+            "Link": "#"
+          }
+        },
+        "block_links_rjapRf": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "FREE Darn Tough Marino Crew",
+            "add_tsub": "Spend $159",
+            "logo": "shopify:\/\/shop_images\/Award_e9d2e8d3-3e42-4be5-baf4-83c3c9d4d210.svg",
+            "Link": ""
+          }
+        },
+        "block_links_cGpxxm": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "Access Legendary ProPricing",
+            "add_tsub": "Unlocked by Membership",
+            "logo": "shopify:\/\/shop_images\/Award_2c252852-5d4d-451e-868e-25e382b8f52c.svg",
+            "Link": ""
+          }
+        },
+        "block_links_p9Vy4y": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "Get an EXTRA 5% off Sale Items",
+            "add_tsub": "Unlocked by Membership",
+            "logo": "shopify:\/\/shop_images\/Award_d97fcffc-505d-47dc-9379-5599bf22b3da.svg",
+            "Link": "#"
+          }
+        },
+        "block_links_8cYyba": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "Free 90 Day Returns",
+            "add_tsub": "Unlocked by Membership",
+            "logo": "shopify:\/\/shop_images\/Award_6d522aec-254e-407d-8cec-61eb5926b259.svg",
+            "Link": "#"
+          }
+        },
+        "block_links_bcgcHw": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "Expedited Shipping",
+            "add_tsub": "Unlocked by Membership",
+            "logo": "shopify:\/\/shop_images\/Award_cb56c314-4f73-4f71-a448-977b1c909d73.svg",
+            "Link": "#"
+          }
+        },
+        "block_links_LHEUCd": {
+          "type": "block_links",
+          "settings": {
+            "add_t": "Birthday Surprise",
+            "add_tsub": "Unlocked By Membership",
+            "logo": "shopify:\/\/shop_images\/Award_13b6f94f-5256-409b-9dab-e67074faa1c9.svg",
+            "Link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "model_popup_join_AXP7VL",
+        "model_popup_join_W8zzDe",
+        "model_popup_join_TMGVVC",
+        "model_popup_join_EAdPPp",
+        "model_popup_join_zLFecL",
+        "model_popup_join_JWDQeK",
+        "model_popup_join_c6AgnD",
+        "model_popup_join_NxeB9m",
+        "properk_model_popp_49qNRG",
+        "block_links_79fhFE",
+        "block_links_4dDHX4",
+        "block_links_rjapRf",
+        "block_links_cGpxxm",
+        "block_links_p9Vy4y",
+        "block_links_8cYyba",
+        "block_links_bcgcHw",
+        "block_links_LHEUCd"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "large",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "caption": "",
+        "title": "Discover ProPerks",
+        "heading_size": "h2",
+        "text": "<p>Meet the best outdoor rewards program – by runners, skiers, bikers, hikers, and adventurers just like you. No silly points or tiers – one simple (free) membership to rule them all.<\/p>",
+        "small_text": "<p>Already a member? <a href=\"\/account\" title=\"\/account\">Sign In<\/a><\/p>",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "logo": "shopify:\/\/shop_images\/Frame_54_b4fba458-fc30-4b5d-9b24-aa4e11c44913.svg",
+        "content_max_width": 624,
+        "content_spacing": 24,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "Join Free",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "How it Works",
+        "extra_btn_url": "",
+        "extra_btn_style": "outline",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "img_mhow": "shopify:\/\/shop_images\/Frame_65_49afb152-0994-4642-8b55-997881bf8159.png",
+        "main_hhow": "<p><strong>How it works<\/strong><\/p>",
+        "main_info_arrow": "shopify:\/\/shop_images\/Arrow_Left_9.png",
+        "btm_tcontet": "<p>All you need to do is place 3 orders in a calendar year to qualify for next year’s status. Your first year status is on us. Yep...it’s actually that simple.<\/p><p>Fine Print:<\/p><p>ProPerks members must place 3 orders in a given calendar year to qualify for Active Member status. Upon Qualification, you will receive immediate access to all perks for the remainder of the current year, and the following calendar year. Active and non-active members may check their qualification status at any time by signing in to the ProPerks member portal.<\/p><p><strong>Ready to get Started? <\/strong><\/p><p><strong>Join free and 2025 status is on us.<\/strong><\/p>",
+        "main_url_inner": "",
+        "btn_main_id": "Join Free"
+      }
+    },
+    "custom_perks_RRMht3": {
+      "type": "custom-perks",
+      "blocks": {
+        "block_CEBkyh": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free<\/strong> Patagonia Black Hole Bags <\/h5>",
+            "trigger_t": "patagonia_bag",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_XwUAHN": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free <\/strong><br\/>Skida Neckies<\/h5>",
+            "trigger_t": "skida_neckies",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_hh9qFx": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Free<\/strong><br\/>Darn Tough Socks<\/h5>",
+            "trigger_t": "tough_socks",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_6jcgcN": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Price <\/strong><em><strong>Match<\/strong><\/em><strong><br\/>Beat <\/strong>Guarentee<\/h5>",
+            "trigger_t": "match_beat",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_yt78i6": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock <\/strong>Patagonia<br\/>Black Hole Bags<\/h5>",
+            "trigger_t": "black_hole",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_wkkkDt": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock <\/strong>Free <br\/>Expedited Shipping in USA<\/h5>",
+            "trigger_t": "expedited_shipping",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_PUB7pi": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock <\/strong>The Legendary<br\/><a href=\"\/pages\/properks-sign-in\" title=\"Properks sign in\">ProPricing<\/a> Category<\/h5>",
+            "trigger_t": "legendary_c",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        },
+        "block_jJmRkg": {
+          "type": "block",
+          "settings": {
+            "title": "<h5><strong>Unlock <\/strong>Extra 5% Off On Sale Items<\/h5>",
+            "trigger_t": "onsal",
+            "paragraph": "Lorem ipsum dolor sit amet consectetur. Scelerisque neque pulvinar imperdiet eu elit elit ultrices tincidunt dictum. Volutpat eget imperdiet neque ante. Scelerisque cras in sit in arcu ac semper at amet.",
+            "link-text": "",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_CEBkyh",
+        "block_XwUAHN",
+        "block_hh9qFx",
+        "block_6jcgcN",
+        "block_yt78i6",
+        "block_wkkkDt",
+        "block_PUB7pi",
+        "block_jJmRkg"
+      ],
+      "settings": {
+        "container_size": "large",
+        "title": "Explore Your Perks",
+        "badge": "<p>*2024\/25<\/p>"
+      }
+    },
+    "grid_collage_slider_VPBxdV": {
+      "type": "grid_collage_slider",
+      "blocks": {
+        "image_slide_g98WMr": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 10,
+            "right_padding": 30,
+            "top_padding": 0,
+            "bottom_padding": 10,
+            "first_image": "shopify:\/\/shop_images\/Group_209_7bdeee9d-ad49-49bf-81fd-58565d9632e0.png",
+            "width": 543,
+            "height": 598
+          }
+        },
+        "image_slide_ghq49e": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 24,
+            "right_padding": 90,
+            "top_padding": 0,
+            "bottom_padding": 17,
+            "first_image": "shopify:\/\/shop_images\/Group_208.png",
+            "width": 300,
+            "height": 300,
+            "second_image": "shopify:\/\/shop_images\/Group_210.png",
+            "left_padding_sec": 43,
+            "right_padding_sec": 35,
+            "top_padding_sec": 10,
+            "bottom_padding_sec": 0
+          }
+        },
+        "image_slide_hB4acg": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 0,
+            "right_padding": 0,
+            "top_padding": 100,
+            "bottom_padding": 0,
+            "first_image": "shopify:\/\/shop_images\/CUS-HP-canyon-endurace-01_jpg_9f0aa08d-446e-46dd-8c3e-5776392c12c7.png",
+            "width": 475,
+            "height": 601
+          }
+        },
+        "image_slide_NkB87C": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 30,
+            "right_padding": 15,
+            "top_padding": 7,
+            "bottom_padding": 0,
+            "first_image": "shopify:\/\/shop_images\/Group_129.png",
+            "width": 400,
+            "height": 365
+          }
+        },
+        "image_slide_dapyYe": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 44,
+            "right_padding": 41,
+            "top_padding": 14,
+            "bottom_padding": 30,
+            "first_image": "shopify:\/\/shop_images\/Group_147.png",
+            "width": 250,
+            "height": 250,
+            "second_image": "shopify:\/\/shop_images\/Group_156.png",
+            "left_padding_sec": 32,
+            "right_padding_sec": 79,
+            "top_padding_sec": 0,
+            "bottom_padding_sec": 0
+          }
+        },
+        "image_slide_txkYhe": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 0,
+            "right_padding": 0,
+            "top_padding": 56,
+            "bottom_padding": 0,
+            "first_image": "shopify:\/\/shop_images\/Group_148.png",
+            "width": 350,
+            "height": 519,
+            "left_padding_sec": 23
+          }
+        },
+        "image_slide_N8iGNJ": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 26,
+            "right_padding": 10,
+            "bottom_padding": 75,
+            "first_image": "shopify:\/\/shop_images\/Group_149_4fd2e880-e9d9-4275-bbde-a345d50f7d4a.png",
+            "width": 500,
+            "height": 500
+          }
+        },
+        "image_slide_nq3z9R": {
+          "type": "Image_slide",
+          "settings": {
+            "left_padding": 20,
+            "right_padding": 20,
+            "top_padding": 100,
+            "bottom_padding": 0,
+            "first_image": "shopify:\/\/shop_images\/CUS-HP-canyon-endurace-01_jpg_9f0aa08d-446e-46dd-8c3e-5776392c12c7.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_slide_g98WMr",
+        "image_slide_ghq49e",
+        "image_slide_hB4acg",
+        "image_slide_NkB87C",
+        "image_slide_dapyYe",
+        "image_slide_txkYhe",
+        "image_slide_N8iGNJ",
+        "image_slide_nq3z9R"
+      ],
+      "settings": {
+        "padding_top": 100,
+        "padding_Bottom": 7
+      }
+    },
+    "custom_multicolumn_z6jFCj": {
+      "type": "custom-multicolumn",
+      "blocks": {
+        "column_with_icon_iDPxKt": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/Sun_1.png",
+            "icon_size": 43,
+            "title": "Designed to be Used",
+            "text": "<p>ProPerks is 100% free to join and use! Perks are applied automatically whenever you’re signed in at skirack.com<\/p>",
+            "link_text": "GET STARTED",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_DDi3Yr": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/mountain.png",
+            "icon_size": 43,
+            "title": "Made Simple",
+            "text": "<p>No complicated membership tiers and “5,000 points equal $1” nonsense. We made ProPerks simple so you don’t need to keep track. <\/p>",
+            "link_text": "LOVE IT",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_qUMHQX": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify:\/\/shop_images\/Group_200.png",
+            "icon_size": 43,
+            "title": "Birthday Bonus",
+            "text": "<p>Sorry...if you hate birthdays, ProPerks is not for you. Get a birthday bonus surprise each year you qualify for membership.<\/p>",
+            "link_text": "BIRTHDAY STROKE",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_iDPxKt",
+        "column_with_icon_DDi3Yr",
+        "column_with_icon_qUMHQX"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "desktop_layout": "grid",
+        "mobile_layout": "grid",
+        "title": "",
+        "heading_size": "h5",
+        "text": "",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "column_heading_size": "h4",
+        "column_body_size": "body0",
+        "column_alignment": "left",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 33,
+        "desktop_content_spacing": 41,
+        "mobile_space_between_cards": 17,
+        "mobile_content_spacing": 47,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 45
+      }
+    },
+    "custom_reviews_MPkeEa": {
+      "type": "custom-reviews",
+      "blocks": {
+        "review_8KBzk4": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Shane<\/p>"
+          }
+        },
+        "review_jyRrx3": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Clarke<\/p>"
+          }
+        },
+        "review_fr8nV8": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Michael<\/p>"
+          }
+        },
+        "review_rJg7GK": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Richards<\/p>"
+          }
+        },
+        "review_kaDEAg": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Jordan<\/p>"
+          }
+        },
+        "review_cC98gc": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>James<\/p>"
+          }
+        },
+        "review_Ee9FPj": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Johnson<\/p>"
+          }
+        },
+        "review_7eGzdW": {
+          "type": "review",
+          "settings": {
+            "background-color": "#dbff00",
+            "review-text": "<p>Discover the Joy of Healthy Snacks with Our Naturally Sweetened Treats - A Customer Review<\/p>",
+            "customer-name": "<p>Kane <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_8KBzk4",
+        "review_jyRrx3",
+        "review_fr8nV8",
+        "review_rJg7GK",
+        "review_kaDEAg",
+        "review_cC98gc",
+        "review_Ee9FPj",
+        "review_7eGzdW"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 15,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "never",
+        "autoplay_mode": "seamless",
+        "autoplay_interval": 4,
+        "add_side_paddings": false,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "custom_collection_text_XUDyyw": {
+      "type": "custom-collection-text",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "content_position": "left",
+        "collection": "you-get-propricing",
+        "icon": "none",
+        "caption": "",
+        "title": "Member Only ProPricing",
+        "heading_size": "h2",
+        "text": "<p>Top gear at the <em>lowest prices<\/em> on the internet. If you can find it for less, we’ll beat that price by 10%.<\/p>",
+        "body_size": "body3",
+        "link_text": "Browse Deals",
+        "link_url": "",
+        "content_alignment": "left",
+        "img_ratio": "default",
+        "product_card_align": "left",
+        "cards_to_show": 6,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 22,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": false,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": false,
+        "section_spacing_top": 30,
+        "section_spacing_bottom": 10
+      }
+    },
+    "custom_faq_TWW3iY": {
+      "type": "custom-faq",
+      "blocks": {
+        "question_zVdEKB": {
+          "type": "question",
+          "settings": {
+            "title": "Is there any fee for ProPerks Membership?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_tNwgtm": {
+          "type": "question",
+          "settings": {
+            "title": "How do I check my membership status?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_T8mYqt": {
+          "type": "question",
+          "settings": {
+            "title": "Does my membership expire?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_4gWKxw": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use my perks?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_LgUmGA": {
+          "type": "question",
+          "settings": {
+            "title": "How does the birthday gift work?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_Tm6TXn": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use the Price Match perk?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_yVXJnp": {
+          "type": "question",
+          "settings": {
+            "title": "Are my perks valid a Skirack Location?",
+            "heading_size": "caption2",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "question_zVdEKB",
+        "question_tNwgtm",
+        "question_T8mYqt",
+        "question_4gWKxw",
+        "question_LgUmGA",
+        "question_Tm6TXn",
+        "question_yVXJnp"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "none",
+        "container_size": "medium",
+        "faq-image": "shopify:\/\/shop_images\/Screen_Shot_2024-08-16_at_12.36.51_PM.png",
+        "link_m": "shopify:\/\/collections\/you-get-propricing",
+        "image_over_t": "<p>Collection \/ All<\/p><h5>ProPricing<\/h5>",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "FAQs",
+        "heading_size": "h3",
+        "text": "",
+        "body_size": "body3",
+        "content_alignment": "left",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 46,
+        "section_spacing_bottom": 46
+      }
+    },
+    "custom_properks_signup_kTym8n": {
+      "type": "custom-properks-signup",
+      "blocks": {
+        "caption_tqcVVm": {
+          "type": "caption",
+          "settings": {
+            "caption": "Get Your Perks Today"
+          }
+        },
+        "title_Na9eN4": {
+          "type": "title",
+          "settings": {
+            "title": "Sign Up for ProPerks",
+            "heading_size": "h4"
+          }
+        },
+        "subscribe_qqFfzb": {
+          "type": "subscribe",
+          "settings": {
+            "input_style": "outline",
+            "btn_label": "Next"
+          }
+        },
+        "text_bXbNLD": {
+          "type": "text",
+          "settings": {
+            "text": "Already a member? <a href=\"https:\/\/skirackbtv.myshopify.com\/account\/login\" title=\"https:\/\/skirackbtv.myshopify.com\/account\/login\">Sign in<\/a>",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "caption_tqcVVm",
+        "title_Na9eN4",
+        "subscribe_qqFfzb",
+        "text_bXbNLD"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.2,
+        "mobile_ratio": 0.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items: center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 16,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "solid",
+        "mobile_content_background": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 25
+      }
+    }
+  },
+  "order": [
+    "page",
+    "video_perk_green_8GrWzj",
+    "custom_banner_perk_Uq9pMF",
+    "custom_perks_RRMht3",
+    "grid_collage_slider_VPBxdV",
+    "custom_multicolumn_z6jFCj",
+    "custom_reviews_MPkeEa",
+    "custom_collection_text_XUDyyw",
+    "custom_faq_TWW3iY",
+    "custom_properks_signup_kTym8n"
+  ]
+}

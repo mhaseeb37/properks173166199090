@@ -1,0 +1,142 @@
+<style>
+.pro-pricing_main.pr{{ section.id }} {
+   padding-top:{{section.settings.top_spacing}}px;
+  padding-bottom:{{section.settings.bottom_spacing}}px;
+}
+.pro_pricing_inner-perks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #bababa;
+    padding: 25px;
+    border-radius: 16px;
+
+}
+.properk_imagem img{
+  width:100%;
+  height:100%;
+}
+.properk_imagem{
+  max-width:70px;
+}
+.first_link_m a{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-family:"JetBrains Mono", monospace;
+}
+.pro-pricing_main .second_link_m a{
+  display:flex;
+  align-items:center;
+  gap:10px;
+ font-family: "JetBrains Mono", monospace;
+  justify-content:end
+}
+.text_side_m {
+   font-family: "JetBrains Mono", monospace;
+}
+.text_side_m a{
+  color: #0d52ff;
+}
+.first_link_m {
+    padding: 3px 0px;
+}
+.second_link_m {
+   padding: 3px 0px;
+}
+.pro-pricing_inner {
+  padding:0px 10px;
+}
+
+</style>
+<div class="pro-pricing_main pr{{ section.id }}">
+  <div class="pro-pricing_inner  container container--large">
+    <div class="pro_pricing_inner-perks">
+      <div class="left_side_main">
+        <div class='properk_imagem'>
+        <img height="{{ section.settings.icon_main.height }}"  width="{{ section.settings.icon_main.width }} "src={{ section.settings.icon_main | image_url}} >
+        </div>
+        <div class="text_side_m">
+          {{ section.settings.text_c }}
+        </div>
+      </div>
+      <div class="right_side_main">
+        <div class="first_link_m">
+          <a href="{{ section.settings.firstlink }}">{{ section.settings.first_link_t }} 
+<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.2384 6.36868C11.2373 6.32557 11.2373 6.28559 11.2373 6.24965C9.14388 5.3261 7.53883 3.94815 7.34639 1.18622C7.33356 1.00211 7.32701 0.811843 7.327 0.615155L7.327 0.615112L9.58361 0.615112L9.58361 0.615155C9.58361 0.750893 9.58692 0.882015 9.59346 1.00883C9.60595 1.25082 9.63024 1.47712 9.66591 1.68987C9.91061 3.14968 10.6907 3.97171 11.8672 4.84803L11.8876 4.86322C12.6499 5.42848 13.6023 5.9913 13.6023 5.9913C13.6023 5.9913 14.1886 6.2964 14.8691 6.50514L14.8889 6.51114L14.8889 6.51118L14.8889 6.51183L14.8892 6.51183L14.8892 8.10698L14.8887 8.10699L14.8889 8.11082C14.2001 8.31965 13.6023 8.6307 13.6023 8.6307C13.6023 8.6307 12.6328 9.20362 11.8672 9.77393C10.4294 10.8449 9.58365 11.8348 9.58365 14.0068L7.32704 14.0068C7.32704 10.8596 9.00436 9.35746 11.2373 8.37235C11.2373 8.33624 11.2373 8.29606 11.2384 8.25273L1.75986 8.25273L0.519639 8.2665L0.519639 8.25273L0.506381 8.25273L0.506381 6.36868L0.519639 6.36868L0.519639 6.35232L1.99377 6.36868L11.2384 6.36868Z" fill="black"/>
+</svg>
+</a>
+        </div>
+<div class="second_link_m">
+<a href="{{ section.settings.secondslink }}">{{ section.settings.second_link_t }} 
+<svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.2384 6.36868C11.2373 6.32557 11.2373 6.28559 11.2373 6.24965C9.14388 5.3261 7.53883 3.94815 7.34639 1.18622C7.33356 1.00211 7.32701 0.811843 7.327 0.615155L7.327 0.615112L9.58361 0.615112L9.58361 0.615155C9.58361 0.750893 9.58692 0.882015 9.59346 1.00883C9.60595 1.25082 9.63024 1.47712 9.66591 1.68987C9.91061 3.14968 10.6907 3.97171 11.8672 4.84803L11.8876 4.86322C12.6499 5.42848 13.6023 5.9913 13.6023 5.9913C13.6023 5.9913 14.1886 6.2964 14.8691 6.50514L14.8889 6.51114L14.8889 6.51118L14.8889 6.51183L14.8892 6.51183L14.8892 8.10698L14.8887 8.10699L14.8889 8.11082C14.2001 8.31965 13.6023 8.6307 13.6023 8.6307C13.6023 8.6307 12.6328 9.20362 11.8672 9.77393C10.4294 10.8449 9.58365 11.8348 9.58365 14.0068L7.32704 14.0068C7.32704 10.8596 9.00436 9.35746 11.2373 8.37235C11.2373 8.33624 11.2373 8.29606 11.2384 8.25273L1.75986 8.25273L0.519639 8.2665L0.519639 8.25273L0.506381 8.25273L0.506381 6.36868L0.519639 6.36868L0.519639 6.35232L1.99377 6.36868L11.2384 6.36868Z" fill="black"/>
+</svg>
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "pro Pricing Widget",
+    "settings": [
+    {
+        "type":"range",
+        "id":"top_spacing",
+        "label":"Top Spacing",
+        "step": 1,
+        "max": 100,
+        "min":0,
+        "default":10,
+        "unit": "Px"
+      },
+       {
+        "type":"range",
+        "id":"bottom_spacing",
+        "label":"Bottom Spacing",
+        "step": 1,
+        "max": 100,
+        "min":0,
+        "default":10,
+        "unit": "Px"
+      },
+      {
+        "type":"image_picker",
+        "label":"Add Icon",
+        "id":"icon_main"
+      },
+      {
+        "type":"richtext",
+        "label":"Add Text",
+        "id":"text_c"
+      },
+      {
+        "type":"text",
+        "label":"Add first link text",
+        "id":"first_link_t"
+      },
+      {
+        "type":"url",
+        "label":"Add First Link ",
+        "id":"firstlink"
+      },
+      {
+        "type":"text",
+        "label":"Add second link text",
+        "id":"second_link_t"
+      },
+      {
+        "type":"url",
+        "label":"Add second Link ",
+        "id":"secondslink"
+      }
+      
+    ],
+    "presets": [{
+      "name": "Pro pricing widget"
+    }]
+  }
+{% endschema %}

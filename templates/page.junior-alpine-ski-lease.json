@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "image_banner_BDqyY7": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-5",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.1,
+        "mobile_ratio": 1.6,
+        "desktop_img": "shopify:\/\/shop_images\/jr-downhill-ski-lease-10012018-933x367.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "caption": "",
+        "title": "Junior Alpine Ski Lease",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:flex-start;",
+        "desktop_content_align": "left",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_RKELwX": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_CFCeq7": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_fi9h44": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "heading_iWxffz": {
+          "type": "heading",
+          "settings": {
+            "title": "<strong>Downhill Ski Junior Lease: 2023-24 Winter Season Pricing & Information<\/strong>",
+            "heading_size": "h5"
+          }
+        },
+        "text_htMemy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skirack has teamed up with Rossignol to provide your young skiers with the best possible learning experience. Your kids will be set up on all new gear from the Rossignol Terrain line, which is designed in conjunction with Terrain Based Learning™ to make the learning process easier and more fun.<\/p><p><strong>We are offering the highest quality used Lease Packages as well as used Al-la-Carte Lease Items<\/strong><\/p><p>The Junior Lease Program consists of Rossignol gear including of skis, bindings, boots, and poles.<\/p><p>These items have been professionally tuned and prepared for the coming season.<\/p><p><strong>What's Included<\/strong><\/p><p>All of the gear plus:<\/p><ul><li>FREE Tuning All Season Long<\/li><li>15% off discount on all normally priced winter gear for the Junior Lease participant during the season. For in-stock, regular priced items only.<\/li><li>We Grow With You: If you son or daughter outgrows any part of the gear mid-season, you can trade in for the next size up at no additional cost. (subject to availability)<\/li><\/ul><p><strong>The Mountain (or Terrain Based Learning™)<\/strong><\/p><p>The Terrain ski was developed in association with the highly-acclaimed Terrain Based Learning™ program which has proven to make learning to ski easier and more fun. A specifically designed junior rocker profile allows juniors to use changing terrain to their advantage and makes learning to ski a more intuitive process so progression comes quicker and easier. Featuring just the right blend of rocker in the tip and tail, camber underfoot, and a lightweight user-friendly construction, even the smallest skiers are able to easily pivot, steer, and stop for a less intimidating and more rewarding on-snow experience.<\/p><p>Terrain Based Learning uses purpose-built snow features to help assist students by naturally controlling their speed when first learning to ski. By reducing the effects of gravity (speed), students can focus on connecting with the movements, sensations and body positions needed to steer and control their equipment. In short, Terrain Based Learning removes the traditional anxieties from learning and shifts the students' focus to moving, playing and having fun without fear of losing control.<\/p><p><strong>The All Mountain Junior Lease Program<\/strong><\/p><p>For the kids who are ahead of the curve when it comes to skiing progression, we offer the All Mountain Junior Lease Program. You get all the benefits of the standard Junior Lease, but with skis and bindings that are ready to conquer the whole mountain.<\/p><p>The <strong>Rossignol SPRAYER & TRIXIE<\/strong> are all-mountain freestyle twins for up-and-coming rippers. Featuring wood core, Jib Tip and ROSSITOP cap construction, the ski supplies lightweight agility and enhanced durability for freestyle and all-mountain progression. Traditional camber and Extended Sidecut combine to deliver powerful boost and confident edge grip. From park hits to pow shots these skis are a versatile all-mountain twin for freestyle and jib skiers. 40% Park \/ 60% All-Mountain. Integrated binding: LOOK XPRESS 10 W B83. MSRP: $500.00 (ski+binding).<\/p><p>Sizes Available:<br\/>Skis: 138, 148, 158, 168<br\/>Boots: 16.5 - 26.5<\/p><p><strong>The Pricing<\/strong><\/p><ul><li>Used Terrain Based Ski Package (Skis under 100cm, bindings, boots, poles) - $99<\/li><li>Used Terrain Based Ski Package (Skis over 100cm, bindings, boots, poles) - $119<\/li><li>Used All Mountain \/ Twin Tip Ski Package (Skis, boots, bindings, poles) - $149<\/li><\/ul><p><strong>Al-la-Carte Lease Items<\/strong><\/p><ul><li>Used Boot Lease - $69<\/li><li>Used Terrain Based Ski Lease - $79<\/li><li>Used All Mountain \/ Twin Tip Ski Lease - $119<\/li><\/ul><p><em><strong>Junior <\/strong><\/em><a href=\"\/pages\/junior-snowboard-lease\" title=\"Junior Snowboard Lease\"><em><strong>Snowboard<\/strong><\/em><\/a><em><strong> and <\/strong><\/em><a href=\"\/pages\/junior-cross-country-ski-lease\" title=\"Junior Cross Country Ski Lease\"><em><strong>Nordic<\/strong><\/em><\/a><em><strong> Lease is also available.<\/strong><\/em><\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_CFCeq7",
+        "caption_fi9h44",
+        "heading_iWxffz",
+        "text_htMemy"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 97
+      }
+    },
+    "logo_list_jEwTYD": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_p6HP8z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/specialized-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XDrzj7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/louis-garneau-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_GCzQcy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/terry-bicycles-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_XFpJeQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/park-tool-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_Dg9cyc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cannondale-logo-1_1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        },
+        "logo_P4aHqa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/niterider-logo-1.png",
+            "image_width": 66,
+            "link": "https:\/\/skirackbtv.myshopify.com\/collections\/all?filter.p.vendor=SkirackBTV"
+          }
+        }
+      },
+      "block_order": [
+        "logo_p6HP8z",
+        "logo_XDrzj7",
+        "logo_GCzQcy",
+        "logo_XFpJeQ",
+        "logo_Dg9cyc",
+        "logo_P4aHqa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "",
+        "heading_size": "h5",
+        "alignment": "center",
+        "desktop_columns": 6,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 12,
+        "show_navigation_arrows": "always",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "rich_text_e9DxDg": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_BzjBLM": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_bBBgtK": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "RICH TEXT"
+          }
+        },
+        "text_7iNmRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bike Shop in Burlington, Vermont<\/p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_BzjBLM",
+        "caption_bBBgtK",
+        "text_7iNmRF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 100
+      }
+    },
+    "instagram_bjiVgU": {
+      "type": "instagram",
+      "blocks": {
+        "post_n4r8i8": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_h6CijR": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_ULbkBc": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455359681_1559058601406266_648287688143277387_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        },
+        "post_FhQWYX": {
+          "type": "post",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Snapinsta.app_455839493_835668932007421_9005432151220837567_n_1080.jpg",
+            "link": "https:\/\/www.instagram.com\/skirackvt\/p\/C-vWlTfvki0\/",
+            "icon": "instagram"
+          }
+        }
+      },
+      "block_order": [
+        "post_n4r8i8",
+        "post_h6CijR",
+        "post_ULbkBc",
+        "post_FhQWYX"
+      ],
+      "settings": {
+        "color_scheme": "custom-3",
+        "container_size": "page-width",
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Gallery",
+        "heading_size": "h5",
+        "text": "Show your products, collections, and social media posts or tell about recent events.",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "img_ratio": 1,
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 10,
+        "mobile_space_between_cards": 16,
+        "show_arrows_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner_BDqyY7",
+    "page",
+    "rich_text_RKELwX",
+    "logo_list_jEwTYD",
+    "rich_text_e9DxDg",
+    "instagram_bjiVgU"
+  ]
+}

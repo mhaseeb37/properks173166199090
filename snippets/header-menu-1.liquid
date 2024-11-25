@@ -1,0 +1,227 @@
+{%- liquid
+  assign options = block.settings
+
+  assign show_item_1 = options.show_item_1
+  assign show_item_2 = options.show_item_2
+  assign show_item_3 = options.show_item_3
+  assign show_item_4 = options.show_item_4
+  assign show_item_5 = options.show_item_5
+  assign show_item_6 = options.show_item_6
+  assign show_item_7 = options.show_item_7
+  assign show_item_8 = options.show_item_8
+  assign show_item_9 = options.show_item_9
+    assign show_item_10 = options.show_item_10
+    assign show_item_11 = options.show_item_11
+    assign show_item_12 = options.show_item_12
+    assign show_item_13 = options.show_item_13
+     assign show_item_14 = options.show_item_14
+  assign heading_size = options.heading_size
+  assign body_size = options.body_size
+  assign enable_vertical_text = options.enable_vertical_text
+  assign content_position = options.content_position
+  if content_position contains 'left'
+    assign content_align = 'left'
+  endif
+  if content_position contains 'center'
+    assign content_align = 'center'
+  endif
+  if content_position contains 'right'
+    assign content_align = 'right'
+  endif
+
+  assign hover_effect = options.hover_effect
+  assign block_visibility = options.block_visibility
+-%}
+<style>
+.mega-menu__block--images .swiper-button-next::after{
+  display:none;
+}  
+  .mega-menu__block--images .swiper-button-prev::after{
+  display:none;
+}  
+ .mega-menu__block--images .swiper-button-next{
+   height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid black;
+ }
+
+  .mega-menu__block--images .swiper-button-prev{
+   height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid black;
+ }
+  .mega-menu__block--images .swiper-button-next svg{
+   height: 30px;
+    width: 30px;
+    
+ }
+  .mega-menu__block--images .swiper-button-prev svg{
+   height: 30px;
+    width: 30px;
+   
+ }
+.menu_header_main {
+  padding:20px;
+  text-align:center;
+  font-weight:500;
+}
+  .footer_bottom_btns {
+    text-align:center;
+  }
+  .footer_bottom_btns {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    
+  }
+  .footer_menu_main {
+    padding:20px 0px;
+    text-align:center;
+  }
+ .footer_bottom_btns {
+  margin-top:20px;
+}
+.mega-menu__block .swiper-button-disabled {
+  display:none;
+}
+  ._desktop_m.btn:hover{
+    background:#000000;
+    color:#ffffff;
+    cursor:pointer;
+  }
+@media screen and (max-width: 640px){
+  .mega-menu__block--images .swiper-wrapper{
+    flex-wrap:wrap;
+    gap:10px;
+  }
+   .footer_menu_main {
+    padding: 20px 13px;
+    text-align: center;
+}
+  .footer_bottom_btns{
+flex-wrap: wrap;
+  }
+  .footer_bottom_btns .desktop_btn1:first-child{
+    background:#323232; 
+color:white;
+  }
+}
+</style>
+{% if block.settings.blkheading %}
+<div class="menu_header_main">
+  {{ block.settings.blkheading }}
+</div>
+  {% endif %}
+<div
+  class='{{ class }} mega-menu__block swiper mega-menu__block--images mega-menu__card-grid card-grid mega-menu-{{ block.id }} color-{{ block.settings.color_scheme }} mega-menu__block--spaced {% if block_visibility != 'desktop_and_mobile' %} mega-menu__block--only-{{block_visibility}}-visible {% endif %} {% if enable_vertical_text %} mega-menu__block--vertical mega-menu__block--{{content_align}} {% endif %}'
+  block-id='{{ block.id }}'
+  {{ block.shopify_attributes }}
+>
+    <div class="swiper-wrapper">
+  {%- liquid
+    if show_item_1 == true
+     
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_1_title, text: options.item_1_text, image: options.item_1_img, video: options.item_1_video, link: options.item_1_link, link_text: options.item_1_btn_text, btn_style: options.item_1_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_2 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_2_title, text: options.item_2_text, image: options.item_2_img, video: options.item_2_video, link: options.item_2_link, link_text: options.item_2_btn_text, btn_style: options.item_2_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_3 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_3_title, text: options.item_3_text, image: options.item_3_img, video: options.item_3_video, link: options.item_3_link, link_text: options.item_3_btn_text, btn_style: options.item_3_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_4 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_4_title, text: options.item_4_text, image: options.item_4_img, video: options.item_4_video, link: options.item_4_link, link_text: options.item_4_btn_text, btn_style: options.item_4_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_5 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_5_title, text: options.item_5_text, image: options.item_5_img, video: options.item_5_video, link: options.item_5_link, link_text: options.item_5_btn_text, btn_style: options.item_5_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_6 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_6_title, text: options.item_6_text, image: options.item_6_img, video: options.item_6_video, link: options.item_6_link, link_text: options.item_6_btn_text, btn_style: options.item_6_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_7 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_7_title, text: options.item_7_text, image: options.item_7_img, video: options.item_7_video, link: options.item_7_link, link_text: options.item_7_btn_text, btn_style: options.item_7_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_8 == true
+      render 'image-block', class: 'swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_8_title, text: options.item_8_text, image: options.item_8_img, video: options.item_8_video, link: options.item_8_link, link_text: options.item_8_btn_text, btn_style: options.item_8_btn_style, hover_effect: hover_effect
+    endif
+    if show_item_9 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_9_title, text: options.item_9_text, image: options.item_9_img, video: options.item_9_video, link: options.item_9_link, link_text: options.item_9_btn_text, btn_style: options.item_9_btn_style, hover_effect: hover_effect
+    endif
+       if show_item_10 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_10_title, text: options.item_10_text, image: options.item_10_img, video: options.item_10_video, link: options.item_10_link, link_text: options.item_10_btn_text, btn_style: options.item_11_btn_style, hover_effect: hover_effect
+    endif
+       if show_item_11 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_11_title, text: options.item_11_text, image: options.item_11_img, video: options.item_11_video, link: options.item_11_link, link_text: options.item_11_btn_text, btn_style: options.item_12_btn_style, hover_effect: hover_effect
+    endif
+       if show_item_12 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_12_title, text: options.item_12_text, image: options.item_12_img, video: options.item_12_video, link: options.item_12_link, link_text: options.item_12_btn_text, btn_style: options.item_13_btn_style, hover_effect: hover_effect
+    endif
+       if show_item_13 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_13_title, text: options.item_13_text, image: options.item_13_img, video: options.item_13_video, link: options.item_13_link, link_text: options.item_13_btn_text, btn_style: options.item_14_btn_style, hover_effect: hover_effect
+    endif
+       if show_item_14 == true
+      render 'image-block', class: ' swiper-slide card-grid__item', img_ratio: 'nature', heading_size: heading_size, body_size: body_size, enable_vertical_text: options.enable_vertical_text, title: options.item_14_title, text: options.item_114_text, image: options.item_14_img, video: options.item_14_video, link: options.item_14_link, link_text: options.item_14_btn_text, btn_style: options.item_15_btn_style, hover_effect: hover_effect
+    endif
+  -%}
+    </div>
+ <div class="swiper-button-next">
+       {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon y-flip' %}
+ 
+ </div>
+    <div class="swiper-button-prev">
+      {% render 'icon', icon_name: 'chevron', class: 'carousel-btn__icon x-flip' %}
+</div>
+</div>
+{% if block.settings.btm_heading %}
+<div class="footer_menu_main">
+ 
+  {{ block.settings.btm_heading }}
+  <div class="footer_bottom_btns">
+    <a href="{{ btn1url }}">
+    <button class="btn btn--outline rich-text__btn _desktop_m desktop_btn1">
+      {{ block.settings.btn1text }}
+    </button>
+    </a>
+      <a href="{{ btn2url }}">
+     <button class="btn btn--outline rich-text__btn _desktop_m desktop_btn2" > {{ block.settings.btn2text }}</button>
+      </a>
+  </div>
+</div>
+  {% endif %}
+
+<script>
+   var swipermain = new Swiper(".mega-menu__block--images", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+       enabled:false,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+     navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+           enabled:false,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 10,
+           enabled:true,
+        },
+      },
+     
+    });
+</script>
